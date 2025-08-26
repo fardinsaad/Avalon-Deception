@@ -1,0 +1,2 @@
+1. Making a directory: mkdir folder_name
+2. Others are just drag and drop
