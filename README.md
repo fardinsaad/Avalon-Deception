@@ -151,20 +151,5 @@ This allows the AI to:
 - Predict what each player wants others to think
 - Make strategic deductions about hidden roles
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## Research Applications
-
-This project can be used for:
-- **Game AI research**: Developing AI agents for social deduction games
-- **Theory of Mind studies**: Analyzing multi-level reasoning in AI systems
-- **Strategic communication**: Understanding persuasive dialogue generation
-- **Deception detection**: Identifying patterns in deceptive behavior
 
 
