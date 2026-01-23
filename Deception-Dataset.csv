@@ -2391,14 +2391,14 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
 Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P3 : ""Honestly the fail clearly shows P1 failed it, I do not want to team with them again.""
-P2 : ""Exactly my point,  I passed, P1 must've failed.""
+P2 : ""Honestly the fail clearly shows P1 failed it, I do not want to team with them again.""
+P3 : ""We never know, should not beleive P1 or P2""
 P5 : ""We should absolutely sideline P1 for safety.""
 P4 : ""Maybe. But, one fail isn't proof, but P1 does look bad.""","{
-  ""P2"": {""row"": ""Counterfactual"", ""col"": ""Adversarial"", ""tactic"": ""Reverse accusation"", ""scale"": ""Mach-IV"", ""level"": ""High""},
-  ""P3"": {""row"": ""Counterfactual"", ""col"": ""Adversarial"", ""tactic"": ""Hard lying"", ""scale"": ""Mach-IV"", ""level"": ""High""},
-  ""P4"": {""row"": ""Transparent"", ""col"": ""Defensive"", ""tactic"": ""Evidence sharing"", ""scale"": ""GRS"", ""level"": ""Moderate""},
-  ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus signaling"", ""scale"": ""Mach-IV"", ""level"": ""Moderate""}
+  ""P2"": {""row"": ""Counterfactual"", ""col"": ""Defensive"", ""tactic"": ""Deflection"", ""scale"": ""Mach-IV"", ""level"": ""High""},
+  ""P3"": {""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""},
+  ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus"", ""scale"": ""Mach-IV"", ""level"": ""High""}
+  ""P4"":{""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""}
 }
 ","{
  ""abduction"": [
@@ -2434,12 +2434,12 @@ P4 : ""Maybe. But, one fail isn't proof, but P1 does look bad.""","{
   ""player_roles"": {""P1"":""Good"",  ""P2"":""Evil"",  ""P3"":""Good"",  ""P4"":""Good"",  ""P5"":""Evil""},
   ""public_history"": ""Round: 1\nLeader: P1\nTeam: P1, P2\nVotes: P1:Y P2:Y P3:Y P4:Y P5:Y\nQuest 1 Outcome: FAIL"",
   ""prior_summary_gold"": """",
-  ""discussion_log"": ""Discussion after Quest 1:\n\nP3 : \""Honestly the fail clearly shows P1 failed it, I do not want to team with them again.\""\nP2 : \""Exactly my point,  I passed, P1 must've failed.\""\nP5 : \""We should absolutely sideline P1 for safety.\""\nP4 : \""Maybe. But, one fail isn't proof, but P1 does look bad.\"""",
+  ""discussion_log"": ""Discussion after Quest 1:\n\nP2 : \""Honestly the fail clearly shows P1 failed it, I do not want to team with them again.\""\nP3 : \""We never know, should not beleive P1 or P2\""\nP5 : \""We should absolutely sideline P1 for safety.\""\nP4 : \""Maybe. But, one fail isn't proof, but P1 does look bad.\"""",
   ""matrix_tactic_scale"": {
-  ""P2"": {""row"": ""Counterfactual"", ""col"": ""Adversarial"", ""tactic"": ""Reverse accusation"", ""scale"": ""Mach-IV"", ""level"": ""High""},
-  ""P3"": {""row"": ""Counterfactual"", ""col"": ""Adversarial"", ""tactic"": ""Hard lying"", ""scale"": ""Mach-IV"", ""level"": ""High""},
-  ""P4"": {""row"": ""Transparent"", ""col"": ""Defensive"", ""tactic"": ""Evidence sharing"", ""scale"": ""GRS"", ""level"": ""Moderate""},
-  ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus signaling"", ""scale"": ""Mach-IV"", ""level"": ""Moderate""}
+  ""P2"": {""row"": ""Counterfactual"", ""col"": ""Defensive"", ""tactic"": ""Deflection"", ""scale"": ""Mach-IV"", ""level"": ""High""},
+  ""P3"": {""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""},
+  ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus"", ""scale"": ""Mach-IV"", ""level"": ""High""}
+  ""P4"":{""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""}
 }
 ,
   ""reasoning_gold"": {
@@ -2528,10 +2528,10 @@ P2: ""Yes, I agree, but what if P5 turns out to be evil? Shall we swap P5 with 1
 P5: ""I am not evil, and I was not even on the last mission which failed, it can be P1 or even 2 for suggesting the swap""
 
 P4: ""Yes, it is definitely 1 who is evil, as I passed the mission, Instead you can take me on the new team""","{
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team inclusion framing"",""scale"":""GRS"",""level"":""Moderate""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Moderate""}
+  ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+   ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""}
+  ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""},
 }
 ","{
   ""abduction"": [
@@ -2568,10 +2568,10 @@ P4: ""Yes, it is definitely 1 who is evil, as I passed the mission, Instead you 
   ""prior_summary_gold"": """",
   ""discussion_log"": ""Discussion after Quest 1:\n\nP3: \""I think that P2, P5 and me would make a great team\""\n\nP2: \""Yes, I agree, but what if P5 turns out to be evil? Shall we swap P5 with 1?\""\n\nP5: \""I am not evil, and I was not even on the last mission which failed, it can be P1 or even 2 for suggesting the swap\""\n\nP4: \""Yes, it is definitely 1 who is evil, as I passed the mission, Instead you can take me on the new team\"""",
   ""matrix_tactic_scale"": {
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team inclusion framing"",""scale"":""GRS"",""level"":""Moderate""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Moderate""}
+  ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+   ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""}
+  ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""},
 }
 ,
   ""reasoning_gold"": {
@@ -2658,10 +2658,10 @@ P2: ""Sounds reasonable, though I'd be cautious about P5.""
 P5: ""Don't blame me, I wasn't even on the mission. P1's clearly the problem.""
 
 P4: ""Exactly. I passed, and the only other on that mission was P1. It's obvious.""","{
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""Moderate""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Moderate""}
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""}
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""},
 }
 ","{
   ""abduction"": [
@@ -2698,10 +2698,10 @@ P4: ""Exactly. I passed, and the only other on that mission was P1. It's obvious
   ""prior_summary_gold"": """",
   ""discussion_log"": ""Discussion after Quest 1:\n\nP3: \""Let's try P2, P5, and me. we haven't been on a mission yet.\""\n\nP2: \""Sounds reasonable, though I'd be cautious about P5.\""\n\nP5: \""Don't blame me, I wasn't even on the mission. P1's clearly the problem.\""\n\nP4: \""Exactly. I passed, and the only other on that mission was P1. It's obvious.\"""",
   ""matrix_tactic_scale"": {
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""Moderate""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Moderate""}
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""}
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""},
 }
 ,
   ""reasoning_gold"": {
@@ -2766,17 +2766,17 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:N P5:Y
 Quest 1 Outcome: PASS",,"Discussion after Quest 1:
 
-P3: ""Let's rotate in P4, P5, and myself to try a fresh mix.""
+P2: ""Let's continue with this team, as we passed and someone else for the next round.""
 
-P4: ""I'm okay with that, though we should keep an eye on P5.""
+P3: ""It's great that we passed but we should be careful who to pick next, I vouch for myself.""
 
-P5: ""That's fair. I want to help prove my alignment, I wasn't on the last mission.""
+P5: ""Yay, the mission passed, but there may be hidden threats!""
 
-P2: ""Yeah, I passed. Maybe it was just bad luck, We shouldn't overreact.""","{
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team Rationality"",""scale"":""GRS"",""level"":""Moderate""},
-  ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""Moderate""},
-  ""P5"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Impression Management"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+P4: ""I am a good player, I should be on the next team.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""GRS"",""level"":""Moderate""},
+   ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Vague filler"",""scale"":""Mach-IV"",""level"":""Moderate""},
+   ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""""Misframing"","",""scale"":""Mach-IV"",""level"":""Moderate""},
 }
 ","{
   ""abduction"":[
@@ -2811,12 +2811,12 @@ P2: ""Yeah, I passed. Maybe it was just bad luck, We shouldn't overreact.""","{
   ""player_roles"": {""P1"":""Good"",  ""P2"":""Good"",  ""P3"":""Good"",  ""P4"":""Evil"",  ""P5"":""Evil""},
   ""public_history"": ""Round: 1\nLeader: P1\nTeam: P1, P2\nVotes: P1:Y P2:Y P3:Y P4:N P5:Y\nQuest 1 Outcome: PASS"",
   ""prior_summary_gold"": """",
-  ""discussion_log"": ""Discussion after Quest 1:\n\nP3: \""Let's rotate in P4, P5, and myself to try a fresh mix.\""\n\nP4: \""I'm okay with that, though we should keep an eye on P5.\""\n\nP5: \""That's fair. I want to help prove my alignment, I wasn't on the last mission.\""\n\nP2: \""Yeah, I passed. Maybe it was just bad luck, We shouldn't overreact.\"""",
+  ""discussion_log"": ""Discussion after Quest 1:\n\nP2: \""Let's continue with this team, as we passed and someone else for the next round.\""\n\nP3: \""It's great that we passed but we should be careful who to pick next, I vouch for myself.\""\n\nP5: \""Yay, the mission passed, but there may be hidden threats!\""\n\nP4: \""I am a good player, I should be on the next team.\"""",
   ""matrix_tactic_scale"": {
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team Rationality"",""scale"":""GRS"",""level"":""Moderate""},
-  ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""Moderate""},
-  ""P5"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Impression Management"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""GRS"",""level"":""Moderate""},
+   ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Vague filler"",""scale"":""Mach-IV"",""level"":""Moderate""},
+   ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""""Misframing"","",""scale"":""Mach-IV"",""level"":""Moderate""},
 }
 ,
   ""reasoning_gold"": {
@@ -2902,10 +2902,10 @@ P2: ""Maybe. But P5 wasn't on the team, so it feels unfair to exclude  P1 entire
 P5: ""Thanks, I don't think I should be targeted yet.""
 
 P4: ""I get the confusion, but I know I passed, that leaves only P1 to blame.""","{
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""High""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Honesty pledging"",""scale"":""GRS"",""level"":""Moderate""}
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
 }
 ","{
   ""abduction"": [
@@ -2941,10 +2941,10 @@ P4: ""I get the confusion, but I know I passed, that leaves only P1 to blame."""
   ""prior_summary_gold"": """",
   ""discussion_log"": ""Discussion after Quest 1:\n\nP3: \""Tough call. Maybe try P2, 5, and me next?\""\n\nP2: \""Maybe. But P5 wasn't on the team, so it feels unfair to exclude  P1 entirely.\""\n\nP5: \""Thanks, I don't think I should be targeted yet.\""\n\nP4: \""I get the confusion, but I know I passed, that leaves only P1 to blame.\"""",
   ""matrix_tactic_scale"": {
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""High""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Honesty pledging"",""scale"":""GRS"",""level"":""Moderate""}
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
 }
 ,
   ""reasoning_gold"": {
@@ -3026,10 +3026,10 @@ P3: 'We should change it up. How about P2, 5, and me?'
 P2: 'That could work, but what if P5 turns out to be Evil?'
 P5: 'Why me? I wasn't on the last mission. This seems like scapegoating.'
 P4: 'It's simple. I passed. So, the fail came from P1.'""","{
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""High""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Defensive transparency"",""scale"":""GRS"",""level"":""Moderate""}
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+ ""P5"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
 }
 ","{
   ""abduction"": [
@@ -3065,10 +3065,10 @@ P4: 'It's simple. I passed. So, the fail came from P1.'""","{
   ""prior_summary_gold"": """",
   ""discussion_log"": ""\""Discussion after Quest 1:\n\nP3: 'We should change it up. How about P2, 5, and me?'\nP2: 'That could work, but what if P5 turns out to be Evil?'\nP5: 'Why me? I wasn't on the last mission. This seems like scapegoating.'\nP4: 'It's simple. I passed. So, the fail came from P1.'\"""",
   ""matrix_tactic_scale"": {
-  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""},
-  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Team rationality"",""scale"":""GRS"",""level"":""High""},
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""},
-  ""P5"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Defensive transparency"",""scale"":""GRS"",""level"":""Moderate""}
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+ ""P5"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
 }
 ,
   ""reasoning_gold"": {
