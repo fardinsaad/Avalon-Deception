@@ -6,9 +6,9 @@ from openai import OpenAI
 from openai import RateLimitError  # Directly import RateLimitError
 
 # Load environment variables from the .env file
-# print("Before loading .env:", os.getenv('OPENAI_API_KEY'))
-load_dotenv()
-# print("After loading .env:", os.getenv('OPENAI_API_KEY'))
+print("Before loading .env:", os.getenv('OPENAI_API_KEY'))
+load_dotenv(override=True)  # Force override existing environment variables
+print("After loading .env:", os.getenv('OPENAI_API_KEY'))
 
 # Set OpenAI API key from environment variable
 key = os.getenv('OPENAI_API_KEY')
@@ -26,7 +26,7 @@ def get_response(prompt):
     
     # Define the messages in a variable called 'msgs'
     msgs = [
-        {"role": "system", "content": "You are an intelligent agent, playing the game of Avalon. Generate the inference, abductive reassessment, suspicion level, discussion statement and deduction based on the discussion phase."},
+        {"role": "system", "content": "You are a expert verifier. You are verifying the augmented dataset based on the context provided. You will answer in a concise manner."},
         {"role": "user", "content": prompt}
     ]
     
@@ -35,7 +35,7 @@ def get_response(prompt):
     response = client.chat.completions.create(
         model=Model,
         messages=msgs,
-        max_tokens=1024,
+        max_tokens=512,
         temperature=0.3,
         #top_p = 0.9
     )
@@ -55,9 +55,9 @@ if __name__ == '__main__':
             print(model.id)
             
         # Test with a sample prompt
-        test_prompt = "Are you using the gpt-4o model?"
+        test_prompt = "Name a country that starts with K?"
         result = get_response(test_prompt)
-        print("GPT-4o Response:", result)
+        print("GPT-5.2 Response:", result)
     else:
         print("API key not found. Please set it in your .env file.")
 

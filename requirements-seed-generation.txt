@@ -1,0 +1,12 @@
+# Requirements for Avalon Deception Dataset - Seed Dialog Generation
+# Install with: pip install -r requirements-seed-generation.txt
+
+# Core dependencies
+pandas>=2.0.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+backoff>=2.2.0
+
+# Optional: For notebook environment
+jupyter>=1.0.0
+ipykernel>=6.0.0
