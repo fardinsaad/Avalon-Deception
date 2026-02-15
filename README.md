@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a verification system for AI-generated Avalon Round 1 dialogues. After generating seed dialogues with GPT-4o and GPT-5.2, we use **Claude 4.5 Haiku** as an independent verifier to evaluate both outputs using **5 binary pass/fail criteria** and select the best response or apply targeted corrections.
+This repository contains a verification system for AI-generated Avalon Round 1 dialogues along with other dataset feature generation files with their verifications. After generating seed dialogues with GPT-4o and GPT-5.2, we use **Claude 4.5 Haiku** as an independent verifier to evaluate both outputs using **5 binary pass/fail criteria** and select the best response or apply targeted corrections.
 
 ## Game Background
 
