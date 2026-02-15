@@ -30,7 +30,7 @@ def get_response_R1(prompt):
     ]
 
     response = client.chat.completions.create(
-        model="deepseek-reasoner",
+        model="deepseek-chat",
         messages=messages,
         max_tokens=512,
         temperature=0.2,

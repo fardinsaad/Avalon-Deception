@@ -1,12 +1,12 @@
-# Avalon Deception Dataset - Seed Dialog Generation
+# Avalon Deception Dataset - Dialogue Verification System
 
 ## Overview
 
-This repository contains tools for generating synthetic Round 1 game discussions for the **Avalon Deception Dataset**. Using GPT-4o and a structured behavior matrix framework, we augment the dataset with realistic tactical communication patterns across 24 deception tactics and multiple skill levels.
+This repository contains a verification system for AI-generated Avalon Round 1 dialogues. After generating seed dialogues with GPT-4o and GPT-5.2, we use **Claude 4.5 Haiku** as an independent verifier to evaluate both outputs using **5 binary pass/fail criteria** and select the best response or apply targeted corrections.
 
 ## Game Background
 
-**The Resistance: Avalon** is a social deduction game where:
+**The Resistance: Avalon** is a social deception game where:
 - **5 players** split into **Good** (3 players) and **Evil** (2 players) teams
 - Players discuss quest outcomes to identify hidden roles
 - Good players use transparent, cooperative tactics
@@ -16,20 +16,44 @@ This repository contains tools for generating synthetic Round 1 game discussions
 
 ```
 Avalon-deception/
-├── log-gen.ipynb                      # Main seed generation notebook
-├── llm.py                             # OpenAI API wrapper with retry logic
-├── Deception-Dataset.csv              # Input dataset (14,481 rows, 250 games)
+├── log-gen-verifier.ipynb             # Dialogue verification notebook
+├── generated_r1_seeds_gpt4o.csv       # GPT-4o generated dialogues (225 games)
+├── generated_r1_seeds_gpt5_2.csv      # GPT-5.2 generated dialogues (225 games)
+├── verified_r1_seeds_combined.csv     # Output: Selected/corrected dialogues
+├── verified_r1_criteria_scores.csv    # Output: Per-criterion validation scores
+├── Deception-Dataset.csv              # Original dataset (14,481 rows, 250 games)
+├── llm.py                             # OpenAI API wrapper
+├── llm.py                             # OpenAI API wrapper
 ├── requirements-seed-generation.txt   # Python dependencies
-├── .env.example                       # API key template
-├── .gitignore                         # Git ignore rules
-└── generated_r1_seeds.csv             # Output (generated)
+└── .env.example                       # API keys template
 ```
 
 ## Features
 
+### Binary Multi-Criteria Validation System
+
+Claude 4.5 Haiku evaluates each dialogue using **5 binary pass/fail checks**:
+
+1. **Player Roles Consistency** (✓/✗) - Good players use honest tactics, Evil players use deceptive tactics
+2. **Public History Alignment** (✓/✗) - Dialogue contextually appropriate to game state
+3. **Matrix Tactic Scale Validity** (✓/✗) - Correct row, col, tactic, scale, and level
+4. **Avalon Gameplay Authenticity** (✓/✗) - Natural dialogue with strategic plausibility
+5. **Dialogue Format Compliance** (✓/✗) - Exactly 4 speakers, no protagonist, correct format
+
+### Decision Logic
+
+Verification follows this priority system:
+
+1. **Both 5/5 pass** → Claude performs pairwise comparison to select the better dialogue
+2. **One 5/5, other <5/5** → Select the 5/5 response
+3. **At least one 4/5**:
+   - One 4/5, other <4/5 → Choose 4/5, apply **Targeted Correction** (fix only the failing criterion)
+   - Both 4/5 → Choose GPT-5.2, apply **Targeted Correction**
+4. **Both ≤3/5** → **Full Custom Generation** (generate new dialogue from scratch)
+
 ### 4×4 Behavior Matrix
 
-The generation framework uses a research-based behavior matrix:
+The verification system validates tactics against a research-based behavior matrix:
 
 **Rows (Information Strategy):**
 - Transparent
@@ -48,25 +72,12 @@ The generation framework uses a research-based behavior matrix:
 - Hard lying, Gaslighting, Strategic fabrication (Evil players)
 - Deflection, Half-truths (Both alignments)
 
-### Skill Assessment Scales
-
-- **GRS (Goodness Rationality Spectrum)** for Good players: High/Moderate/Low rationality
-- **Mach-IV (Machiavellianism Scale)** for Evil players: High/Moderate/Low deception skill
-
-### Generation Pipeline
-
-1. **Dataset Loading**: Filter Round 1 games needing discussion logs
-2. **Tactic Assignment**: Pre-compute balanced coverage across all 24 tactics
-3. **Prompt Engineering**: 5 few-shot examples with tactical diversity
-4. **LLM Generation**: GPT-4o with JSON mode and validation
-5. **Quality Control**: Format validation, protagonist exclusion, scale matching
-
 ## Installation
 
 ### Prerequisites
 
 - Python 3.8+
-- OpenAI API key
+- Anthropic API key (for Claude 4.5 Haiku)
 - Jupyter Notebook
 
 ### Setup
@@ -84,202 +95,289 @@ The generation framework uses a research-based behavior matrix:
 
 3. **Configure API key**:
    ```bash
-   cp .env.example .env
-   # Edit .env and add your OpenAI API key:
-   # OPENAI_API_KEY=your_actual_api_key_here
+   # Create .env file and add your Anthropic API key:
+   echo "ANTHROPIC_API_KEY=your_actual_api_key_here" > .env
    ```
 
 ## Usage
 
 ### Quick Start
 
-1. **Open the notebook**:
+1. **Open the verification notebook**:
    ```bash
-   jupyter notebook log-gen.ipynb
+   jupyter notebook log-gen-verifier.ipynb
    ```
 
-2. **Configure generation**:
-   - Navigate to Cell 20
-   - Set `NUM_GAMES_TO_GENERATE = 2` for testing (or 225 for full batch)
+2. **Configure test mode** (Cell 5):
+   - Locate the `TEST_LIMIT` variable
+   - Set `TEST_LIMIT = 2` for testing (validates first 2 games)
+   - Set `TEST_LIMIT = len(gpt4o_df)` or `225` for full verification
 
-3. **Run all cells**:
-   - Executes: Data loading → Tactic assignment → Generation loop
-   - Output: `generated_r1_seeds.csv`
+3. **Run all cells sequentially**:
+   - Executes: Load datasets → Initialize Claude → Verify pairs → Save results
 
-### Generation Process
+### Verification Process
 
 The notebook performs these steps:
 
-#### Step 1: Load Dataset
-- Filters Round 1 games (G026-G250) without discussion logs
-- Identifies 225 games needing generation
+#### Step 1: Import Libraries and Set Paths
+- Loads pandas, Anthropic client, and required modules
+- Defines input files (`generated_r1_seeds_gpt4o.csv`, `generated_r1_seeds_gpt5_2.csv`)
+- Defines output files (`verified_r1_seeds_combined.csv`, `verified_r1_criteria_scores.csv`)
 
-#### Step 2: Build Tactics Knowledge Base
-- Constructs 4×4 behavior matrix with 24 tactics
-- Defines tactic descriptions and scale levels
-- Saves to `tactics_knowledge_base.json`
+#### Step 2: Load GPT-4o and GPT-5.2 Datasets
+- Reads both generated seed files
+- Displays dataset shapes and column names
+- Verifies data integrity
 
-#### Step 3: Pre-compute Assignments
-- Assigns tactics to each speaking player (4 per game)
-- Ensures balanced coverage: ~37-38 uses per tactic
-- Cycles through skill levels (High/Moderate/Low)
+#### Step 3: Review Validation System
+- Describes 5 binary criteria
+- Explains decision logic (5/5, 4/5, ≤3/5 scenarios)
+- Documents correction modes
 
-#### Step 4: Design Prompts
-- Includes game context (roles, public history)
-- 5 few-shot examples with diverse tactics
-- Suggested tactics with scales and levels
+#### Step 4: Initialize Claude 4.5 Haiku
+- Loads API key from `.env` file
+- Creates Anthropic client with 5 max retries
+- Defines system prompt for verification
 
-#### Step 5: Generate with Validation
-- Calls `get_completion_with_backoff` from llm.py
-- Validates output format and protagonist exclusion
-- Incremental saves every 10 games
-- Rate limiting: 1 second between API calls
+#### Step 5: Run Verification Loop
+- Iterates through first `TEST_LIMIT` games
+- For each game pair:
+  - Sends both dialogues to Claude (Response A vs Response B)
+  - Receives binary pass/fail scores for 5 criteria
+  - Applies decision logic based on total scores
+  - Selects or corrects the best dialogue
+- **Rate limiting**: 1 second delay between API calls
 
-### Output Format
+#### Step 6: Create Output DataFrames
+- **verified_r1_seeds_combined.csv**: Selected dialogues with source labels (`LLM_used`, `Correction_Mode`)
+- **verified_r1_criteria_scores.csv**: Per-criterion pass/fail tracking for analysis
 
-Generated CSV contains:
-- `discussion_log`: Formatted dialogue text
-- `matrix_tactic_scale`: JSON with player tactics, scales, levels
+#### Step 7: Save Results
+- Saves both CSV files with UTF-8 encoding
+- Displays summary statistics (LLM distribution, correction modes)
 
-Example:
-```json
-{
-  "discussion_log": "Discussion after Quest 1:\n\nP3: \"I think that P1, P4, and me would make a great team\"\n\nP2: \"P1 and P4 went on the last mission and it failed. P3 must be evil\"\n\nP4: \"I know the first mission with me and P1 failed, but it was obviously P1 who failed it\"\n\nP5: \" It is not a good idea to form a team with both P1 and P4.\"",
-  "matrix_tactic_scale": {
-    "P3": {"row":"Selective / Framing","col":"Opportunistic","tactic":"False consensus","scale":"Mach-IV","level":"Moderate"},
-    "P2": {"row":"Transparent","col":"Cooperative","tactic":"Rational justification","scale":"GRS","level":"High"},
-    "P4": {"row":"Counterfactual","col":"Defensive","tactic":"Deflection","scale":"Mach-IV","level":"High"},
-    "P5": {"row":"Selective / Framing","col":"Cooperative","tactic":"Strategic uncertainty","scale":"GRS","level":"High"}
-  }
-}
+### TEST_LIMIT Configuration
+
+```python
+# In Cell 5 (verification loop)
+TEST_LIMIT = 2  # Quick test with first 2 games (~30 seconds)
+
+# For full verification:
+TEST_LIMIT = len(gpt4o_df)  # All 225 games (~4-5 minutes)
 ```
+
+**Recommended values:**
+- **2**: Quick validation to test the system
+- **10**: Small batch for debugging
+- **225** or `len(gpt4o_df)`: Full dataset verification
+
+### Output Files
+
+#### 1. verified_r1_seeds_combined.csv
+
+Selected/corrected dialogues with metadata:
+- All original columns from input datasets
+- `LLM_used`: Source model (GPT-4o, GPT-5.2, or Claude_Custom)
+- `Correction_Mode`: None, Pairwise_Tiebreaker, Targeted, or Full_Custom
+
+Example row:
+```csv
+game_id,round_id,discussion_log,matrix_tactic_scale,LLM_used,Correction_Mode
+G026,1,"Discussion after Quest 1:...","{\"P2\": {\"row\":...}}",GPT-5.2,None
+```
+
+#### 2. verified_r1_criteria_scores.csv
+
+Per-criterion validation tracking:
+- `ID`: Game/Round identifier (e.g., G026_R1)
+- `GPT4o_Roles`, `GPT4o_History`, `GPT4o_Matrix`, `GPT4o_Authenticity`, `GPT4o_Format`: ✓/✗
+- `GPT4o_Total`: Score summary (e.g., "5/5", "4/5")
+- `GPT52_Roles`, `GPT52_History`, `GPT52_Matrix`, `GPT52_Authenticity`, `GPT52_Format`: ✓/✗
+- `GPT52_Total`: Score summary
+- `Selected_LLM`: Chosen model
+- `Correction_Mode`: Applied correction type
+- `Failed_Criterion`: Which criterion failed (for Targeted corrections)
+
+**Use for analysis**: Calculate pass rates per criterion (e.g., "GPT-4o achieved 95% format compliance")
 
 ## Key Components
 
-### llm.py
+### log-gen-verifier.ipynb
 
-OpenAI API wrapper providing:
-- **get_completion_with_backoff()**: Automatic retry with exponential backoff
-- **Rate limit handling**: Up to 100 seconds max wait time
-- **Flexible parameters**: Supports all OpenAI API options via `**kwargs`
+Main verification notebook with 7 sequential steps:
+- **Steps 1-2**: Load libraries and datasets
+- **Step 3**: Review binary validation system
+- **Step 4**: Initialize Claude 4.5 Haiku client and verification function
+- **Step 5**: Run verification loop with TEST_LIMIT configuration
+- **Steps 6-7**: Create output DataFrames and save results
 
-Used in [log-gen.ipynb](log-gen.ipynb):
+The verification function sends both dialogues to Claude as "Response A" and "Response B" (blind evaluation), receives binary scores for 5 criteria, and applies the decision logic.
+
+### Anthropic API Integration
+
+Claude 4.5 Haiku configuration:
 ```python
-from llm import get_completion_with_backoff
+from anthropic import Anthropic
+from dotenv import load_dotenv
+import os
 
-response = get_completion_with_backoff(
-    model="gpt-4o",
-    messages=[...],
-    response_format={"type": "json_object"},
-    temperature=0.5,
-    max_tokens=1024
+load_dotenv(override=True)
+client = Anthropic(
+    api_key=os.getenv('ANTHROPIC_API_KEY'),
+    max_retries=5
+)
+
+# API call parameters
+response = client.messages.create(
+    model="claude-3-5-haiku-20241022",
+    max_tokens=2048,
+    temperature=0.0,
+    system=SYSTEM_PROMPT,
+    messages=[{"role": "user", "content": verification_prompt}]
 )
 ```
 
-### log-gen.ipynb
+## Scoring System
 
-Main notebook with 22+ cells:
-- **Cells 1-7**: Dataset loading and filtering
-- **Cells 8-14**: Behavior matrix, tactics, scales
-- **Cells 15-16**: Tactic assignment algorithm
-- **Cell 17**: Prompt template with 5 examples
-- **Cell 18**: Import llm.py functions
-- **Cell 19**: Validation logic
-- **Cells 20-21**: Configuration and generation loop
-- **Cell 22**: Results review
+### Binary Pass/Fail Criteria
 
-## Validation
+Each dialogue is evaluated on 5 independent criteria:
 
-The `validate_generation()` function ensures:
-- ✓ Discussion starts with "Discussion after Quest 1:"
-- ✓ Protagonist (role_id) does NOT speak
-- ✓ Exactly 4 speakers (excluding protagonist)
-- ✓ Matrix has required fields: row, col, tactic, scale, level
-- ✓ Scale matches role (GRS for Good, Mach-IV for Evil)
-- ✓ Tactic exists in definitions
-- ✓ Protagonist not in matrix_tactic_scale
+| Criterion | Description | Pass Example | Fail Example |
+|-----------|-------------|--------------|--------------|
+| **Player Roles Consistency** | Role-tactic alignment | Good player uses "Evidence sharing" | Evil player uses "Evidence sharing" |
+| **Public History Alignment** | Context appropriateness | Discusses actual quest results | Mentions non-existent events |
+| **Matrix Tactic Scale Validity** | Correct matrix structure | All 5 fields valid | Missing tactic or wrong scale |
+| **Avalon Gameplay Authenticity** | Strategic plausibility | Natural role deduction | Unrealistic meta-gaming |
+| **Dialogue Format Compliance** | Structural correctness | 4 speakers, no protagonist | Protagonist speaks or <4 players |
+
+**Total Score**: 0/5 to 5/5 (sum of passed criteria)
+
+### Decision Thresholds
+
+- **5/5**: Perfect score → Pairwise comparison if both models achieve this
+- **4/5**: Single criterion failure → Targeted correction applied
+- **≤3/5**: Multiple failures → Full custom generation if both models score this low
 
 ## Configuration Options
 
-### Cell 20 Settings
+### TEST_LIMIT Setting
+
+Located in Cell 5 (verification loop):
 
 ```python
-NUM_GAMES_TO_GENERATE = 225  # Number of games to generate
+# Test with first 2 games (recommended for initial validation)
+TEST_LIMIT = 2  
 
-# Recommended values:
-# - 2: Quick test (2-3 minutes)
-# - 25: Small batch validation (~30 minutes)
-# - 225: Full dataset (~4 hours with rate limiting)
+# Full verification of all games
+TEST_LIMIT = len(gpt4o_df)  # or 225
 ```
 
-### API Call Parameters (Cell 21)
-
-```python
-response = get_completion_with_backoff(
-    model="gpt-4o",              # Model choice
-    temperature=0.5,             # Creativity (0.0-1.0)
-    max_tokens=1024,             # Max response length
-    response_format={"type": "json_object"}  # Force JSON output
-)
-```
+**Timing estimates:**
+- `TEST_LIMIT = 2`: ~30 seconds
+- `TEST_LIMIT = 10`: ~2-3 minutes
+- `TEST_LIMIT = 225`: ~4-5 minutes (with 1-second rate limiting)
 
 ## Cost Estimation
 
-- **Model**: GPT-4o (gpt-4o)
-- **Input tokens per game**: ~4,000 (prompt with examples)
-- **Output tokens per game**: ~600 (discussion + matrix)
-- **Cost per 1M tokens**: $2.50 input, $10.00 output
+- **Model**: Claude 3.5 Haiku (claude-3-5-haiku-20241022)
+- **Input tokens per game**: ~5,000 (context + both dialogues)
+- **Output tokens per game**: ~1,500 (evaluation + corrections)
+- **Cost per 1M tokens**: $1.00 input, $5.00 output
 
 **Estimated cost for 225 games:**
-- Input: 225 × 4,000 = 900K tokens → ~$2.25
-- Output: 225 × 600 = 135K tokens → ~$1.35
-- **Total**: ~$3.60
+- Input: 225 × 5,000 = 1.125M tokens → ~$1.13
+- Output: 225 × 1,500 = 337.5K tokens → ~$1.69
+- **Total**: ~$2.82
 
 ## Troubleshooting
 
 ### API Key Issues
 
 ```bash
-# Verify .env file exists
+# Verify .env file exists and contains Anthropic key
 cat .env
+# Should show: ANTHROPIC_API_KEY=sk-ant-...
 
-# Check API key is loaded (in llm.py)
-python llm.py
-# Should print: "API key loaded successfully."
+# Test in Python
+python -c "from dotenv import load_dotenv; import os; load_dotenv(); print('Key loaded:', 'ANTHROPIC_API_KEY' in os.environ)"
 ```
 
-### Generation Failures
+### Verification Failures
 
 Common issues:
-- **JSON parse error**: LLM returned invalid JSON → Automatic retry
-- **Validation failed**: Check error messages in output
-- **Rate limit**: Backoff logic handles automatically
+- **JSON parse error**: Claude returned invalid JSON → Automatic retry (up to 5 attempts)
+- **Missing criteria**: Check that all 5 criteria are evaluated
+- **Rate limiting**: 1-second delay between calls prevents rate limits
 
-Review failed games:
+Review verification results:
 ```python
-# In Cell 21 output
-if failed_games:
-    for game_id, errors in failed_games:
-        print(f"{game_id}: {errors}")
+# After running Cell 6
+import pandas as pd
+criteria_df = pd.read_csv('verified_r1_criteria_scores.csv')
+
+# Check criterion-specific pass rates
+print("GPT-4o pass rates:")
+for criterion in ['Roles', 'History', 'Matrix', 'Authenticity', 'Format']:
+    col = f'GPT4o_{criterion}'
+    pass_rate = (criteria_df[col] == '✓').sum() / len(criteria_df) * 100
+    print(f"  {criterion}: {pass_rate:.1f}%")
 ```
 
 ### Incremental Progress
 
-Generation saves every 10 games to `generated_r1_seeds.csv`. If interrupted:
-1. Check current progress: `len(pd.read_csv('generated_r1_seeds.csv'))`
-2. Adjust starting index in Cell 21
-3. Resume generation
+Verification does not save incrementally (runs in-memory). If interrupted:
+1. Note the last processed game from console output
+2. Modify Cell 5 to start from that index:
+   ```python
+   for idx in range(START_INDEX, TEST_LIMIT):  # Adjust START_INDEX
+   ```
+3. Re-run verification loop
 
 ## Dataset Statistics
 
-- **Total rows**: 14,481
-- **Unique games**: 250
-- **Rounds per game**: 5 (R1-R5)
-- **Games with R1 discussion**: 25 (G001-G025)
-- **Games needing generation**: 225 (G026-G250)
-- **Speakers per game**: 4 (1 protagonist observes)
-- **Total assignments**: 900 (225 games × 4 speakers)
-- **Tactics coverage**: ~37-38 uses per tactic
+- **Input datasets**: 2 files (GPT-4o and GPT-5.2 generated dialogues)
+- **Games per dataset**: 225 (G026-G250)
+- **Total verifications**: 225 pairwise comparisons
+- **Criteria evaluated**: 5 per dialogue × 2 dialogues = 10 checks per game
+- **Total criterion checks**: 2,250 (225 games × 10 checks)
+- **Output records**: 225 selected/corrected dialogues
+
+### Expected Distribution (based on testing):
+- **5/5 selections**: ~60-70% (use best response as-is)
+- **4/5 targeted corrections**: ~20-30% (fix single criterion)
+- **Custom generations**: ~5-10% (both models scored ≤3/5)
+
+## Next Steps
+
+After verification completes:
+
+1. **Review Results**:
+   ```python
+   import pandas as pd
+   verified_df = pd.read_csv('verified_r1_seeds_combined.csv')
+   criteria_df = pd.read_csv('verified_r1_criteria_scores.csv')
+   
+   # Check LLM distribution
+   print(verified_df['LLM_used'].value_counts())
+   
+   # Check correction modes
+   print(verified_df['Correction_Mode'].value_counts())
+   ```
+
+2. **Analyze Per-Criterion Performance**:
+   - Calculate pass rates for each of the 5 criteria
+   - Compare GPT-4o vs GPT-5.2 strengths/weaknesses
+   - Identify most challenging criteria
+
+3. **Merge with Manual Seeds**:
+   - Combine verified 225 games with 25 manually created seeds (G001-G025)
+   - Create final 250-game dataset
+
+4. **Quality Assurance**:
+   - Manually review samples from "Targeted" and "Full_Custom" categories
+   - Verify corrections address the failing criteria
 
 ## Contributing
 
