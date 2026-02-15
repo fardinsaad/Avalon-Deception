@@ -17,12 +17,14 @@ This repository contains a verification system for AI-generated Avalon Round 1 d
 ```
 Avalon-deception/
 ├── log-gen-verifier.ipynb             # Dialogue verification notebook
+├── log-gen.ipynb                      # Dialogue generation notebook
 ├── generated_r1_seeds_gpt4o.csv       # GPT-4o generated dialogues (225 games)
 ├── generated_r1_seeds_gpt5_2.csv      # GPT-5.2 generated dialogues (225 games)
 ├── verified_r1_seeds_combined.csv     # Output: Selected/corrected dialogues
 ├── verified_r1_criteria_scores.csv    # Output: Per-criterion validation scores
+├── dataset-aug.ipynb                  # Player roles notebook
+├── dataset-aug-public-history.ipynb   # Public History notebook
 ├── Deception-Dataset.csv              # Original dataset (14,481 rows, 250 games)
-├── llm.py                             # OpenAI API wrapper
 ├── llm.py                             # OpenAI API wrapper
 ├── requirements-seed-generation.txt   # Python dependencies
 └── .env.example                       # API keys template
