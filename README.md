@@ -43,7 +43,7 @@ The generation framework uses a research-based behavior matrix:
 - Opportunistic
 - Adversarial
 
-**24 Tactical Patterns** including:
+**37 Tactical Patterns** including:
 - Evidence sharing, Rational justification (Good players)
 - Hard lying, Gaslighting, Strategic fabrication (Evil players)
 - Deflection, Half-truths (Both alignments)
