@@ -1,0 +1,196 @@
+{
+  "behavior_matrix": {
+    "Transparent|Cooperative": {
+      "tactics": [
+        "Evidence sharing",
+        "Rational justification",
+        "Perspective-taking"
+      ],
+      "alignment": "Good",
+      "color": "green"
+    },
+    "Transparent|Defensive": {
+      "tactics": [
+        "Defensive disclosure",
+        "Self-justification"
+      ],
+      "alignment": "Both",
+      "color": "blue"
+    },
+    "Transparent|Opportunistic": {
+      "tactics": [
+        "Weaponized candor",
+        "Overstated contribution"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    },
+    "Transparent|Adversarial": {
+      "tactics": [
+        "Truthful misdirection",
+        "Misleading emphasis"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    },
+    "Selective / Framing|Cooperative": {
+      "tactics": [
+        "Bayesian hedging",
+        "Strategic uncertainty",
+        "Pragmatic silence"
+      ],
+      "alignment": "Good",
+      "color": "green"
+    },
+    "Selective / Framing|Defensive": {
+      "tactics": [
+        "Omission to save face",
+        "Half-truths"
+      ],
+      "alignment": "Both",
+      "color": "blue"
+    },
+    "Selective / Framing|Opportunistic": {
+      "tactics": [
+        "Cherry-picking",
+        "False consensus",
+        "Misframing"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    },
+    "Selective / Framing|Adversarial": {
+      "tactics": [
+        "Withholding info (WIFOM)",
+        "Strategic omission"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    },
+    "Careless-to-truth|Cooperative": {
+      "tactics": [
+        "Noisy sincerity",
+        "Over-explaining"
+      ],
+      "alignment": "Good",
+      "color": "green"
+    },
+    "Careless-to-truth|Defensive": {
+      "tactics": [
+        "Face-saving blather",
+        "Vague filler"
+      ],
+      "alignment": "Both",
+      "color": "blue"
+    },
+    "Careless-to-truth|Opportunistic": {
+      "tactics": [
+        "Bullshitting",
+        "Technobabble"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    },
+    "Careless-to-truth|Adversarial": {
+      "tactics": [
+        "Obfuscatory nonsense",
+        "Confusion tactics"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    },
+    "Counterfactual|Cooperative": {
+      "tactics": [
+        "Honest mistake",
+        "Sincere false belief"
+      ],
+      "alignment": "Good",
+      "color": "green"
+    },
+    "Counterfactual|Defensive": {
+      "tactics": [
+        "Deflection",
+        "Self-deception",
+        "Rationalized error"
+      ],
+      "alignment": "Both",
+      "color": "blue"
+    },
+    "Counterfactual|Opportunistic": {
+      "tactics": [
+        "Reverse accusations",
+        "Strategic fabrication"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    },
+    "Counterfactual|Adversarial": {
+      "tactics": [
+        "Hard lying",
+        "Gaslighting",
+        "Bold falsehoods"
+      ],
+      "alignment": "Evil",
+      "color": "red"
+    }
+  },
+  "tactic_definitions": {
+    "Evidence sharing": "providing concrete facts to support a claim",
+    "Rational justification": "explaining actions through logical reasons",
+    "Perspective-taking": "acknowledging another's viewpoint to build trust",
+    "Defensive disclosure": "revealing only what is necessary to protect oneself",
+    "Self-justification": "excusing one's own actions to avoid blame",
+    "Weaponized candor": "using blunt truth strategically to gain advantage",
+    "Overstated contribution": "exaggerating one's role or effort",
+    "Truthful misdirection": "giving accurate details that nonetheless distract",
+    "Misleading emphasis": "highlighting true but minor points to distort perception",
+    "Bayesian hedging": "presenting probabilities or uncertainty to remain flexible",
+    "Strategic uncertainty": "deliberately leaving outcomes vague",
+    "Pragmatic silence": "omitting information instead of lying outright",
+    "Omission to save face": "withholding details to avoid embarrassment",
+    "Half-truths": "mixing truth with key omissions",
+    "Cherry-picking": "selectively presenting only favorable evidence",
+    "False consensus": "overstating agreement to pressure others",
+    "Misframing": "presenting information in a skewed context",
+    "Withholding info (WIFOM)": "creating doubt by hiding critical details",
+    "Strategic omission": "leaving out facts to influence interpretation",
+    "Noisy sincerity": "being honest in a confusing or overloaded way",
+    "Over-explaining": "adding excessive detail to appear genuine",
+    "Face-saving blather": "using empty talk to avoid confrontation",
+    "Vague filler": "relying on imprecise or generic phrases",
+    "Bullshitting": "speaking without concern for truth or falsity",
+    "Technobabble": "using jargon to appear credible without substance",
+    "Obfuscatory nonsense": "intentionally confusing speech to mislead",
+    "Confusion tactics": "derailing clarity to disrupt understanding",
+    "Honest mistake": "presenting something false in good faith",
+    "Sincere false belief": "confidently holding a mistaken view",
+    "Deflection": "shifting blame or suspicion away from oneself by redirecting attention to another player or event, often using partial truths or emotional appeals",
+    "Self-deception": "convincing oneself of a falsehood",
+    "Rationalized error": "justifying a mistake with faulty logic",
+    "Reverse accusations": "shifting blame back onto the accuser",
+    "Strategic fabrication": "inventing details to achieve a goal",
+    "Hard lying": "deliberately asserting the opposite of the truth",
+    "Gaslighting": "making others doubt their memory or perception",
+    "Bold falsehoods": "telling obvious lies with confidence"
+  },
+  "scale_definitions": {
+    "GRS": {
+      "name": "Goodness Rationality Spectrum",
+      "for": "Good players",
+      "levels": {
+        "High": "Highly rational, evidence-based, transparent communication",
+        "Moderate": "Generally rational with some uncertainty or hedging",
+        "Low": "Less structured reasoning, may be confused or overwhelmed"
+      }
+    },
+    "Mach-IV": {
+      "name": "Machiavellianism Scale (Mach-IV)",
+      "for": "Evil players",
+      "levels": {
+        "High": "Highly skilled manipulator, subtle deception, strategic planning",
+        "Moderate": "Competent deceiver, uses standard tactics, some slips",
+        "Low": "Clumsy deceiver, obvious tells, defensive, may contradict self"
+      }
+    }
+  }
+}
