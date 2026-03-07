@@ -3,10 +3,16 @@
 
 # Core dependencies
 pandas>=2.0.0
-openai>=1.0.0
+openai>=2.0.0  # >=2.0.0 required for httpx 0.28+ compatibility
 anthropic>=0.18.0
 python-dotenv>=1.0.0
 backoff>=2.2.0
+
+# Gemini API support
+google-genai>=1.0.0
+
+# HTTP client (required by openai and google-genai)
+httpx>=0.28.0
 
 # Optional: For notebook environment
 jupyter>=1.0.0
