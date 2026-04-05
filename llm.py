@@ -6,9 +6,7 @@ from openai import OpenAI
 from openai import RateLimitError  # Directly import RateLimitError
 
 # Load environment variables from the .env file
-print("Before loading .env:", os.getenv('OPENAI_API_KEY'))
 load_dotenv(override=True)  # Force override existing environment variables
-print("After loading .env:", os.getenv('OPENAI_API_KEY'))
 
 # Set OpenAI API key from environment variable
 key = os.getenv('OPENAI_API_KEY')
