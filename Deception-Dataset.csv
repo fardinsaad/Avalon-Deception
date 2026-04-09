@@ -1985,10 +1985,9 @@ P5: ""I agree, I think it's best to not include P1 in the new team.""
 P4: ""But what if it wasn't P1 who failed? I think we can include him in this team.""","{
   ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
    ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
-   ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""High""}
-   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""},
-}
-","{
+   ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""High""},
+   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""}
+}","{
    ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Draws logical suspicion from mission results, which is reasonable if innocent."",""evil_expl"": ""Uses the result to deflect blame and reinforce a false narrative."",""choice"": ""Evil""},
     {""player"": ""P3"", ""good_expl"": ""Proposes a new balanced team structure, demonstrating proactive reasoning."",""evil_expl"": ""Might be subtly trying to include an Evil partner for control."",""choice"": ""Good""},
@@ -2080,10 +2079,9 @@ P5 : ""Exactly. Let's leave P1 out next round and we'll be fine.""
 P4 : ""Slow down. P2 could be framing 1. We need real evidence first.""","{
   ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""High""},
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
-   ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus "",""scale"":""Mach-IV"",""level"":""Moderate""}
-   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
-}
-","{
+   ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus "",""scale"":""Mach-IV"",""level"":""Moderate""},
+   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}","{
  ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Accuses P1 based on logical deduction from the failed mission."",""evil_expl"": ""Deflects blame onto P1 after sabotaging the mission, a direct Mach-IV move."",""choice"": ""Evil""},
     {""player"": ""P3"", ""good_expl"": ""Promotes rational and balanced reasoning by suggesting new team formation."",""evil_expl"": ""Could be subtly protecting an Evil ally to delay suspicion."",""choice"": ""Good""},
@@ -2175,10 +2173,9 @@ P5 : ""Agree, lets keep emotions out; I'm OK trying P1, 3 and 4 too.""
 P4 : ""Fine by me, but we'll need to track voting patterns carefully.""","{
   ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Omission to save face"",""scale"":""Mach-IV"",""level"":""High""},
-   ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""}
-   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
- }
-","{
+   ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""},
+   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+ }","{
  ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Encourages patience and more data collection, a logical Good-aligned approach."",""evil_expl"": ""Could be subtly minimizing suspicion to protect an ally."",""choice"": ""Good""},
     {""player"": ""P3"", ""good_expl"": ""Proposes a balanced new team, consistent with cooperative Good reasoning."",""evil_expl"": ""Might be masking self-interest by redirecting team composition."",""choice"": ""Good""},
@@ -2285,10 +2282,9 @@ P5 : ""If P1's off, that will work for me.""
 P4 : ""Or exclude both P1 & 2.""","{
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}, 
  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
- ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""}
-  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
-  }
-","{
+ ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+  }","{
  ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Accuses P1 based on the mission failure, showing proactive reasoning."",""evil_expl"": ""Blames P1 to deflect suspicion from self, a typical Mach-IV deflection pattern."",""choice"": ""Evil""},
     {""player"": ""P3"", ""good_expl"": ""Proposes a new team with untested players to minimize risk, consistent with rational Good play."",""evil_expl"": ""Could be trying to exclude a Good player strategically while appearing logical."",""choice"": ""Good""},
@@ -2397,10 +2393,9 @@ P5 : ""We should absolutely sideline P1 for safety.""
 P4 : ""Maybe. But, one fail isn't proof, but P1 does look bad.""","{
   ""P2"": {""row"": ""Counterfactual"", ""col"": ""Defensive"", ""tactic"": ""Deflection"", ""scale"": ""Mach-IV"", ""level"": ""High""},
   ""P3"": {""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""},
-  ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus"", ""scale"": ""Mach-IV"", ""level"": ""High""}
+  ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus"", ""scale"": ""Mach-IV"", ""level"": ""High""},
   ""P4"":{""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""}
-}
-","{
+}","{
  ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Accuses P1 based on the mission outcome, consistent with early deduction."", ""evil_expl"": ""Deflects blame to P1 to protect self, a Mach-IV reverse accusation."", ""choice"": ""Evil""},
     {""player"": ""P3"", ""good_expl"": ""Points out suspicion logically based on mission failure."", ""evil_expl"": ""Overconfidently blames P1, showing adversarial Mach-IV manipulation."", ""choice"": ""Evil""},
@@ -2530,10 +2525,9 @@ P5: ""I am not evil, and I was not even on the last mission which failed, it can
 P4: ""Yes, it is definitely 1 who is evil, as I passed the mission, Instead you can take me on the new team""","{
   ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
-   ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""}
-  ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""},
-}
-","{
+   ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""}
+}","{
   ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Proposes balanced reasoning and raises thoughtful caution, reflecting high-GRS rational cooperation."", ""evil_expl"": ""Could be subtly manipulating team dynamics to appear logical."", ""choice"": ""Good""},
     {""player"": ""P3"", ""good_expl"": ""Suggests a cooperative new team composition to minimize risk and gather new information."", ""evil_expl"": ""Could be trying to direct attention away from the failed mission participants."", ""choice"": ""Good""},
@@ -2660,10 +2654,9 @@ P5: ""Don't blame me, I wasn't even on the mission. P1's clearly the problem.""
 P4: ""Exactly. I passed, and the only other on that mission was P1. It's obvious.""","{
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
-  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""}
-  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""},
-}
-","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
+}","{
   ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Shows rational caution and open cooperation typical of high-GRS reasoning."", ""evil_expl"": ""Could be feigning rationality to build early trust."", ""choice"": ""Good""},
     {""player"": ""P3"", ""good_expl"": ""Advocates a balanced reset strategy with untested players, a logical Good tactic."", ""evil_expl"": ""Could be avoiding including Evil allies under scrutiny."", ""choice"": ""Good""},
@@ -2776,9 +2769,8 @@ P4: ""I am a good player, I should be on the next team.""","{
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
   ""P3"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""GRS"",""level"":""Moderate""},
    ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Vague filler"",""scale"":""Mach-IV"",""level"":""Moderate""},
-   ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""""Misframing"","",""scale"":""Mach-IV"",""level"":""Moderate""},
-}
-","{
+   ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}","{
   ""abduction"":[
     {""player"":""P3"",""good_expl"":""Advocates rotating players to gain broader information, consistent with cautious Good play."",""evil_expl"":""Could be attempting to insert an Evil player into the next mission."",""choice"":""Good""},
     {""player"":""P2"",""good_expl"":""Encourages calm interpretation of the pass and avoids premature accusations."",""evil_expl"":""Could be downplaying risks to shield an ally."",""choice"":""Good""},
