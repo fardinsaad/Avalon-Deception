@@ -1,0 +1,2251 @@
+Row,P1,P2,P3,P4,P5,player_roles,public_history,Team_Leader,Team_Members,Outcome,Vote_Failure
+1,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P1, P4",FAIL,0
+2,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P2, P4",FAIL,0
+3,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P3, P4",PASS,0
+4,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+5,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P1, P4",FAIL,0
+6,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P3, P4",PASS,0
+7,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P2, P3",FAIL,0
+8,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,1
+9,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P3, P5",PASS,0
+10,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P1, P3",FAIL,0
+11,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P3",FAIL,0
+12,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,1
+13,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P4",FAIL,0
+14,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P5",FAIL,0
+15,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,1
+16,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+17,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+18,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P3",PASS,0
+19,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P4",FAIL,1
+20,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P5",FAIL,0
+21,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P2",PASS,0
+22,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P3",FAIL,0
+23,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P4",FAIL,1
+24,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P5",PASS,0
+25,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+26,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P1, P3",FAIL,0
+27,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+28,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P3",FAIL,0
+29,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+30,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P4",PASS,0
+31,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+32,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,0
+33,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+34,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P4, P5",PASS,0
+35,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,1
+36,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P1, P3",FAIL,0
+37,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,0
+38,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P4",FAIL,0
+39,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P2, P4",PASS,0
+40,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+41,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P1, P3",PASS,0
+42,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P2, P4",FAIL,0
+43,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P3, P4",FAIL,0
+44,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P4, P5",PASS,0
+45,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P5",FAIL,0
+46,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P1, P3",PASS,0
+47,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P2, P4",FAIL,1
+48,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P3, P4",PASS,0
+49,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P3, P4",FAIL,0
+50,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+51,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,0
+52,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P2, P3",FAIL,0
+53,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P3, P4",PASS,0
+54,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P4, P5",FAIL,0
+55,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P5",PASS,0
+56,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+57,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P2, P3",FAIL,0
+58,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P3",PASS,0
+59,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P4",FAIL,0
+60,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+61,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P5",FAIL,0
+62,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P2",PASS,0
+63,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+64,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P4",FAIL,0
+65,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P5",PASS,0
+66,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P1, P2",FAIL,0
+67,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,0
+68,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P2, P5",FAIL,1
+69,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P4",PASS,0
+70,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+71,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+72,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P2, P4",PASS,0
+73,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P3, P4",FAIL,0
+74,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P4",PASS,0
+75,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P5",FAIL,0
+76,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P1, P3",PASS,0
+77,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+78,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P3, P4",FAIL,0
+79,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P4, P5",PASS,0
+80,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P5",FAIL,0
+81,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P2",PASS,0
+82,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P3",FAIL,0
+83,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,0
+84,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P4",FAIL,0
+85,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+86,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P1, P3",PASS,0
+87,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P2, P3",FAIL,0
+88,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,0
+89,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P4",FAIL,1
+90,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+91,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P5",FAIL,0
+92,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P2, P3",FAIL,0
+93,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P3",PASS,0
+94,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+95,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P3, P5",PASS,0
+96,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+97,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P2",PASS,0
+98,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+99,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+100,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P4",PASS,0
+101,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P1, P3",FAIL,0
+102,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P2, P4",PASS,0
+103,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+104,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P4, P5",PASS,0
+105,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P5",FAIL,0
+106,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+107,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P2, P4",PASS,0
+108,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+109,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P4",PASS,0
+110,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+111,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P1, P4",PASS,0
+112,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P3",FAIL,0
+113,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P2, P5",FAIL,0
+114,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P4, P5",PASS,0
+115,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+116,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P1, P4",PASS,0
+117,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+118,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P3, P4",PASS,0
+119,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P4, P5",FAIL,0
+120,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+121,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P4, P5",PASS,0
+122,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P3",FAIL,0
+123,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P2, P3",PASS,0
+124,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P4, P5",FAIL,0
+125,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P5",PASS,1
+126,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P1, P2",FAIL,0
+127,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P2, P3",FAIL,0
+128,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,0
+129,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+130,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P4, P5",PASS,0
+131,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P1, P3",FAIL,0
+132,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P2, P3",PASS,0
+133,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+134,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+135,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P4, P5",PASS,0
+136,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P1, P4",FAIL,0
+137,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P2",PASS,0
+138,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+139,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P4, P5",PASS,0
+140,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P4",FAIL,0
+141,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P1, P3",FAIL,0
+142,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P2, P5",PASS,0
+143,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P3",FAIL,0
+144,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P4, P5",PASS,0
+145,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+146,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+147,1,1,1,0,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P2, P5",FAIL,0
+148,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+149,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,0
+150,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+151,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+152,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+153,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P3",PASS,0
+154,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+155,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+156,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,1
+157,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P2, P5",FAIL,0
+158,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P3, P4",PASS,0
+159,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P4",FAIL,0
+160,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P5",PASS,0
+161,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+162,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P3",FAIL,0
+163,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P2, P4",PASS,0
+164,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+165,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P4, P5",PASS,0
+166,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+167,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P2, P4",PASS,0
+168,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P3",FAIL,0
+169,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P4",FAIL,0
+170,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P5",PASS,0
+171,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P1, P2",FAIL,0
+172,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P2, P3",PASS,0
+173,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+174,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,0
+175,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+176,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P1, P3",FAIL,0
+177,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P2, P5",PASS,0
+178,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,1
+179,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P4",PASS,0
+180,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+181,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P4, P5",PASS,0
+182,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P3",FAIL,0
+183,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P4",FAIL,0
+184,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P2, P4",PASS,0
+185,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P5",FAIL,0
+186,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,0
+187,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P2, P4",FAIL,0
+188,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P3, P4",PASS,0
+189,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P3, P4",FAIL,0
+190,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
+191,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,0
+192,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P2, P4",FAIL,0
+193,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P3",PASS,0
+194,1,0,1,1,0,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+195,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P5",PASS,0
+196,1,1,0,1,0,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P1, P4",FAIL,0
+197,0,1,1,1,0,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Evil""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P2, P3",FAIL,0
+198,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P3",PASS,0
+199,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P4",FAIL,0
+200,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+201,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+202,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P2, P3",PASS,0
+203,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P3",FAIL,1
+204,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+205,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+206,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P2, P5",FAIL,0
+207,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P3, P5",PASS,0
+208,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+209,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P4",PASS,0
+210,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P1, P5",FAIL,0
+211,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+212,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P2, P5",PASS,0
+213,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P3, P5",FAIL,0
+214,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P4",PASS,0
+215,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P5",FAIL,0
+216,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P1, P2",PASS,0
+217,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P2, P4",FAIL,0
+218,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+219,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P3",PASS,0
+220,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P5",FAIL,0
+221,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+222,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P2, P5",FAIL,0
+223,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P3, P4",PASS,0
+224,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P4, P5",FAIL,0
+225,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P5",FAIL,0
+226,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P1, P4",PASS,0
+227,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P2, P5",FAIL,0
+228,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P3, P4",PASS,0
+229,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P3,"P3, P4",FAIL,0
+230,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P5",PASS,0
+231,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P1, P2",FAIL,0
+232,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+233,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P3",PASS,0
+234,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P4",FAIL,1
+235,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P3
+Team: P3, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P3,"P3, P5",PASS,0
+236,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P1, P4",FAIL,0
+237,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P2",PASS,0
+238,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P3, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P3, P4",FAIL,0
+239,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P5,"P4, P5",FAIL,0
+240,1,0,1,0,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P4,"P4, P5",PASS,0
+241,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P2",FAIL,0
+242,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P1, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P1, P5",PASS,0
+243,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P3",FAIL,0
+244,0,0,1,1,1,"{""P1"":""Evil"",
+""P2"":""Evil"",
+""P3"":""Good"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P2,"P2, P4",PASS,0
+245,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P2, P5",FAIL,0
+246,1,1,0,0,1,"{""P1"":""Good"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P2
+Team: P1, P2
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P2,"P1, P2",FAIL,0
+247,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P5
+Team: P2, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P5,"P2, P5",PASS,0
+248,1,0,0,1,1,"{""P1"":""Good"",
+""P2"":""Evil"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P3
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P1,"P1, P3",FAIL,1
+249,0,1,1,0,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Good"",
+""P4"":""Evil"",
+""P5"":""Good""}","Round: 1
+Leader: P1
+Team: P1, P4
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: PASS",P1,"P1, P4",PASS,0
+250,0,1,0,1,1,"{""P1"":""Evil"",
+""P2"":""Good"",
+""P3"":""Evil"",
+""P4"":""Good"",
+""P5"":""Good""}","Round: 1
+Leader: P4
+Team: P4, P5
+Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+Quest 1 Outcome: FAIL",P4,"P4, P5",FAIL,0
