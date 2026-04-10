@@ -1588,15 +1588,15 @@ G013,1,P1,Good,"{""P1"":""Good"",
 Leader: P2
 Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
-Quest 1 Outcome: FAIL",,"""Discussion after Quest 1:
+Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P3 : ""It failed, but it's too soon to say who did it. Maybe it was just bad luck.""
+P3: ""It failed, but it's too soon to say who did it. Maybe it was just bad luck.""
 
-P2 : ""I passed the mission. I wouldn't sabotage so early.""
+P2: ""I passed the mission. I wouldn't sabotage so early.""
 
-P4 : ""Let's stay calm, better to try a fresh set next time.""
+P4: ""Let's stay calm, better to try a fresh set next time.""
 
-P5 : ""I agree. Try new people. That's the safest option.""""","{
+P5: ""I agree. Try new people. That's the safest option.""","{
   ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Strategic fabrication"",""scale"":""Mach-IV"",""level"":""High""},
   ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
@@ -1719,13 +1719,13 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
 Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P2 : ""I passed, so P1 must have failed it.""
+P2: ""I passed, so P1 must have failed it.""
 
-P3 : "" P2 could be lying too.""
+P3: "" P2 could be lying too.""
 
-P4 : ""It's risky to trust either of them. Try different Players.""
+P4: ""It's risky to trust either of them. Try different Players.""
 
-P5 : ""Yep, just rotate in new Players. Safer deduction.""","{
+P5: ""Yep, just rotate in new Players. Safer deduction.""","{
   ""P2"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Bold falsehoods"",""scale"":""Mach-IV"",""level"":""High""},
   ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
   ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
@@ -1847,13 +1847,13 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
 Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P2 : ""I didn't fail it. It must've been P1.""
+P2: ""I didn't fail it. It must've been P1.""
 
-P3 : ""Can't Trust, P2 can be lying too?""
+P3: ""Can't Trust, P2 can be lying too?""
 
-P4 : ""Let's calm down and test new players next time.""
+P4: ""Let's calm down and test new players next time.""
 
-P5 : ""Maybe P2's reaction is a little too strong... could be hiding something.""","{
+P5: ""Maybe P2's reaction is a little too strong... could be hiding something.""","{
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Baysien hedging"",""scale"":""GRS"",""level"":""Moderate""},
   ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
@@ -1973,7 +1973,7 @@ G016,1,P1,Good,"{""P1"":""Good"",
 Leader: P1
 Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
-Quest 1 Outcome: FAIL",,"""Discussion after Quest 1:
+Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
 P3: ""I think that P1, P4 and me would make a great team.""
 
@@ -2072,10 +2072,13 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
 Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P3 : ""I'd still like to try a team of 1, 3 and 4. One bad result doesn't prove anything.""
-P2 : ""Give me a break! P1 sabotaged, as I played Pass.""
-P5 : ""Exactly. Let's leave P1 out next round and we'll be fine.""
-P4 : ""Slow down. P2 could be framing 1. We need real evidence first.""","{
+P3: ""I'd still like to try a team of 1, 3 and 4. One bad result doesn't prove anything.""
+
+P2: ""Give me a break! P1 sabotaged, as I played Pass.""
+
+P5: ""Exactly. Let's leave P1 out next round and we'll be fine.""
+
+P4: ""Slow down. P2 could be framing 1. We need real evidence first.""","{
   ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""High""},
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
    ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus "",""scale"":""Mach-IV"",""level"":""Moderate""},
@@ -2166,10 +2169,13 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
 Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P3 : ""Maybe swap in P1, 4 and me, as a fresh mix, no repeats.""
-P2 : ""Reasonable. We shouldn't point fingers yet; early fails happen. Let's gather more data.""
-P5 : ""Agree, lets keep emotions out; I'm OK trying P1, 3 and 4 too.""
-P4 : ""Fine by me, but we'll need to track voting patterns carefully.""","{
+P3: ""Maybe swap in P1, 4 and me, as a fresh mix, no repeats.""
+
+P2: ""Reasonable. We shouldn't point fingers yet; early fails happen. Let's gather more data.""
+
+P5: ""Agree, lets keep emotions out; I'm OK trying P1, 3 and 4 too.""
+
+P4: ""Fine by me, but we'll need to track voting patterns carefully.""","{
   ""P3"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Omission to save face"",""scale"":""Mach-IV"",""level"":""High""},
    ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""},
@@ -2275,10 +2281,13 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:N P5:Y
 Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P3 : ""As Quest 1 failed, safest path would be choosing new players. we can try P3, 4 and 5.""
-P2 : ""As I passed, P1 should be the one failed. lets drop P1, keep me.""
-P5 : ""If P1's off, that will work for me.""
-P4 : ""Or exclude both P1 & 2.""","{
+P3: ""As Quest 1 failed, safest path would be choosing new players. we can try P3, 4 and 5.""
+
+P2: ""As I passed, P1 should be the one failed. lets drop P1, keep me.""
+
+P5: ""If P1's off, that will work for me.""
+
+P4: ""Or exclude both P1 & 2.""","{
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}, 
  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
  ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""},
@@ -2386,10 +2395,13 @@ Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
 Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P2 : ""Honestly the fail clearly shows P1 failed it, I do not want to team with them again.""
-P3 : ""We never know, should not beleive P1 or P2""
-P5 : ""We should absolutely sideline P1 for safety.""
-P4 : ""Maybe. But, one fail isn't proof, but P1 does look bad.""","{
+P2: ""Honestly the fail clearly shows P1 failed it, I do not want to team with them again.""
+
+P3: ""We never know, should not beleive P1 or P2""
+
+P5: ""We should absolutely sideline P1 for safety.""
+
+P4: ""Maybe. But, one fail isn't proof, but P1 does look bad.""","{
   ""P2"": {""row"": ""Counterfactual"", ""col"": ""Defensive"", ""tactic"": ""Deflection"", ""scale"": ""Mach-IV"", ""level"": ""High""},
   ""P3"": {""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""},
   ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus"", ""scale"": ""Mach-IV"", ""level"": ""High""},
@@ -3011,12 +3023,15 @@ G025,1,P1,Good,"{""P1"":""Good"",
 Leader: P1
 Team: P1, P4
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
-Quest 1 Outcome: FAIL",,"""Discussion after Quest 1:
+Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
-P3: 'We should change it up. How about P2, 5, and me?'
-P2: 'That could work, but what if P5 turns out to be Evil?'
-P5: 'Why me? I wasn't on the last mission. This seems like scapegoating.'
-P4: 'It's simple. I passed. So, the fail came from P1.'""","{
+P3: ""We should change it up. How about P2, 5, and me?""
+
+P2: ""That could work, but what if P5 turns out to be Evil?""
+
+P5: ""Why me? I wasn't on the last mission. This seems like scapegoating.""
+
+P4: ""It's simple. I passed. So, the fail came from P1.""","{
   ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
  ""P5"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""Mach-IV"",""level"":""Moderate""},
