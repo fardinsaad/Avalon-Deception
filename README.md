@@ -19,12 +19,29 @@ Avalon-deception/
 ├── log-gen.ipynb                      # Round 1: Dialogue generation notebook
 ├── log-gen-r2.ipynb                   # Round 2: Two-pass dialogue generation notebook
 ├── log-gen-verifier.ipynb             # Dialogue verification notebook (all rounds)
+├── log-gen-verifier-4c.ipynb          # Second-pass recheck of corrected R1 rows
 ├── Deception-Dataset.csv              # Master dataset (250 games, all rounds)
 ├── tactics_knowledge_base.json        # 4×4 behavior matrix (37 tactics)
 ├── llm.py                             # OpenAI API wrapper
 ├── gemini.py                          # Google Gemini API wrapper
 ├── requirements-seed-generation.txt   # Python dependencies
-└── .env                               # API keys (create this file)
+├── .env                               # API keys (create this file)
+├── Datasets/
+│   ├── seeds/                         # Generated (unverified) dialogue CSVs
+│   │   ├── generated_r1_seeds_gemini3.csv
+│   │   ├── generated_r1_seeds_gpt5_2.csv
+│   │   ├── generated_r2_seeds_gemini3.csv
+│   │   └── generated_r2_seeds_gpt5_2.csv
+│   ├── verified/                      # Verified dialogue CSVs (Claude verifier output)
+│   │   ├── verified_r1_seeds_combined.csv
+│   │   └── verified_r1_criteria_scores.csv
+│   └── role_history/                  # Player role assignment and public history files
+│       ├── Avalon_Balanced_250_Dataset_Round1.csv
+│       ├── Avalon_R1_Public_History.csv
+│       ├── Avalon_R1_Public_History_F.csv
+│       ├── Avalon_FINAL_Public_history.csv
+│       └── Deception_Dataset_Augmented_Public_History-Full.csv
+└── fig/                               # Role balance and distribution figures
 ```
 
 ## Installation
