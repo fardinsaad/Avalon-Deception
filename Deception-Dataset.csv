@@ -1717,8 +1717,7 @@ G014,1,P1,Good,"{""P1"":""Good"",
 Leader: P2
 Team: P1, P2
 Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
-Quest 1 Outcome: FAIL",,"
-Discussion after Quest 1:
+Quest 1 Outcome: FAIL",,"Discussion after Quest 1:
 
 P2 : ""I passed, so P1 must have failed it.""
 
