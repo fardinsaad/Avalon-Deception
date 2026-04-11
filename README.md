@@ -16,10 +16,11 @@ This repository contains a complete pipeline for generating and verifying AI-gen
 
 ```
 Avalon-deception/
-├── log-gen.ipynb                      # Round 1: Dialogue generation notebook
+├── log-gen-r1.ipynb                   # Round 1: Dialogue generation notebook
 ├── log-gen-r2.ipynb                   # Round 2: Two-pass dialogue generation notebook
-├── log-gen-verifier.ipynb             # Dialogue verification notebook (all rounds)
-├── log-gen-verifier-4c.ipynb          # Second-pass recheck of corrected R1 rows
+├── log-gen-verifier-r1.ipynb          # Round 1: Dialogue verification (Layer 1 pair comparison + Layer 2 recheck)
+├── log-gen-verifier-r1-4c.ipynb       # Round 1: Standalone second-pass recheck (historical; Layer 2 now integrated into per-round verifiers)
+├── log-gen-verifier-r2.ipynb          # Round 2: Combined verification notebook (Layer 1 + Layer 2, prior_summary_gold context)
 ├── Deception-Dataset.csv              # Master dataset (250 games, all rounds)
 ├── tactics_knowledge_base.json        # 4×4 behavior matrix (37 tactics)
 ├── llm.py                             # OpenAI API wrapper
@@ -34,7 +35,9 @@ Avalon-deception/
 │   │   └── generated_r2_seeds_gpt5_2.csv
 │   ├── verified/                      # Verified dialogue CSVs (Claude verifier output)
 │   │   ├── verified_r1_seeds_combined.csv
-│   │   └── verified_r1_criteria_scores.csv
+│   │   ├── verified_r1_criteria_scores.csv
+│   │   ├── verified_r2_seeds_combined.csv      # (generated after R2 verification)
+│   │   └── verified_r2_criteria_scores.csv     # (generated after R2 verification)
 │   └── role_history/                  # Player role assignment and public history files
 │       ├── Avalon_Balanced_250_Dataset_Round1.csv
 │       ├── Avalon_R1_Public_History.csv
@@ -84,7 +87,7 @@ Round 2 generation uses a **two-pass pipeline**:
 - **PASS 1 (GPT-5.2)** — Tactic pre-computation: reads each player's Round 1 tactic as a seed anchor, considers the current game state, and outputs a strategically evolved `matrix_tactic_scale` for Round 2.
 - **PASS 2 (GPT-5.2 or Gemini-3.1)** — Dialogue generation: uses the PASS 1 pre-computed matrix as assigned tactics, generates a 4-speaker discussion log grounded in the cumulative public history and prior Round 1 dialogue.
 
-> **Prerequisite**: `Deception-Dataset.csv` must have Round 1 `discussion_log` and `matrix_tactic_scale` populated (completed via `log-gen.ipynb` + `log-gen-verifier.ipynb`).
+> **Prerequisite**: `Deception-Dataset.csv` must have Round 1 `discussion_log` and `matrix_tactic_scale` populated (completed via `log-gen-r1.ipynb` + `log-gen-verifier-r1.ipynb`).
 
 ---
 
@@ -144,9 +147,10 @@ PASS2_NUM_GAMES = 2                  # Test: 2 games
 
 ### Step 4 — Verify outputs
 
-Run `log-gen-verifier.ipynb` on both PASS 2 outputs (same 5-criteria pipeline as Round 1):
-- Input: `generated_r2_seeds_gemini3.csv` + `generated_r2_seeds_gpt5_2.csv`
-- Output: `verified_r2_seeds_combined.csv` + `verified_r2_criteria_scores.csv`
+Run `log-gen-verifier-r2.ipynb` on both PASS 2 outputs (combined two-layer pipeline: Layer 1 pair comparison + Layer 2 second-pass recheck):
+- Input: `Datasets/seeds/generated_r2_seeds_gemini3.csv` + `generated_r2_seeds_gpt5_2.csv`
+- Output: `Datasets/verified/verified_r2_seeds_combined.csv` + `verified_r2_criteria_scores.csv`
+- `prior_summary_gold` (R1 discussion summaries) is automatically read from the seed CSVs and passed to the verifier prompt
 
 ---
 
