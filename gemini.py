@@ -5,9 +5,9 @@ from google import genai
 from google.genai import errors
 
 # Load environment variables from the .env file
-print("Before loading .env:", os.getenv('GEMINI_API_KEY'))
+# print("Before loading .env:", os.getenv('GEMINI_API_KEY'))
 load_dotenv(override=True)  # Force override existing environment variables
-print("After loading .env:", os.getenv('GEMINI_API_KEY'))
+# print("After loading .env:", os.getenv('GEMINI_API_KEY'))
 
 # Set Gemini API key from environment variable
 key = os.getenv('GEMINI_API_KEY')
