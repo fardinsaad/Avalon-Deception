@@ -2,7 +2,7 @@
 import backoff
 from dotenv import load_dotenv
 from google import genai
-from google.genai import errors
+from google.genai import errors, types
 
 # Load environment variables from the .env file
 # print("Before loading .env:", os.getenv('GEMINI_API_KEY'))
@@ -25,45 +25,46 @@ def get_gemini_completion(**kwargs):
     
     Usage:
         response = get_gemini_completion(
-            model="gemini-2.0-flash-exp",
+            model="gemini-3.1-pro-preview",
             prompt="Your prompt here",
-            temperature=0.5,
-            max_output_tokens=1024
+            max_output_tokens=512
         )
     """
-    model_name = kwargs.get('model', 'gemini-2.0-flash-exp')
+    model_name = kwargs.get('model', 'gemini-3.1-pro-preview')
     prompt = kwargs.get('prompt', kwargs.get('messages', ''))
-    temperature = kwargs.get('temperature', 0.5)
-    max_output_tokens = kwargs.get('max_output_tokens', kwargs.get('max_tokens', 1024))
-    
+    max_output_tokens = kwargs.get('max_output_tokens', kwargs.get('max_tokens', 512))
+
+    system_instruction = None
+    contents = prompt
+
     # Handle messages format (OpenAI-style) for compatibility
     if isinstance(prompt, list):
-        # Convert messages list to single prompt
-        prompt_text = ""
+        user_parts = []
         for msg in prompt:
             role = msg.get('role', '')
             content = msg.get('content', '')
             if role == 'system':
-                prompt_text += f"{content}\n\n"
+                system_instruction = content
             elif role == 'user':
-                prompt_text += content
-        prompt = prompt_text
-    
+                user_parts.append(content)
+        contents = '\n'.join(user_parts)
+
+    config_kwargs = {'max_output_tokens': max_output_tokens}
+    if system_instruction:
+        config_kwargs['system_instruction'] = system_instruction
+
     response = client.models.generate_content(
         model=model_name,
-        contents=prompt,
-        config={
-            'temperature': temperature,
-            'max_output_tokens': max_output_tokens,
-        }
+        contents=contents,
+        config=types.GenerateContentConfig(**config_kwargs),
     )
-    
+
     # Return response in a format similar to OpenAI
     class GeminiResponse:
         def __init__(self, text):
             self.text = text.strip()
             self.choices = [type('obj', (object,), {'message': type('obj', (object,), {'content': self.text})()})]
-    
+
     return GeminiResponse(response.text)
 
 def get_response(prompt):
@@ -92,7 +93,7 @@ if __name__ == '__main__':
             
         # Test with a sample prompt
         print("\nTesting API with sample prompt...")
-        test_prompt = "Name a country that starts with K?"
+        test_prompt = "Name three countries that start with K?"
         try:
             result = get_response(test_prompt)
             print(f"Gemini Response: {result}")
