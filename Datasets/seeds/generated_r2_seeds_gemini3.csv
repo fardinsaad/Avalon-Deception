@@ -263,6 +263,28 @@ P2: ""P3 obviously threw that fail to frame P4, and you're all falling for the e
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""}
 }"
+G013,2,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 2
+ Leader: P3
+ Team: P3, P4, P5
+ Votes: P1:N P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: FAIL",,"Discussion after Quest 2:
+
+P3: ""I know I played a pass, so the fail this time definitely came from either P4 or P5.""
+
+P5: ""I passed too, so P4 has to be the spy, and logically that means P2 was the one who failed the first mission.""
+
+P4: ""Before we jump to conclusions, look at the votes: P1 was the only person to reject this team.""
+
+P2: ""Exactly, P1 probably sabotaged the first mission and is just using that 'no' vote to distance themselves from the fallout.""","{
+  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}
+}"
 G014,2,P1,Good,"{""P1"":""Good"",
   ""P2"":""Evil"",
   ""P3"":""Good"",
@@ -615,6 +637,28 @@ P3: ""From my perspective off the team, the fail likely sits between P1 and P5, 
   ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
   ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""}
 }"
+G030,2,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 2
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 2 Outcome: PASS",,"Discussion after Quest 2:
+
+P3: ""See guys, I told you adding me to the P1 and P2 duo was the right move! I know P4 voted no, but we got the pass and that's two points for us, so I'm just really hyped that my team worked out.""
+
+P4: ""I know I suggested adding P3, but I voted no because locking the team in without testing my node felt like we were settling too fast. I'm glad it passed, but remember that evil can easily choose to pass early quests, so let's not pretend this trio is completely cleared.""
+
+P5: ""I believe the entire table recognizes that while this configuration yielded a positive outcome, it's statistically imperative we integrate the remaining nodes next. We all agree that relying on a static subgroup indefinitely is a suboptimal strategy for variance isolation.""
+
+P2: ""Approving P3's team was the most rational play since it minimized our variables by keeping the round one pair intact. We now have a solid block of three that has successfully delivered twice, which gives us a very strong foundation moving into the mid-game.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Noisy sincerity"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
 G031,2,P1,Good,"{""P1"":""Good"",
   ""P2"":""Evil"",
   ""P3"":""Evil"",
@@ -769,6 +813,28 @@ P2: ""Look, I wasn't even on this last quest, so you can't use it to put heat on
   ""P3"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""High""},
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""}
 }"
+G038,2,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 2
+ Leader: P3
+ Team: P3, P4, P5
+ Votes: P1:N P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: FAIL",,"Discussion after Quest 2:
+
+P5: ""Quest 2 failing means there's an Evil among P3, P4, and myself. Since Quest 1 also failed, the evidence strongly points to exactly one Evil in {P1, P2} and one in {P3, P4, P5}.""
+
+P4: ""I didn't even want this team to go through, but P3 and P5 forced the vote just so they could sabotage it and blame me!""
+
+P3: ""You literally voted to approve the team, P4. Given that contradiction, there's a very high probability you're the Evil here, though I'm keeping a small margin of doubt just in case P5 is pulling a massive bluff.""
+
+P2: ""P5's logic on the split is completely accurate, but notice that P1 was the only person to actually vote against this team. We should be looking at why P1 rejected it while we all blindly approved.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
 G039,2,P1,Good,"{""P1"":""Good"",
   ""P2"":""Evil"",
   ""P3"":""Good"",
@@ -812,6 +878,28 @@ P5: ""Well, my logic was that an evil player would definitely just fail it to ge
   ""P2"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""},
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
   ""P5"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Rationalized error"",""scale"":""Mach-IV"",""level"":""Low""}
+}"
+G041,2,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 2
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: FAIL",,"Discussion after Quest 2:
+
+P4: ""I know how this looks since I proposed the team, but I obviously played a Pass card. The fail has to be from either P1 or P2, and since P1 passed Round 1, I'm leaning heavily toward P2.""
+
+P2: ""It's convenient to blame me, P4, but let's remember you forced this team composition and P1 could easily be a deep-cover spy who passed early. We shouldn't just assume P1 is clear when you both had equal opportunity to sabotage.""
+
+P3: ""P2 makes a fair point; evil passes the first quest all the time to buy credibility, and P1 was on both teams. If P1 is playing the long game, it makes perfect sense they'd fail it now when there's more cover.""
+
+P5: ""Let's look at the team overlap: P1 was on the first passing quest, leaving P2 and P4 as the new variables on this failed one. Since P4 led the team and is actively hunting the fail, P2 is statistically our most logical suspect.""","{
+  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Defensive disclosure"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
 }"
 G042,2,P1,Good,"{""P1"":""Good"",
   ""P2"":""Good"",
@@ -2507,6 +2595,28 @@ P4: ""I understand your caution, P2, because you're right that spies often hide 
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""Moderate""}
 }"
+G119,2,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 2
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: PASS",,"Discussion after Quest 2:
+
+P1: ""Two clean passes in a row with unanimous approval means we're all clearly seeing the same reliable core here. Let's just keep riding this unified momentum instead of second-guessing a winning formula.""
+
+P4: ""I voted yes just to see what would happen, but honestly P1 being on both teams doesn't sit right with me. Evil passes early all the time, so I'm not giving them a free pass just because the mission succeeded.""
+
+P2: ""Being on that team makes me lean toward trusting P3, and maybe P1 too, but there's always the probability that an evil player threw a pass to buy credibility. I think we're in a good spot, but we should probably rotate someone next just to test the odds.""
+
+P5: ""Okay, but the only undeniable fact right now is that P4 is literally the only person who hasn't contributed to a successful mission yet. While the rest of us are actually passing quests, it's pretty convenient to just sit on the sidelines and cast doubt.""","{
+  ""P1"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""}
+}"
 G120,2,P3,Good,"{""P1"":""Evil"",
   ""P2"":""Good"",
   ""P3"":""Good"",
@@ -3519,6 +3629,28 @@ P3: ""Statistically, Evil has little incentive to fail Quest 2 on a three-person
   ""P1"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}
 }"
+G166,2,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 2
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: PASS",,"Discussion after Quest 2:
+
+P1: ""I put P2 and P3 on my team because I wanted to see if they would pass, and since they did, it proves my choices were good.""
+
+P3: ""Notice how P1 is the only player on both passing teams, and I just helped secure this one, so the two of us are clearly the best foundation.""
+
+P5: ""I think everyone agrees that P1 and P3 are completely safe now, so we should just put them on the next quest with me to keep the streak alive.""
+
+P2: ""While a pass definitely increases the likelihood that this group is clean, we have to remember that evil frequently passes Round 2 to build credibility, so I wouldn't lock anyone in as confirmed.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""High""}
+}"
 G167,2,P4,Good,"{""P1"":""Good"",
   ""P2"":""Evil"",
   ""P3"":""Good"",
@@ -3893,6 +4025,28 @@ P1: ""You're all just blindly trusting P2's narrative when they were the one who
   ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
   ""P1"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Moderate""}
 }"
+G184,2,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 2
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 2 Outcome: PASS",,"Discussion after Quest 2:
+
+P5: ""See guys, I told you we just needed to keep our options open, and now we've got another pass under our belts! I think we can all agree that P1, P2, and I are a solid core to build the next team around.""
+
+P1: ""Oh man, two passes in a row is amazing, I knew I could trust you guys on that mission! Honestly, I'm just so relieved it worked out, we're totally going to win this if we just stick together!""
+
+P2: ""While I'm glad the mission passed, we need to remember that an evil player often passes early missions to infiltrate the group, so we shouldn't blindly trust this exact team for the next round. P4's rejection vote is also interesting data we need to factor in, as they were on the first successful team.""
+
+P3: ""I voted yes because the team looked reasonable, and clearly it was since it passed, but P2 makes a fair point about early missions. I'm just glad I helped approve a successful team, even if we still need to be careful about who we add next.""","{
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Noisy sincerity"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Half-truths"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""}
+}"
 G185,2,P4,Good,"{""P1"":""Evil"",
   ""P2"":""Evil"",
   ""P3"":""Good"",
@@ -4222,6 +4376,28 @@ P5: ""I guess there's a good probability P1 is telling the truth and either P2 o
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P3"": {""row"":""Transparent"",""col"":""Opportunistic"",""tactic"":""Weaponized candor"",""scale"":""Mach-IV"",""level"":""Moderate""},
   ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""}
+}"
+G200,2,P4,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 2
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: FAIL",,"Discussion after Quest 2:
+
+P5: ""P1 is the only player present on both failed quests, making them the objective common denominator. Furthermore, P1 choosing to bring P2—the only person who defended them yesterday—strongly points to a P1/P2 evil pair.""
+
+P1: ""You're ignoring the math: if you actually failed Round 1, P5, then P2 or P3 failing this round creates the exact same 'common denominator' illusion you're using to frame me right now.""
+
+P3: ""Wait, I know I put a pass card in, so it literally has to be P1 or P2 who sabotaged it. P1 being on both just makes it super obvious it's them, right?""
+
+P2: ""Everyone is tunneling on P1's overlap, but let's remember P3 specifically pushed to 'test' me today. I played a pass, so P3's little test failing makes them look just as guilty.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
 }"
 G201,2,P5,Good,"{""P1"":""Evil"",
   ""P2"":""Good"",
@@ -5300,4 +5476,26 @@ P4: ""Or maybe P3 is just lying about their pass to force a wedge between the Ro
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
   ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G250,2,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 2
+ Leader: P5
+ Team: P1, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: FAIL",,"Discussion after Quest 2:
+
+P4: ""Okay, so P1, P3, and P5 were on that failed quest, which gives us some concrete facts: the bad guys have to be spread between that group and P2 from the first round.""
+
+P3: ""It's mathematically true that a fail came from our team, but we should also look at how quickly everyone voted to approve a completely untested trio just like we did in round one.""
+
+P1: ""Yeah I mean, I just went on the quest because P5 put me on it, I don't really know what's going on or why it failed, but it definitely wasn't me doing the sabotaging.""
+
+P2: ""P4, you're awfully quick to point fingers at everyone else when you literally handpicked the first failed team, so you're clearly just trying to frame people to cover your own tracks.""","{
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""}
 }"

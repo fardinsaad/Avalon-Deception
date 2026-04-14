@@ -813,6 +813,28 @@ P5: ""I’d put like 60/40 that at least one of P1/P2 is still evil from Quest 1
   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
   ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""}
 }"
+G038,2,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 2
+ Leader: P3
+ Team: P3, P4, P5
+ Votes: P1:N P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: FAIL",,"Discussion after Quest 2:
+
+P4: ""Okay, but this is exactly why I didn't want to overreact off Quest 1—now everyone’s going to pin both fails on the same two people no matter what. P1 voting no here feels like they’re steering the table into paranoia and easy scapegoats.""
+
+P5: ""Let’s stay concrete: Quest 2 team was P3/P4/P5 and it failed, so at least one of P3 or P4 is evil because I’m good. Also note P1 was the only no vote—everyone else, including P2, approved a team that contained at least one evil.""
+
+P2: ""Agreed on using the votes as data: P1 said no, and still the team went through and failed, which means the people pushing the yes are where the mistake happened. I’m not clearing anyone, but it’s a lot more informative to ask why P3 brought P4 over the obvious alternative of testing away from the Quest 1 fail pair.""
+
+P3: ""Yeah, I’ll own that I thought splitting away from P1/P2 and adding one ‘fresh’ slot would reduce risk, but obviously I was wrong somewhere. If I had to put numbers on it, I’m like 70/30 that the fail is coming from P4 rather than P5, but I’m not ready to hard-clear anyone off just two missions.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
 G039,2,P1,Good,"{""P1"":""Good"",
   ""P2"":""Evil"",
   ""P3"":""Good"",
@@ -3615,6 +3637,28 @@ P1: ""I’m more comfortable saying P2 or P5 is probably fine than saying both a
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Opportunistic"",""tactic"":""Overstated contribution"",""scale"":""Mach-IV"",""level"":""Moderate""}
 }"
+G166,2,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 2
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 2 Outcome: PASS",,"Discussion after Quest 2:
+
+P5: ""Alright, that’s two clean passes in a row — we’re basically all on the same page that the current mix is working. I think we just keep rolling with the people who’ve already been on successful teams and don’t get cute."" 
+
+P2: ""Two passes is great, but it still doesn’t hard-clear anyone because an evil can pass early to buy trust, so I’m only moving probabilities a bit. That said, P1 being on both passes nudges them upward for me, and I’d rather not lock in ‘P3 is safe’ just because this one went through."" 
+
+P3: ""Look, the part people are skipping is that the only repeat across both quests is P1, and both times it passed — that’s the most solid thing we’ve got. And since everybody approved the team again, it feels weird to suddenly act like the team was suspicious after it worked."" 
+
+P1: ""I picked P2 and P3 because I didn’t want to just run back the exact same two-person thing from Round 1, and I wanted at least one new read on the board. It passed, so I’m not trying to overthink it, but next leader should still say why they’re picking who they’re picking.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""}
+}"
 G167,2,P4,Good,"{""P1"":""Good"",
   ""P2"":""Evil"",
   ""P3"":""Good"",
@@ -3988,6 +4032,30 @@ P5: ""Mechanically, the cleanest read is: Quest 1 failing means P1 or P2 is evil
   ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
   ""P3"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G184,2,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 2
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 2 Outcome: PASS",,"Discussion after Quest 2:
+
+P5: ""Alright, two clean passes in a row — I think we’re basically on the same page that P1 and P2 look good off that, and my team choice was solid. Let’s not overthink it and just keep the core together next round.""
+
+P2: ""Quest 2 passing is informative: the team was P1/P2/P5, so either P5 is good or P5 is evil and chose not to sabotage for long-term credibility. Also note P4 voted no on that team while P3 voted yes; I’m not calling that evil, but it’s the main new signal we have besides the pass.""
+
+P3: ""I voted yes because it included the two people from the first pass plus P2, so it seemed like the safest option available. The pass doesn’t clear P5 completely, but it makes it harder to argue the pick was reckless.""
+
+P1: ""I’m kinda just relieved it passed, because if P5 was evil and on it, they could’ve totally blown it up and didn’t, so that feels good? Also P4 voting no on a team with me and P2 is confusing, like are they paranoid or do they just really not trust P5.""
+
+","{
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Noisy sincerity"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Half-truths"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""}
 }"
 G185,2,P4,Good,"{""P1"":""Evil"",
   ""P2"":""Evil"",
