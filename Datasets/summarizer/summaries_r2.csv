@@ -19,13 +19,13 @@ Leader: P5 | Team: P2, P3, P5 | Vote: Approved (P1 voted no) | Outcome: FAIL
 
 P3 blamed P2 for pushing a convenient narrative and pointed to P1's no vote as a warning the group ignored. P2 argued that the overlap between failed quests points to P3 and P4 as suspects, while P5 defended the decision to include herself as a known variable but acknowledged the outcome looked bad. P4 protested being blamed for Quest 1's failure and suggested P5's choice to include P3 was risky, leaving tension focused on P3, P4, and suspicion beginning to shift toward P5's leadership judgment."
 G006,2,"Round 2 Summary:
-Leader: P4 | Team: P2, P4, P5 | Vote: Approved (only P1 voted no) | Outcome: FAIL
+Leader: P4 | Team: P2, P4, P5 | Vote: Approved (P1 voted no) | Outcome: FAIL
 
-P5 immediately pointed to P2 or P4 as the saboteur, emphasizing P5's own pass card and P4's leadership role. P4 defended the team selection and insisted P4 played pass, suggesting either P2 or P5 was responsible, while P2 expressed confusion over which teammate was deceiving P2. P3 redirected attention to P1's solo reject vote, framing it as suspicious distancing from a predicted failure. The core conflict now centers on mutual accusations among P2, P4, and P5, with P3's redirection adding pressure on P1."
+P3 highlighted that P4 appeared on both failed quests and suggested a pattern of blame-shifting, while P5 cited the voting record to argue P4 was the simplest common factor and the likeliest saboteur. P4 defended the team selection by explaining P2 and P5 seemed most trustworthy after Round 1, and P2 expressed confusion since P2 had advocated for this exact trio but now doubted whether removing P1 and P3 was the right call. Suspicion now centers heavily on P4, with P3 attempting to redirect scrutiny and P2 caught between trusting P4's rationale and questioning P2's own judgment."
 G007,2,"Round 2 Summary:
 Leader: P4 | Team: P2, P4, P5 | Vote: Approved but P1 voted no | Outcome: FAIL
 
-P2 immediately stated the sabotage must have come from P4 or P5, while P4 blamed P2 for suggesting P5 and P5 accused P4 of lying. P3 deflected suspicion by pointing out that P5's mission failed despite P5's earlier accusations against P3. The core conflict now centers on whether P4 or P5 sabotaged the quest, with P2 caught between them and P3 using the failure to redirect attention away from earlier scrutiny."
+P3 highlighted that P4 appeared on both failed quests and praised P1 for being the sole dissenter, while P2 pointed to P3 and P4 as the overlapping suspects across both missions. P4 challenged P2's logic by questioning why P2 approved the team if it seemed unsafe, and P5 expressed regret for supporting the proposal, calling out both P4 and P3 as no longer trustworthy. The round solidified P4 as the primary suspect, with P3 and P2 emerging as secondary points of contention heading into the next leader's decision."
 G008,2,"Round 2 Summary:
 Leader: P4 | Team: P2, P4, P5 | Vote: Approved (P1 voted no) | Outcome: FAIL
 
@@ -35,9 +35,9 @@ Leader: P4 | Team: P2, P4, P5 | Vote: Approved but P1 voted no | Outcome: FAIL
 
 P3 argued P1 was the common factor across both failed missions and questioned why P4 would sabotage their own team, while P2 cited the voting record to narrow suspicion to P4 or P5 and accused P4 of framing by pushing to drop both P1 and P3 last round. P4 defended the team rotation as necessary and redirected focus to P1's blocking vote, prompting P5 to lean toward P4 as the likely culprit and propose sitting out either P3 or P4 next round to isolate the source of the failures. Tension between P2 and P4 solidified, with P5's proposal to rotate out suspects setting the stage for next round's team composition debate."
 G010,2,"Round 2 Summary:
-Leader: P4 | Team: P2, P4, P5 | Vote: Approved (only P1 rejected) | Outcome: FAIL
+Leader: P4 | Team: P2, P4, P5 | Vote: Approved but P1 voted no | Outcome: FAIL
 
-P5 claimed innocence and pointed to P2 or P4 as responsible for the sabotage, while P4 immediately accused P5 of covering up the fail. P2 countered by arguing that P4's blind accusation was illogical and used elimination to conclude P4 must be the saboteur, while P3 redirected attention to P1's lone rejection vote as worth monitoring. The sharpest tension emerged between P4 and P2/P5, with P1's dissenting vote becoming a secondary focal point for future scrutiny."
+P4 immediately deflected blame onto P1 for the lone rejection vote, while P5 cited the mission overlap to suspect P3 and P4 as the probable pair. P3 turned suspicion back onto P1 by highlighting P1's presence on the first failed mission and sole NO vote on the second, framing P1 as steering outcomes. P2 suggested removing both P3 and P4 from future teams to test the hypothesis, marking those two as the emerging targets while P1's cautious vote became a contested signal of either prudence or sabotage."
 G011,2,"Round 2 Summary:
 Leader: P3 | Team: P3, P4, P5 | Vote: Approved (P1 voted no) | Outcome: FAIL
 
@@ -92,7 +92,7 @@ P3 pointed to the vote record showing the only difference between the passing fi
 G024,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P5 | Vote: Approved (only P1 voted no) | Outcome: PASS
 
-P2 defended the team composition as logically sound after the successful quest, while P3 acknowledged the positive result but cautioned against assuming complete safety. P5 and P4 both pivoted attention to P1's dissenting vote, with P4 arguing that P1's rejection of a passing team made P1 highly suspicious. The consensus around the P2-P3-P5 trio strengthened, isolating P1 as the primary target of doubt heading into the next round."
+P4 cited the successful quest as evidence clearing P5 and redirected focus back to the Round 1 failure involving P1 and P4, while P2 justified the team composition by arguing the pass showed at most one member could be suspect and proposed avoiding the P1/P4 pairing going forward. P5 dismissed the Round 1 vote record as uninformative and reinforced P4's framing that P1 remained the primary suspect, while P3 expressed lingering doubt about both P1 and P4 but acknowledged the possibility of strategic cooperation. The discussion solidified a tentative alliance around P2, P3, and P5, with P1 increasingly isolated and P4 successfully positioning P1 as the central threat despite sharing the failed mission."
 G025,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P5 | Vote: Approved (only P1 voted no) | Outcome: FAIL
 
@@ -108,7 +108,7 @@ P4 downplayed the significance of the passing quest by arguing it was low-varian
 G028,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: PASS
 
-P2 argued the clean pass validated the team as a reliable core to maintain, while P3 reinforced this by framing the trio as the only confirmed foundation. P4 accepted the result but cautioned that passing early can be a trust-building tactic and suggested testing others eventually, and P5 expressed reluctance to treat the pass as clearance, advocating strongly for rotating players next round to gather more data. The round ended with tension between P2 and P3 pushing to lock in the same team versus P4 and P5 favoring broader testing."
+P2 framed the pass as clearing the team and suggested the Round 1 fail was likely P1's doing, while P4 cautioned that the pass doesn't eliminate all suspicion since passing early can be a strategic choice. P3 redirected focus back onto the Round 1 pair (P1 and P2), arguing the data points more toward them, and P5 expressed uncertainty about whether P2 failed Quest 1 and is now rebuilding trust or whether P1 was responsible. The group remains divided on whether to trust P2 or continue testing outside the original duo, setting up tension over team composition in the next round."
 G029,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -118,9 +118,9 @@ Leader: P3 | Team: P1, P2, P3 | Vote: Approved 4–1 (P4 voted no) | Outcome: PA
 
 P4 preemptively justified the sole no vote by framing it as caution rather than obstruction and urged future leaders to trust the proven core trio. P2 emphasized the clean pass validated at least two of the three on the team and flagged P4's dissenting vote as worth monitoring in future rounds. P5 pushed to avoid overthinking the success and keep building from the core, while P3 expressed relief and openly questioned why P4 would reject a team that successfully passed. P4's isolated no vote became the focal tension, with P2 and P3 signaling they will scrutinize whether P4 continues resisting trusted players."
 G031,2,"Round 2 Summary:
-Leader: P2 | Team: P2, P3, P4 | Vote: Approved (only P1 voted no) | Outcome: PASS
+Leader: P2 | Team: P2, P3, P4 | Vote: Approved but P1 voted no | Outcome: PASS
 
-P2 argued the successful quest proved the group was aligned and dismissed earlier suspicions as overblown, while P4 pointed out that P2 remained a suspect from the Round 1 failure and questioned why P1 voted against a passing team. P3 highlighted P4's presence on the successful mission as a trust signal and suggested moving past the earlier failure, but P5 maintained moderate suspicion of P2 as the common link and proposed future teams include P1 with minimal overlap to the current roster. The core tension between trusting P2 versus isolating P2 from future missions remained unresolved, with P1's lone dissenting vote drawing quiet scrutiny."
+P2 claimed the successful quest validated the team and dismissed Round 1 concerns as overblown, while P4 pointed out that P2 remains a suspect from the Round 1 failure and questioned why P1 rejected the team. P3 emphasized P2's presence on both missions as the only hard fact and suggested P4 could be trusted based on the clean pass, while P5 expressed lingering suspicion of P2 as the common thread but acknowledged reduced certainty. The debate left P2 and P3 under scrutiny from P4 and P5, with P1's dissenting vote unexplained and likely to fuel distrust in the next round."
 G032,2,"Round 2 Summary:
 Leader: P3 | Team: P1, P3, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -154,17 +154,17 @@ Leader: P5 | Team: P2, P3, P5 | Vote: Approved but P1 voted no | Outcome: PASS
 
 P5 justified excluding P4 after Round 1's failure and expressed confidence in P2 and P3 after the successful quest, while P4 highlighted P1's lone rejection vote as suspicious and deflected earlier accusations. P2 defended the team composition by citing P4's earlier suggestions, and P3 proposed testing P1 or P4 individually on the next mission to isolate the source of Round 1's failure. The successful outcome shifted focus toward P1's dissenting vote and created pressure to test P1 and P4 separately rather than together."
 G040,2,"Round 2 Summary:
-Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous approval | Outcome: PASS
+Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: PASS
 
-P2 argued that two consecutive passes with unanimous support indicated consensus and that suspicion should not be invented arbitrarily, while P4 cautioned that the pass did not clear anyone since hiding players might pass strategically. P5 interpreted the result as confirming P3 and P1 from the first quest, suggesting the team likely contained no threats, but P3 countered that the passes only showed strategic positioning and advocated for Quest 3 to test one new variable rather than repeating the same lineup. The tension between P2's push for continuity and P3's call for methodical rotation will likely shape the next leader's proposal."
+P4 argued the quest outcome validated the team as trustworthy and suggested continuing with the same players, while P2 pushed hard for repeating the exact lineup claiming all three were cleared. P3 warned that passing Round 2 is a common trust-building tactic and cautioned against treating anyone except possibly P1 as fully confirmed, while P5 asserted that the pass proved no spies were present because they would have taken an easy sabotage. The tension centers on whether the successful quest genuinely clears P2 and P4 or whether skepticism should remain, with P3's caution likely to fuel debate over team composition in the next round."
 G041,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: FAIL
 
 P2 immediately deflected blame toward P1 as the common member across both quests, while P5 outlined the logical deduction that either P2 or P4 caused the failure and proposed isolating P2 and P3 in future teams. P4 defended the team composition as an information-gathering move and confidently accused P2, but P3 countered by suggesting P4's quick accusation was suspicious and advocated testing P4 by excluding him next round. The sharpest tension now sits between P4 and P2, with P3 amplifying doubt about P4's leadership and P5 anchoring the group to vote-record logic."
 G042,2,"Round 2 Summary:
-Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous approval | Outcome: PASS
+Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
 
-P5 claimed the successful quest validated P1, P2, and P5 as a trustworthy core team, while P4 cautioned that the group should not assume the entire team was clear since early quest passes can be tactical trust-building by any alignment. P3 emphasized P3's own role in supporting the team and claimed credit for the momentum, while P2 offered minimal commentary. The round established P5's push to lock in the same trio versus P4's more skeptical stance, setting up tension over whether to rotate the team or rely on repeat members in future rounds."
+P5 emphasized the successful track record and discouraged paranoia, while P4 proposed testing P3 next since P3 remained untested across both missions. P3 claimed credit for maintaining momentum and volunteered for the next quest, while P2 offered vague agreement without strong opinions. The round reinforced trust in P1, P2, and P5 as the proven core, with growing pressure to include P3 in future missions to verify their trustworthiness."
 G043,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -176,7 +176,7 @@ P2 deflected blame from Quest 1 back onto P5 and highlighted P3's inclusion on t
 G045,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: PASS
 
-P4 cited the pass as clearing the team but emphasized that Quest 1's failure still implicated P1 or P2, advocating to test away from P2. P2 argued the pass directionally cleared the team and suggested focusing suspicion on players not on the successful mission, while P5 maintained modest suspicion of P2 despite the pass and proposed testing P1 with P4 and P5 next. P3 defended P2 by urging the group to prioritize the tangible success over hypothetical evil strategies, warning that continued focus on P2 could overlook other suspects."
+P4 argued the pass doesn't clear P2 because the failed Quest 1 still implicates P1 or P2, while P2 and P3 pushed to interpret the pass as clearing the entire team and shift focus away from themselves. P5 remained cautious, suggesting P2 stay off the next team to test whether another pass occurs without P2, while P3 redirected attention to P1 as the loudest target. The round ended with P2 and P3 gaining tentative credibility from the pass, but P4 and P5 resisting a full clear and advocating rotation to isolate P2's influence."
 G046,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: PASS
 
@@ -188,23 +188,23 @@ P5 argued the failure proved one of the three team members must be blamed rather
 G048,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: PASS
 
-P4 cited the clean quest result as proof of a trustworthy core and proposed running the same trio again, with P2 supporting this continuity argument on logical grounds. P5 and P3 both pushed back, warning that the unanimous approval meant the quest passed too easily and could indicate infiltration, urging rotation to test other players. The round ended with a clear divide between those advocating to lock in the proven team and those demanding wider testing before trust solidifies."
+P4 argued that two consecutive passes with P1 anchored trust in P1, P2, and P4, and pushed to test P3 or P5 next by rotating one onto the proven core. P2 reinforced this logic by citing the clean record of the Quest 2 trio, while P3 agreed publicly but subtly tried to frame the consensus as already settled to avoid deeper scrutiny. P5 defended P3 by pointing to P3's presence on the passing Quest 1 and accused the group of prematurely isolating P3 and P5, creating a quiet tension between P5's pushback and the emerging P1/P2/P4 anchor."
 G049,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
 
-P2 immediately deflected blame to P5 for including themselves on the team, while P4 cited the Quest 1 pass to narrow suspicion to P2 or P5. P5 explained the roster as an attempt to broaden trust beyond the low-signal first quest, and P3 proposed excluding at least one of P2 or P5 from future missions while favoring P4. The group reached consensus that the saboteur came from P2 or P5, with P1 treated as cleared and P4 slightly trusted, creating pressure on the next leader to split the suspected pair."
+P2 deflected blame onto P5 for self-including on the failed quest, while P4 cited the Quest 1 pass to argue the sabotage came from either P2 or P5 and recommended avoiding one of them next round. P5 defended the roster choice as a logical expansion but admitted the assumption was wrong, and P3 applied probabilistic reasoning to suggest P4 was slightly more trustworthy while urging exclusion of at least one suspect. The round narrowed suspicion sharply onto P2 and P5, with P4 gaining trust and P3 positioning as the analytical voice, setting up tension over who should be dropped from the next team."
 G050,2,"Round 2 Summary:
 Leader: P4 | Team: P2, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P2 observed that both quests failed and concluded one player from each quest team must be responsible, narrowing suspicion to pairs. P4 defended the self-nomination as standard leader behavior, while P3 attempted to shift focus away from Quest 1 and onto P5's enthusiasm for joining Quest 2. P5 argued the team composition successfully isolated the failures to specific pairs and directly accused P4 based on P5's own claimed trustworthiness, sharpening the conflict between P4 and P5 heading into the next round."
+P2 pointed to the quest results to argue that one player from each failed team must be culpable, while P4 defended the team composition as following consensus for rotation. P3 redirected attention away from the Quest 1 pair toward P5's eagerness to join Quest 2, but P5 countered by framing the failure as proof that P4 must be responsible since P5 claimed personal innocence. The round crystallized mutual accusations between P4 and P5, with P3 attempting to shield P4 by casting doubt on P5, setting up a polarized debate over which of the two Quest 2 members sabotaged the mission."
 G051,2,"Round 2 Summary:
-Leader: P3 | Team: P1, P3, P4 | Vote: Approved but P2 voted no | Outcome: FAIL
+Leader: P3 | Team: P1, P3, P4 | Vote: Approved (P2 voted no) | Outcome: FAIL
 
-P3 acknowledged the team failure but argued that being placed on consecutive missions would cause confusion, while P5 noted P3's presence on both failed quests suggested high probability of sabotage though P1 or P4 could be framing P3. P4 questioned why P2 was the sole no-vote and suggested P2 might have insider knowledge, while P1 declared P3 must be responsible since P1 knew his own card passed and proposed isolating P3 entirely by forming a team of P1, P2, and P5. The clash centered on whether P3's repeated mission presence proved guilt or whether voting patterns and other players warranted equal scrutiny."
+P3 immediately blamed P4 for the failure and urged others to stop including P4 in teams, while P4 argued the pattern could be a setup to frame P4 and questioned the obvious narrative. P5 analyzed the overlap between both failed quests and suggested P3 and P4 were the prime suspects, proposing future teams exclude both, while P1 stated P1 could no longer support any team including P3 after two consecutive failures. Suspicion centered heavily on P3 and P4, with P3 and P4 now openly accusing each other and the group polarizing around whether to trust P5's data-driven exclusion strategy or P4's framing defense."
 G052,2,"Round 2 Summary:
 Leader: P4 | Team: P2, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P5 noted the unanimous vote made this round's failure harder to parse and pointed attention to P4 leading two consecutive failed quests. P3 cited the non-overlapping failure sets to argue at least one of P1 or P3 caused Quest 1 and at least one of P4 or P5 caused Quest 2, while P4 defended the inclusion of P2 and P5 as fresh datapoints but vowed to exclude both P5 and P1 moving forward. P1 deflected blame onto P3 for controlling the narrative and accused the group of clearing P3 without scrutiny, creating tension between P1 and P3 that is likely to persist into the next round."
+P5 pointed out that P4 had now led two consecutive failed quests and suggested the common factor was P4's leadership rather than the individual members. P3 laid out the logical implications—Quest 1 implicated P1 or P3, Quest 2 implicated P4 or P5, with no overlap—while P4 defended the team composition by explaining P2 was chosen for being the sole dissenter in Round 1 and vowed to exclude both P5 and P1 going forward. P1 challenged the group's focus on individual players rather than leadership patterns and suggested P3 had been directing suspicion conveniently away from themselves across both rounds, creating tension around who was genuinely analyzing versus manipulating the narrative."
 G053,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -212,7 +212,7 @@ P5 pointed to P1 as the common member of both failed quests and proposed excludi
 G054,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
 
-P5 argued that the failure proved P5 wasn't responsible for Quest 1, while P1 insisted that P1's own presence on both quests meant P5 failed Quest 1 and P3 failed Quest 2. P3 redirected blame toward P2 as the likely saboteur framing P3, but P4 cited the pattern of failures and argued that P1's presence on both teams made P1 unlikely to be at fault, pointing instead to P5 and P3 as the probable pair. The round solidified a divide with P1 and P4 suspecting P3 and P5, while P3 attempted to shift focus onto P2."
+P1 openly acknowledged appearing on both failed quests and questioned why an adversary would draw such obvious suspicion, while P4 analyzed the overlap to argue that additional players must be involved beyond P1. P3 deflected attention away from the team itself by suggesting votes were suspicious across both rounds, and P5 defended the earlier team selection by noting broad approval. Tension now centers on P1's double appearance, though P4's logic kept suspicion distributed across P2, P3, and P5 as potential partners in the failures."
 G055,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -268,7 +268,7 @@ P3 pushed to test a new team without P1 for Round 3, arguing that two passes wit
 G068,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
-P5 argued the group should trust P1, P2, and P4 based on the clean passes and unanimous votes, while P3 cited the vote records to point out they've learned little but felt confident in P1, P2, and themselves. P4 urged the group not to create chaos by suspecting anyone, but P1 pushed back against P5's confidence, warning that Quest 1's success could have been faked and cautioning against crowning anyone prematurely. The exchange left P1 visibly wary of P5's enthusiasm, creating a subtle tension that may divide future team selections between trusting the early core versus rotating broadly."
+P1 celebrated the success enthusiastically and praised P2 and P3 while reaffirming trust in P5 from the first quest, with P3 citing the consecutive passes as strong evidence that P1, P2, and P3 form a trustworthy core worth maintaining. P5 echoed P3's logic and emphasized P1 as the team's anchor based on their shared Quest 1 success, while P4 cautioned that unanimous approval and early passes could allow spies to blend in undetected. The round solidified P1-P2-P3 as a widely trusted trio, though P4's skepticism introduced tension that may complicate future team proposals."
 G069,2,"Round 2 Summary:
 Leader: P3 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
@@ -308,7 +308,7 @@ P5 warned that two consecutive passes could reflect complacency rather than trus
 G078,2,"Round 2 Summary:
 Leader: P5 | Team: P2, P3, P5 | Vote: Unanimous | Outcome: PASS
 
-P5 and P4 pointed to the successful quest as proof that P1 caused the first failure, with P4 arguing the evidence definitively isolated P1 as untrustworthy. P1 countered that the pass was likely strategic misdirection to secure long-term trust for the team, warning against locking in the same players. P3 downplayed tactical concerns and endorsed sticking with the winning team, while tension solidified around P1 as the primary suspect heading into the next round."
+P4 cited the passing quest to argue that P2, P3, and P5 cannot all be problematic and renewed focus on P1 as the most likely source of the Round 1 failure, while P1 pushed back by questioning whether early results should define the narrative and suggested the group was locking onto a premature consensus. P5 explained the team was built around trusted players P2 and P5 to test P3, concluding P1 remains the cautious holdout, and P3 dismissed further debate about Round 1 as unnecessary spiraling. Trust in the P2/P5 core strengthened, while P1's isolation deepened and P3 gained modest credibility despite remaining under watchful scrutiny."
 G079,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
 
@@ -324,7 +324,7 @@ P4 cited the successful quest as evidence clearing P2, P3, and P4, and repeated 
 G082,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P5 claimed innocence and pointed to P4 as the likely saboteur, while P4 countered that P5's self-defense was conveniently evasive and noted the team had unanimous approval. P3 argued that focusing solely on the failed team was a trap and suggested scrutinizing players who had been driving early certainty, while P1 grounded the discussion in facts and noted that either P2 or P4 must be responsible if P5 is truthful. The conflict between P4 and P5 escalated sharply, with mutual accusations likely to dominate future rounds, while P3's deflection away from the mission team and P1's neutral analysis positioned them as potential swing voices."
+P3 warned against rushing to blame the mission team and suggested scrutinizing players who had pushed certainty since Quest 1, while P5 claimed to be good and pointed strongly at P4 as the saboteur. P4 countered that P5's self-defense was convenient and reminded everyone the team was unanimously approved, while P1 laid out the factual overlap and noted that if P5 is truthful, P4 becomes the likely culprit on Quest 2 with the Quest 1 failure still unresolved between P1 and P3. Trust in P4 and P5 has eroded sharply, and the P1 versus P3 question from Quest 1 remains a lingering tension likely to resurface as players decide whom to include next."
 G083,2,"Round 2 Summary:
 Leader: P3 | Team: P3, P4, P5 | Vote: Approved (P2 voted no) | Outcome: PASS
 
@@ -404,7 +404,7 @@ P2 immediately blamed P4 or P5 for the sabotage, insisting P2 did not fail the q
 G102,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P3, P5 | Vote: Unanimous | Outcome: FAIL
 
-P2 deflected attention away from the failed team toward the leaders who assembled them, while P4 grounded the conversation in the public record and narrowed suspicion to the three team members. P5 questioned why P5 would sabotage a team P5 led, shifting blame toward P1 or P3, while P1 countered by citing P1's consistent yes votes and lack of sabotage motive, pointing to P3 or P5 as the likely saboteur. The core tension now centers on P1 versus P5, with P3's silence making P3 difficult to evaluate and P2 positioned outside the immediate blame circle."
+P2 deflected blame toward the leaders who assembled the failed teams rather than accepting scrutiny for being the only player present on both failed quests. P4 systematically traced the overlap and identified P2 as most suspect while noting one of P1 or P5 must also be culpable, but P5 questioned P4's credibility by pointing out P4 led the first failed mission and argued that P2's consistent yes-votes contradicted suspicion. P1 aligned with the overlap logic and committed to excluding P2 from future teams, while tension now centers on whether P4's analysis or P5's counterargument will guide the next proposal."
 G103,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
 
@@ -426,9 +426,9 @@ Leader: P5 | Team: P2, P3, P5 | Vote: Unanimous | Outcome: FAIL
 
 P5 challenged accusations of leader guilt and questioned why the group approved the team after Quest 1's failure, while P2 cited the voting record to argue P2 was the only player not on a failed quest and pushed to exclude P1 and P5 from future teams. P1 urged the group not to overlook P4's presence on Quest 1's failed mission and suggested blame was being deflected toward team proposers, while P4 advocated for a P2/P3/P4 team to avoid both P1 and P5. Suspicion hardened around P1 and P5 as the group moved toward consensus on isolating them, though P1's effort to keep P4 in the spotlight introduced lingering tension."
 G108,2,"Round 2 Summary:
-Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous approval | Outcome: FAIL
+Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
 
-P2 immediately blamed P1 for selecting the failed team, arguing P1 was either incompetent or the saboteur, while P4 laid out the logical options that P1 was evil or paired with evil between P2 and P3. P1 defended the team choice as a deliberate test of P2 with P3 included for clarity, and P5 dismissed the focus on P1's leadership as unproductive wheel-spinning. The blame centered squarely on P1 as leader, with P2 and P4 pressing the case while P1 pushed back defensively, leaving P1 under intensified scrutiny heading into the next round."
+P2 deflected blame away from herself by pointing to the leaders who included themselves on failed missions, while P4 anchored the group on the overlap evidence showing P1 appeared on both failed quests and argued P1 must be paired with either P5 or P2. P1 defended the team choice as a deliberate test of P2 while keeping P3 as a trustworthy anchor, and P5 reframed the debate as wheel-spinning, suggesting the group move forward with a clean team like P2 and P4 instead of fixating on leadership overlap. The tension now centers on whether P1 is the common thread or simply unlucky in pairing, with P4's logic creating pressure on P1 while P2 and P5 work to redirect suspicion outward."
 G109,2,"Round 2 Summary:
 Leader: P3 | Team: P1, P3, P4 | Vote: Unanimous | Outcome: FAIL
 
@@ -440,7 +440,7 @@ P5 deflected blame onto P2 and P3 for approving the team, while P2 cited both qu
 G111,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
 
-P5 argued the passing team should stay together for the next quest, while P1 emphasized being on both successful missions to claim proven trustworthiness. P4 warned the group not to lock in the same players since it's common strategy to pass early quests for credibility, and P2 expressed lingering uncertainty despite being part of the successful team. The tension between P5 and P1's push for continuity versus P4's caution about premature trust will likely shape future team selection debates."
+P5 argued the passing teams established a safe pool of P1, P2, P4, and P5, while P4 cautioned against treating anyone as confirmed and advocated for continued rotation to test new players. P1 claimed credit as the consistent factor in both passes and pushed to stay on future teams rather than risk untested players, while P2 offered brief agreement without taking a stance. The round ended with tension between P1's self-promotion and P4's skepticism, setting up a debate over whether to trust the repeated players or expand the tested pool."
 G112,2,"Round 2 Summary:
 Leader: P3 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
@@ -452,7 +452,7 @@ P5 acknowledged the second clean pass but continued to highlight P2's Round 1 no
 G114,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
-P1 argued the three-person team should stay together after the clean pass, citing mathematical logic to narrow suspicion elsewhere, while P4 warned the group that assuming the entire team was trustworthy could be a deliberate setup for later rounds. P2 enthusiastically defended the lineup and pushed to repeat it, but P5 pointed out that P1 had now been on both successful quests and suggested this consistency itself warranted scrutiny. The debate left P1's central role both validated by results and newly questioned for appearing too safe."
+P5 challenged anyone trying to cast suspicion after two passes, framing doubt as manufactured narrative-building, while P4 warned that unanimous approval without resistance could signal complacency allowing evil players to coast undetected. P1 defended the team rotation as a deliberate test away from P5's Round 1 inclusion to enable cleaner comparisons, and P2 expressed concern that passes might be strategic cover, specifically questioning whether P4's talk of complacency was pre-justifying a future sabotage. Trust in the P1-P2-P3 combination strengthened slightly, but P4 and P5 drew increased scrutiny for their framing of the group's consensus."
 G115,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
 
@@ -468,11 +468,11 @@ P5 acknowledged the breathing room from two consecutive passes but cautioned tha
 G118,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
 
-P5 argued the passing team had proven themselves and should stay together, while P2 countered that a single success doesn't clear anyone since early passes can be strategic cover, advocating for information-maximizing rotations instead. P1 supported maintaining the successful baseline to avoid overthinking, and P4 suggested a compromise of partial rotation to test new players while keeping some proven members. The core tension between trusting the successful team versus probing for hidden threats will likely shape future team proposals."
+P5 argued that two consecutive passes proved the team could be trusted and urged the group to stop second-guessing success, while P2 countered that the pass revealed no new information since members could intentionally pass to build cover and advocated for a next team designed to generate clearer signals by avoiding overlap. P1 pushed to treat the successful team as the safest pool and rotate only one member at a time, but P4 acknowledged both positions and suggested keeping one proven player while swapping the rest to balance trust-building with information-gathering, leaving the group split between consolidating the current team and testing new combinations."
 G119,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
-P5 dismissed early suspicions as noise and urged the group to trust the clean results, while P4 cautioned that passing could still be tactical and recommended rotating one slot to test who might break future quests. P2 acknowledged that the double pass suggested at least one of P1 or P5 was likely reliable but warned against locking them together without more evidence, and P1 argued for continuity with the successful core team. The group reached tentative consensus around incremental rotation rather than full reset, though P2's hedging and P4's testing proposal hint at ongoing wariness about premature trust."
+P1 framed the unanimous approval and second consecutive pass as proof of a reliable core and urged the group to stick with the winning team, while P4 challenged P1's presence on both missions and warned that early passes are a common tactic to build false trust. P2 expressed growing confidence in P3 and possibly P1 but suggested rotating someone next to test probabilities, prompting P5 to redirect attention by emphasizing that P4 was the only player who hadn't yet contributed to a successful quest. The exchange left P4 isolated in suspicion of P1, while P5's counterattack on P4 set up a likely conflict over who should be rotated in the next round."
 G120,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
@@ -484,14 +484,14 @@ P2 argued the successful quest strengthened trust in P2, P3, and P5 while narrow
 G122,2,"Round 2 Summary:
 Leader: P3 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P4 immediately claimed innocence and blamed P3 or P5 for the sabotage, expressing confusion since P3 had rejected the first team. P5 countered by accusing P4 of deflecting suspicion and suggested P3 and P4 might be working together to frame P5. P2 argued that since P1 must be guilty from Quest 1, only one player among P3, P4, and P5 sabotaged this quest, while P1 challenged P2's credibility by pointing out P2 eagerly approved a team that excluded P2. Trust collapsed within the P3-P4-P5 trio, with sharp accusations between P4 and P5, while P1 and P2's mutual suspicion deepened further."
+P5 protested being blamed for the failure and pointed to P3's lone no-vote in Round 1 as suspicious, while P2 cited the quest results to argue that P1 and P5 should be excluded from future teams until a clean pass occurs. P1 challenged the focus on P1 and P5, noting that everyone unanimously approved P3's team and that P2 remained implicated from Round 1, while P4 expressed confusion about voting yes and supported forming a team with P2 and P3 but excluding P1 and P5. The round left P1 and P5 under heavy scrutiny, with P4 leaning toward trusting P2 and P3, though tension remained over whether P3's unanimous approval meant the group collectively misjudged the team composition."
 G123,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P2, P4 | Vote: Approved (P3 voted no) | Outcome: FAIL
 P4 suggested the saboteur was among the three mission members but reminded the group that Round 1 with P1 and P3 passed cleanly, while P2 cited the vote record to argue the fail came from either P1 or P4 since P2 claimed to be trustworthy. P1 pushed back that the accusation felt premature and noted P2 had approved the team in the first place, while P5 leaned toward suspecting P4 more than P1 but acknowledged Round 1 could have been a strategic pass and proposed excluding at least one of them in Round 3. Tension sharpened between P1 and P2 over who should bear the blame, and P5's call to rotate the team set up a likely debate over whether to keep P1 or P4 in the next proposal."
 G124,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
-P2 cited the quest result as confirmation that the team composition was clean, while P5 emphasized voting yes specifically because P2 and P3 were included and called for building future teams around them. P1 pushed to repeat the same team and argued the unanimous approval and success proved the formula should not be questioned, but P4 cautioned against declaring anyone cleared from a single quest and advocated for diversifying teams to gather more information. The tension centers on whether to lock in P1's team or rotate broadly, with P4's skepticism of P1 likely to shape upcoming team debates."
+P2 cited the successful quest to argue P5 was responsible for Quest 1's failure, prompting P5 to defend vigorously and insist on innocence. P1 leveraged the pass to claim vindication and pushed the group to move forward with the same team, while P4 remained skeptical and argued P1 should not be cleared so easily, urging exclusion of P5 from future missions. The tension crystallized around whether P1 or P5 was the true threat, with P4 and P2 emerging as opposing voices likely to shape the next leader's team composition."
 G125,2,"Round 2 Summary:
 Leader: P3 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -503,11 +503,11 @@ P1 challenged the focus on P1 and P2, arguing that the blame was convenient scap
 G127,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: PASS
 
-P4 justified the team composition as an expansion test after adding P2, while P2 argued the consecutive passes meant further isolation was unnecessary busywork and P1 agreed that revisiting Round 1 concerns was pointless drama. P5 celebrated the pass but warned that two early passes could be credibility-building moves and urged caution about team overlap in future rounds, creating tension between P5's skepticism and the emerging consensus from P1, P2, and P4 that the group should move forward confidently."
+P4 justified including P2 to expand the tested pool after Quest 1, while P2 argued that two consecutive passes should reduce paranoia about testing every inclusion. P1 echoed P2's sentiment to move past Round 1 suspicions, but P5 warned that two early passes could be a credibility play and cautioned against treating anyone as confirmed. The round ended with mild tension between P5's skepticism and the P1-P2 push for consensus, likely to resurface if a future quest fails."
 G128,2,"Round 2 Summary:
 Leader: P3 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: PASS
 
-P4 argued that the passing quest proved P1, not P2, was responsible for the Quest 1 failure, while P1 cited the Quest 2 pass as evidence clearing P3, P4, and P5 and narrowing suspicion to P2. P2 countered that a single pass could reflect strategic holding rather than innocence, and P5 supported P1's reasoning by noting that the clean result lowered suspicion on P4 and justified excluding P2 from future teams. The round solidified a P1-versus-P2 conflict with most players treating the Quest 2 team as less suspicious, though P2 warned against over-interpreting one result."
+P4 argued the pass did not clear the table and suggested P1 was responsible for Quest 1's failure rather than P2, while P1 cited the Quest 2 pass as evidence narrowing suspicion to P1 versus P2 and pointed to P1's own known alignment to implicate P2. P2 countered that the pass might reflect strategic restraint rather than innocence and warned against locking onto the single early failure, but P5 supported P1's logic and proposed excluding P2 from future teams to test the P1-versus-P2 theory. The round solidified a consensus leaning toward P2 as the primary suspect, with P4's defense of P2 noted but not embraced by the majority."
 G129,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -523,7 +523,7 @@ P5 questioned why P3 rejected a team that passed, suggesting P3's vote looked de
 G132,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P4, P5 | Vote: Approved (P3 voted no) | Outcome: FAIL
 
-P4 pointed to the failed quest as proof that either P1 or P5 must be responsible, while P5 redirected suspicion toward P3 for the no-vote and accused P1 of setting P5 up. P1 claimed to have submitted a pass card and declared P5 guilty, while P2 insisted P1 failed the quest and tried to shift attention away from the previous round's scrutiny. The blame centered squarely on P1 and P5, with P3's dissenting vote becoming a new point of contention that will likely fuel accusations of partnership in the next round."
+P2 challenged P4's leadership and argued the focus should shift to whoever keeps steering failed teams. P4 cited the overlap between both failures and suggested P5 was the new constant, while P5 countered that P4 as leader on a failed quest was the clearest explanation and accused P3 of positioning for credit by voting no. P1 concluded at least one of P4 or P5 must have caused the failure and recommended excluding P5 from future teams, creating a three-way tension between P2's deflection toward P4, P4's case against P5, and P5's attempts to redirect blame onto P4 and P3."
 G133,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
@@ -539,7 +539,7 @@ P5 defended the team composition as necessary rotation from Round 1 and urged sc
 G136,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P3 voted no) | Outcome: FAIL
 
-P1 deflected blame by suggesting the accusations were a ""preloaded narrative"" and pointed to early no-voters as the real source of mistrust, while P2 pressed P5 to justify including both P1 and P2 after clearing P1 in Round 1, framing the choice as either a mistake or intentional. P5 admitted following Round 1 logic too rigidly and now views P1 and P2 as the likely problem, while P4 urged caution against auto-blaming the leader and recommended building the next team around players outside the failed trio. The failed quest solidified suspicion on the P1-P2-P5 trio, with P5's trust in P1 now visibly shaken and P2's confrontational questioning likely to fuel tension in subsequent rounds."
+P1 deflected blame by pointing to early no-voters as building a preloaded narrative, while P2 challenged P5 to justify assembling a team with both P1 and P2 after clearing P1 in Round 1, framing the choice as either a mistake or intentional. P5 admitted following flawed logic too rigidly—trusting P1 based on the Quest 1 pass without recognizing it proved only that P1 didn't sabotage then—and now views P1 and P2 as the likely problem set, while P4 urged the group to avoid auto-blaming the leader and instead build future teams around players not on the failed mission. The tension now centers on whether P5 made an honest error or enabled the sabotage, with P1 and P2 facing heightened scrutiny going forward."
 G137,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P5 | Vote: Unanimous | Outcome: PASS
 
@@ -607,7 +607,7 @@ P5 identified P2 as the common factor across both failed quests and flagged P1 a
 G153,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: FAIL
 
-P1 blamed P2 for both failures, pointing to P2's presence on both teams as the common factor. P2 defended by claiming pass cards on both quests and suggested the sabotage came from either P3 or P4, while P3 redirected suspicion toward P4 by highlighting P4's vote shift from rejection to approval. P5 acknowledged the case against P2 but proposed testing alternative team compositions to isolate the source of sabotage, leaving P2 under heavy scrutiny while P3 and P4 emerged as secondary suspects."
+P1 pointed to P2 as the common member across both failed quests, while P2 defended by claiming to have passed both times and blamed P3 or P4 for the sabotage. P3 reinforced the case against P2 by highlighting the overlap and questioned P4's vote reversal as suspicious cover, while P5 acknowledged P2's rotation logic but suggested testing teams without P2 to isolate the source of failure. Trust in P2 eroded sharply with multiple players now viewing P2 as the prime suspect, and P4 faces secondary suspicion for the voting pattern shift, setting up a contentious debate over who should lead and be included in Round 3."
 G154,2,"Round 2 Summary:
 Leader: P5 | Team: P2, P3, P5 | Vote: Approved (P4 voted no) | Outcome: FAIL
 
@@ -663,7 +663,7 @@ P5 argued for continuing with proven teams and avoiding unnecessary changes, whi
 G167,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
 
-P5 argued the successful team should remain intact for future rounds, while P1 cautioned that the pass could be a strategic move by hidden opponents and resisted clearing P5 or P2 yet. P2 pointed to the consecutive victories as proof of reliability, but P3 expressed uncertainty about whether the team was genuinely trustworthy or building false credibility. The tension between P1's skepticism of the current team and P5's push to lock in the same lineup will likely shape team selection debates going forward."
+P5 argued the group was overprotecting the first team and urged rotation to gather new information, while P1 insisted that P1's presence on both successful missions made P1 the safest anchor for future teams. P2 pointed to clean approvals of both missions P2 participated in and redirected attention toward P3 as the least-tested player, while P3 proposed a balanced approach of mixing tested and untested players to maximize learning. The discussion left P1 and P2 each claiming credibility from the passes, with P3 emerging as the primary target for scrutiny heading into the next round."
 G168,2,"Round 2 Summary:
 Leader: P3 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
@@ -671,7 +671,7 @@ P3 argued the pass doesn't clear anyone since evil can strategically pass early,
 G169,2,"Round 2 Summary:
 Leader: P2 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
-P2 framed the second pass as proof of table consensus and advocated for minimal changes, while P1 endorsed P2 as trustworthy based on the quest outcome. P3 challenged this interpretation, arguing that two passes do not clear P2 because strategic passes are possible, and pushed for including P4 or P5 next round to gain new information. P5 downplayed any need for suspicion and suggested repeating the same core or making only trivial swaps, creating a divide between P3's call for rotation and P2/P5's preference for continuity."
+P2 pushed to maintain the current team composition citing momentum, while P1 expressed confidence in P2 based on the quest success and suggested keeping P2 with rotation of others. P3 cautioned that consecutive passes with overlapping members don't confirm trustworthiness since early cooperation is a common strategy, advocating to test P4 or P5 next round for real information, while P5 suggested swapping into P3's slot to preserve the winning streak. The tension between P3's call for broader testing and the P1-P2 mutual trust will likely shape next round's team debate."
 G170,2,"Round 2 Summary:
 Leader: P3 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
@@ -683,7 +683,7 @@ P5 argued the pass did not clear P3 and criticized the group for rubber-stamping
 G172,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P2 argued the group was anchoring on the Quest 1 pair and urged future leaders to avoid both P2 and P3 entirely, while P3 cited the vote record to argue that at least one of P1 or P5 must have sabotaged the quest. P5 insisted P5 passed and questioned why P5 would fail alongside two trusted players, and P1 defended approving the team by noting P4's presence as a safety check. Suspicion now centers on P1 and P5 as the likely source of the second fail, with P2 pushing to exclude the Quest 1 pair from future teams and P3 calling for narrower reads on P1 versus P5."
+P2 argued the group kept recycling players from the failed Quest 1 and urged the next leader to avoid both P2 and P3 entirely, while P3 cited the voting record to conclude one saboteur must come from P2/P3 and one from P1/P5. P5 insisted P5 passed the quest and questioned why P5 would sabotage alongside two teammates, and P1 gave a lengthy defense of why approving the team made sense and why failing it would be illogical. Suspicion now splits sharply between the Quest 1 pair (P2, P3) and the Quest 2 survivors (P1, P5), with P2 pushing to exclude the former group and P3 pressing the math that points to P1 or P5."
 G173,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: FAIL
 
@@ -701,9 +701,9 @@ Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: FAIL
 
 P5 argued that at least one of P1 or P2 was likely the saboteur, weighing P2 slightly higher since P1 passed Quest 1, while P1 countered by pointing to the unanimous vote record and urged testing a team without two of the three mission members rather than picking a suspect based on confidence. P2 deflected blame by questioning why P3 allowed P1 on both teams, and P3 admitted regret for not opposing the team more forcefully, advocating for P5's inclusion and excluding both P1 and P2 moving forward. The failure solidified suspicion on P1 and P2, with P3 and P5 now aligned in distrust of that pair, while P1 and P2 each worked to shift focus elsewhere."
 G177,2,"Round 2 Summary:
-Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous approval | Outcome: PASS
 
-P1 claimed credit for the success and argued the team was validated, while P3 immediately countered that the pass didn't clear anyone since throwing early passes is a standard tactic. P2 pushed to lock in the same trio as a ""solid core,"" but P5 challenged this by pointing out the unanimous vote yielded no split data and that at least one team member must be untrustworthy given the group size. The debate now centers on whether the passing team should be trusted or scrutinized, with P5 and P3 both resisting P1 and P2's push for continuity."
+P3 warned that two passes don't guarantee trust and pushed to avoid locking in the same team, while P5 noted the unanimous votes yielded minimal information beyond confirming P1 appeared on both successful quests. P2 argued for keeping proven players together rather than rotating based on speculation, but P1 justified including P2 and P3 to test them directly and suggested the next leader should mix passed players with P4 to generate fresh intel. The group remained broadly cooperative but P3's caution about premature trust and P1's call to include P4 next set up tension over whether to consolidate or rotate the roster."
 G178,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P3, P4 | Vote: Unanimous | Outcome: PASS
 
@@ -717,9 +717,9 @@ Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
 
 P5 emphasized that P1's presence on both successful quests established a consistent trust anchor, while P3 warned that the passes did not clear P2 or P5 and urged caution against treating early success as definitive proof. P1 proposed rotating P5 out and bringing P4 in for broader information, and P2 offered vague support for maintaining momentum without overthinking. The group remained aligned on approvals but divided on whether to anchor future teams around P1 or test wider combinations."
 G181,2,"Round 2 Summary:
-Leader: P5 | Team: P1, P2, P5 | Vote: Approved, P4 voted no | Outcome: PASS
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved, only P4 voted no | Outcome: PASS
 
-P5 argued the passing quest cleared P5 and shifted blame back to the P3/P4 pair from the failed Round 1, while P2 cited the vote and quest records to note P3 remained the only player connected to both the failure and a yes-vote on this team. P3 defended the yes-vote as information-gathering and offered to stay off future teams, while P1 suggested testing P3 or P4 individually next round to isolate the source of the fail. Suspicion consolidated around P3 due to the Round 1 failure, though P4's no-vote and silence also drew some scrutiny."
+P5 argued the pass cleared P5 and shifted blame back to the Round 1 team, while P2 pointed to the vote record and P3's connection to the only failed quest as key evidence. P3 defended the yes vote as information-seeking and offered to stay off future teams, while P1 remained cautious about clearing P5 but agreed suspicion now centered on the P3/P4 pair. The consensus tilted toward testing P3 or P4 individually in the next round, with P4's silence and no-vote drawing quiet scrutiny alongside P3's direct involvement in the failure."
 G182,2,"Round 2 Summary:
 Leader: P3 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -729,13 +729,13 @@ Leader: P3 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: PASS
 
 P3 framed the success as evidence to ""reset"" suspicion away from prior theories, while P1 deflected ongoing blame by insisting P2 remained the unproven common link from Quest 1. P2 over-explained the earlier failure as a shared approval decision and proposed P2/P4/P5 for the next mission to test P2 away from P1, while P5 provided mechanical reasoning that narrowing between P1 and P2 was now the priority. The group converged on using P4 and P5 as anchors going forward, but tension between P1 and P2 remained unresolved and will likely dominate the next round's team debate."
 G184,2,"Round 2 Summary:
-Leader: P5 | Team: P1, P2, P5 | Vote: Approved 4-1, P4 voted no | Outcome: PASS
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P4 voted no) | Outcome: PASS
 
-P5 framed the successful quest as validation for the trio and proposed they remain the core for future teams, while P1 enthusiastically celebrated the win and urged the group to stick together. P2 warned against blind trust in the same team, noting that passing early missions is common strategy and that P4's rejection vote deserved scrutiny given P4 was on the first successful team. P3 agreed the team looked reasonable but echoed P2's caution, creating mild tension between P5's push for continuity and P2's call for rotation and vigilance around P4's dissenting vote."
+P5 framed the pass as validation of the team's trustworthiness and pushed to keep the core together, while P2 analyzed the pass more cautiously, noting P5 could have sabotaged but didn't, and flagged P4's rejection vote as notable. P3 justified their approval by citing the overlap with Round 1's successful team, and P1 expressed relief at the pass while questioning why P4 opposed a team including both P1 and P2. The division between P4's skepticism of P5 and the rest of the group's tentative trust in P5 will likely shape future team proposals."
 G185,2,"Round 2 Summary:
 Leader: P2 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: FAIL
 
-P5 immediately pointed to the three-person team as the source of the sabotage, while P3 defended themselves by claiming to have passed and citing trust in P1 and P2 from the prior round. P2 and P1 both redirected blame toward P3, emphasizing that their two-person pairing had succeeded in Round 1 and the failure only appeared when P3 joined. The alliance between P1 and P2 appears solidified around framing P3, while P3's credibility is now under intense scrutiny heading into the next round."
+P2 deflected blame onto P4 for voting no twice and stalling momentum, while P5 analyzed the quest outcomes and noted P3 was the only new variable but suggested P1 or P2 likely flipped their card. P1 pointed to P3 as the simplest read since P3 had cover to fail while P1 and P2 were already suspects, but P3 defended by insisting P3 passed and refusing to mission again with both P1 and P2. The core tension now centers on whether P3 is the saboteur or whether P1/P2 opportunistically failed once a third player joined, with P4's consistent rejection votes drawing secondary suspicion."
 G186,2,"Round 2 Summary:
 Leader: P3 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: FAIL
 
@@ -747,7 +747,7 @@ P3 argued the Round 1 failure reflected poorly on P4's leadership rather than pr
 G188,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P1 immediately accused P5 of sabotage by citing P4's prior rejection of the failed first mission and clearing both P1 and P4, while P5 deflected by redirecting suspicion to P3's involvement in the first round. P2 reinforced the challenge against P1, arguing P1 was equally likely to have failed the quest and was manufacturing the case against P5, while P3 struggled to reconcile how two non-overlapping failed teams could implicate different spy pairs. The round ended with P1 and P5 in sharp conflict, P2 backing P5's defense, and P3 uncertain about who to trust."
+P2 pointed to P3 as a common thread across both failures and accused P3 of deflecting blame, while P1 methodically argued that zero overlap between the two failed teams suggests one saboteur per mission and that unanimous approval offered no sorting value. P3 defended at length by recounting past reasoning and suggested P5 was avoiding concrete commitments, while P5 proposed building the next team from players who hadn't failed together yet. Suspicion now centers on P3 from P2's accusation and on P5 from P3's rebuttal, with P1's analytical framing likely to anchor future team debates."
 G189,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P3, P5 | Vote: Approved 4-1, P4 voted no | Outcome: PASS
 
@@ -763,7 +763,7 @@ P1 pointed to the quest record to argue that P3's addition to the previously suc
 G192,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
 
-P5 pressed to keep P1 and P2 in future teams, claiming two passes proved the group was reliable, while P3 echoed this and specifically endorsed P5 as a trustworthy anchor. P2 voiced confidence in the team based on personal knowledge, but P1 cautioned that early passes don't guarantee full trust since strategic cooperation is common. The exchange left P5 and P3 aligned in promoting continuity, while P1's skepticism introduced mild tension that may resurface if the same roster is proposed again."
+P5 argued the two clean passes should reduce suspicion and warned against rotating players too slowly, while P3 highlighted that P1 appeared on both successful quests as a convergence signal and suggested focusing on unpaired interactions rather than re-testing proven teams. P1 remained cautious, suggesting the most likely pairing was still within P3 and P5 and advocating for minimizing exposure to that combination, while P2 justified the vote by noting the team included previously trusted players but emphasized the need for careful pairing going forward. The round solidified P1's standing across both quests but left lingering tension around P5's trustworthiness and the untested P3-P5 pairing, setting up future debates over whether to repeat successful configurations or rotate aggressively."
 G193,2,"Round 2 Summary:
 Leader: P2 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
 
@@ -803,7 +803,7 @@ P4 challenged the assumption that the leader must be at fault and pointed attent
 G202,2,"Round 2 Summary:
 Leader: P4 | Team: P2, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P4 defended the failed quest by arguing P2 or P5 must be responsible since P4 selected them as clean players, while P2 cited the quest results to argue that P4 or P5 caused the failure and pointed suspicion at P4. P1 challenged P2's self-clearing logic and questioned why the approved team failed, while P3 framed P4 as the most probable suspect and proposed testing P1 or P3 separately in future rounds. Suspicion now centers heavily on P4, with P3's probabilistic case likely to shape the next leader's team composition and P1 still under residual scrutiny from Round 1."
+P4 deflected blame by arguing the failure must come from P2 or P5 since P4 intentionally selected players who appeared trustworthy from Round 1, while P2 cited the quest outcomes to argue that P4 or P5 must be responsible since P2 knows their own alignment, and P1 countered by questioning why P2 appears exempt from suspicion despite being on the failed mission. P3 used probabilistic reasoning to suggest P4 is the likeliest suspect combined with one player from the Round 1 team, proposing future teams exclude P4 entirely, which solidified P4 as the primary target of suspicion heading into Round 3 while P1 remained under scrutiny from the first failure."
 G203,2,"Round 2 Summary:
 Leader: P2 | Team: P2, P3, P4 | Vote: Approved (P5 voted no) | Outcome: FAIL
 
@@ -811,11 +811,11 @@ P4 blamed P3 for the failure, citing that P3 had accused P4 last round yet the q
 G204,2,"Round 2 Summary:
 Leader: P4 | Team: P1, P2, P4 | Vote: Approved (P5 voted no) | Outcome: FAIL
 
-P4 identified P1 as the top suspect due to overlap on both failed quests, prompting P1 to challenge why P2 received no scrutiny despite also being on the failing mission. P3 redirected attention to P4's team-building inconsistency, while P2 defended the vote choice and leaned toward P1 as responsible. The round solidified P1 as the primary target of suspicion, with P3 and P1 both attempting to shift blame elsewhere and P2 caught explaining defensive reasoning."
+P4 immediately blamed P1 as the common factor across both failed quests, while P1 deflected by pointing out that P2 and P4 also approved both teams and questioned why voting patterns alone should implicate him. P2 insisted on playing a pass card and expressed confusion about P5's repeated rejection votes, while P3 accused P4 of deliberately including P1 to frame him for a failure P4 might have caused. The exchange left P1 under heavy scrutiny from P4, P3 openly challenging P4's motives, and P2 appearing uncertain about whom to trust."
 G205,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Approved (P5 voted no) | Outcome: FAIL
 
-P2 questioned why P3 approved P1 after the first failure and suggested P5's lone rejection was suspicious, while P4 and P3 both pointed to P1 appearing on both failed quests as the strongest evidence and argued for excluding P1 from future teams. P1 offered only vague pushback without concrete defense, deepening distrust, while the group began coalescing around the logic that P1's presence on both failures warranted removal despite P2's attempt to shift focus onto P5 and P3."
+P4 pointed to P1 as the only overlap between both failed quests and argued this proved P1 was responsible, while P3 reinforced this by noting that since P3 played a pass card, the sabotage had to come from P1 or P2, making P1 the likely culprit. P1 responded vaguely without offering a clear defense, and P2 attempted to shift blame onto P3 by suggesting P3 had failed the quest and was framing P1 to deflect suspicion. The accusations centered heavily on P1 created a strong consensus against P1 and P2 as a suspected pair, likely making them the focus of exclusion in upcoming team proposals."
 G206,2,"Round 2 Summary:
 Leader: P1 | Team: P1, P2, P3 | Vote: Approved (P5 voted no) | Outcome: FAIL
 
@@ -895,7 +895,7 @@ P4 framed the successful quest as validation of excluding P3, while P3 warned th
 G225,2,"Round 2 Summary:
 Leader: P3 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: FAIL
 
-P3 argued the failure isolated suspicion to P4 and one member of the P1/P2 pair, citing P5's earlier rejection of the first team as clearing evidence, but P4 accused P3 of controlling the narrative and noted P3 led the failed team. P2 deflected attention away from themselves by noting relief at not being on the quest, while P1 presented probabilistic reasoning pointing to P2 and P4 as likely culprits while keeping P3 under marginal doubt. The round established a sharp conflict between P3 and P4 over who sabotaged the mission, with P1 and P2 presenting competing frameworks that will likely anchor the next leader's team-building logic."
+P2 challenged the group for automatically blaming the mission team and suggested scrutinizing those who approved the proposals instead. P3 presented set logic showing no overlap between the two failed teams and concluded one suspect must be in {P4, P5}, while P4 redirected suspicion to P5 by questioning P5's vote switch between rounds as calculated optics management, and P1 hedged by noting P2's involvement in the first failure but recommended testing one of {P1, P2} with P4 excluded. The emerging fault lines center on P4 facing mounting pressure from P3's logic and P1's exclusion recommendation, while P2's deflection and P4's counterattack on P5 suggest both will aggressively contest blame in the next round."
 G226,2,"Round 2 Summary:
 Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
 
@@ -925,9 +925,9 @@ Leader: P2 | Team: P2, P3, P4 | Vote: Approved (only P5 voted no) | Outcome: FAI
 
 P3 pressed the overlap logic hard, arguing that P2 appearing on both failed quests made P2 the likeliest culprit, while P2 countered that non-overlapping saboteurs could explain both failures and urged pairing tests instead of removing the leader outright. P4 deflected blame toward P1 for approving both losing teams and accused P5 of stalling with repeated no-votes, while P1 acknowledged voting yes on both missions but now wanted P2 and P4 excluded from future teams. The group's suspicion has consolidated around P2 as the overlap point, with P4 under secondary scrutiny and P5's repeated rejections drawing irritation from multiple players."
 G233,2,"Round 2 Summary:
-Leader: P2 | Team: P2, P3, P4 | Vote: Approved (P5 voted no) | Outcome: PASS
+Leader: P2 | Team: P2, P3, P4 | Vote: Approved 4-1 (P5 voted no) | Outcome: PASS
 
-P2 pointed to the clean pass as proof that P1 caused the Round 1 failure, while P4 reinforced this with vote-by-elimination reasoning. P1 countered that passing Round 2 is a standard trust-building move and accused P2 of framing P1 to secure future team slots, while P3 acknowledged both explanations fit the evidence. The tension between P1 and P2 intensified sharply, with P4 aligning behind P2's logic and P3 caught between competing narratives that will shape Round 3's trust dynamics."
+P4 argued the pass indicated at least two trustworthy players on the team and suggested P1 should be excluded moving forward, while P2 emphasized the result vindicated P2's inclusion and called for building around P3 and P4. P1 challenged the interpretation, pointing out the pass only proved someone wasn't sabotaging this time and questioned why P5's repeated no-votes weren't drawing scrutiny, while P3 raised concern that P1's consistent approval votes could be a cover and warned the pass might be deliberate if P1 and P2 were coordinating. Tension now centers on whether P2 is cleared by the pass or still suspect alongside P1, and whether P5's voting pattern warrants investigation."
 G234,2,"Round 2 Summary:
 Leader: P2 | Team: P1, P2, P3 | Vote: Approved (P5 voted no) | Outcome: PASS
 
