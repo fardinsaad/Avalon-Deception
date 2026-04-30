@@ -1,0 +1,401 @@
+game_id,round_id,round_summary
+G031,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
+
+P3 and P2 pointed to P1 and P5's presence on all failed quests, with P2 highlighting P1's sudden yes-vote on a team that immediately failed as proof of coordination. P5 and P4 countered by citing the mission logs, arguing that P2's participation in Rounds 1 and 5 and P3's sole presence on Round 4 mathematically identified them as the saboteurs. The final failure locked both sides into mutually incompatible accusations, with P3 and P2 blaming P1 and P5 while P5 and P4 blamed P2 and P3, leaving the group split with no path to consensus."
+G032,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P4, P5 | Vote: Unanimous approval | Outcome: FAIL
+
+P5 challenged the group's focus on P4 and P5 by arguing that Quest 4's success with both players disproves the suspicion, then redirected blame to P2 and P3 citing their presence on earlier failures. P4 emphasized being on two successful quests and also accused P2 and P3, while P2 countered by citing that P4 and P5 appeared together on two failed missions and likely coordinated a pass on Quest 4 to build credibility. P3 acknowledged uncertainty given P1's presence across most teams but concluded P4 and P5 were most likely responsible, creating a sharp final division with P2 and P3 united against P4 and P5's joint defense."
+G033,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P3, P4 | Vote: Unanimous | Outcome: FAIL
+
+P4 argued that P1 and P2 were the only players on multiple failed quests, while P5 pointed to P4 appearing on two of three fails as the consistent link and paired P4 with P1. P2 and P3 both countered by noting that Quests 2 and 4 passed with the same P1-P2-P3 core, meaning neither P1 nor P2 could be evil, and concluded P4 and P5 must be the pair since every fail included exactly one of them. The final consensus among P2 and P3 centered on P4 and P5, leaving P4 and P5 isolated as the primary suspects heading into endgame."
+G034,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: FAIL
+
+P4 accused P2 and P5, claiming P2 quietly sat on both later fails while P5 absorbed blame, while P5 blamed P2 and P4, arguing the ""core group"" leaders engineered the fail opportunities and P4's final leadership was too convenient. P3 and P2 both independently accused P4 and P5 using quest intersection logic—P3 cited that P5 explained Quest 4's fail and P4 explained Quest 5's, while P2 emphasized the immediate Quest 3 fail after picking P4 as a test. The final round polarized into P4/P5 deflecting onto P2 versus P2/P3 converging on P4/P5, with P2 visibly frustrated at repeated suspicion."
+G035,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P5 | Vote: Approved (only P1 voted no) | Outcome: FAIL
+
+P2 blamed P3 and P5 for the failure, arguing they engineered fails on any team with P2 to frame P2 as the constant, while P4 echoed this claim and called the P2/P4 pairing ""too convenient."" P3 and P5 both countered by citing P2's presence on all three failed quests (R2, R4, R5) and pointed to P4 as the second member based on R2's composition, with P5 emphasizing that P3's two passes made the P3/P5 accusation illogical. The round ended with P2 and P4 united against P3/P5, while P3 and P5 maintained P2/P4 were the pair, crystallizing a direct two-versus-two deadlock heading into endgame."
+G036,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
+
+P2 blamed P4 and P5, pointing to P4's Round 4 rejection and P5's Round 3 ""test"" as suspicious, while P3 echoed this by citing P4's leadership of the failed Round 2 quest and P5's consistent approvals. P4 and P5 both countered by tracing the failure pattern through the quest record, identifying P2 as the new addition in Round 2's fail and P3 as the new addition in Round 3's fail, with P5 acknowledging uncertainty due to Quest 4's success. The final declarations split sharply: P2 and P3 named P4 and P5, while P4 and P5 named P2 and P3, leaving P1 as the swing voice with no stated conclusion."
+G037,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P3 argued the common thread across failed quests was P1 and P2, omitting P3's own presence on the failed mission, while P2 deflected blame onto P1 and P5 for approving what P2 called a suspicious three-person team. P4 and P5 both converged on P2 and P3 as the pair responsible, citing P2's presence on Quest 1's failure and P3's appearance on Quest 4's failure, with P4 laying out the pattern across all three failed quests and P5 acknowledging that reusing the Quest 2–3 pool had backfired. The group split into two firm theories—P3 and P2 each blaming P1 plus one other, while P4 and P5 united behind suspecting P2 and P3—setting up entrenched conflict with no consensus heading into endgame."
+G038,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: FAIL
+
+P2 argued P1 was the common thread across all failures and accused P3 of providing cover since Quest 2, while P4 countered that P2 deflected with vote optics instead of team composition and named P2 and P3 as the pair. P5 walked through the quest record to argue P2 failed Quest 1 and P4 banked passes on Quests 3 and 4 before sabotaging Quest 5, and P3 echoed this logic by highlighting that P2 and P4 were the only players who fit the failure pattern. The final accusations split sharply, with P2 and P4 each blaming P3 while P3 and P5 converged on P2 and P4 as the pair."
+G039,5,"Round 5 Summary:
+Leader: P3 | Team: P2, P3, P5 | Vote: Approved (only P1 voted no) | Outcome: FAIL
+
+P4 argued that the trio's previous passes made P2 the most likely saboteur since P3 and P5 had been stable, while P2 deflected by pointing to P1's presence in both prior two-person failures and named P1 and P4 as the pair. P5 presented a detailed case that P2 and P4 each sabotaged separate quests, citing Quest 5's failure as proof P2 finally had to act, and P3 echoed this logic by vouching for P5's consistency and naming P2 and P4 as the final pair. By round's end, P2 stood isolated with all three other players converging on P2 and P4 as the suspected pair, though P2 continued to redirect blame toward P1."
+G040,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P4 | Vote: Approved (only P1 voted no) | Outcome: FAIL
+
+P2 defended by highlighting P1's presence on all failed quests and arguing P1 and P5 were the pair, while P5 questioned the certainty of others and named P2 and P3 for narrative control. P3 cited the public quest record to argue that P2 and P5 were the only pair appearing across failures without requiring a sabotaged early pass, and P4 agreed, pointing to P2's presence on Q4 and Q5 and P5's on Q3. The group converged on P2 and P5 as the suspected pair, isolating P2's deflection and solidifying distrust toward both players heading into endgame."
+G041,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Approved; P4 and P5 voted no | Outcome: PASS
+
+P2 and P3 used the two consecutive passes to argue that the real failures came from P4's Quest 2 leadership and P5's Quest 3 team, framing those players as the culprits trying to deflect blame. P5 countered by citing the fail records and pointing out that if P5 and P4 are good, only P2 and P3 fit both failures, while P4 reinforced suspicion of P2 and P3 as a coordinated pair who showed restraint after earlier scrutiny. The final divide solidified with P2/P3 defending their joint presence on successful quests against P4/P5's mathematical pairing argument, leaving the table split on whether the passes proved innocence or strategic Evil coordination."
+G042,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P5 and P3 pivoted to accusing P1 and P4, arguing that P1's presence on all quests and P4's analytical framing was designed to deflect blame from themselves. P4 countered by citing the Quest 3 and Quest 4 failures to argue that P3 and P5 were the only consistent pair across both sabotages, while P2 supported this theory by noting that P3 was the new element in Quest 3's failure and P5 in Quest 4's. The endgame coalesced into a hard-line split: P3 and P5 insisted the evidence pointed to P1 and P4, while P2 and P4 maintained that P3 and P5 were the saboteurs trying to shift blame in the final moments."
+G043,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P4 highlighted P2's presence on both failed quests and accused P2 and P5 as the pair, while P5 pointed to P2 and P3 using Quest 3's exclusion of P2 as suspicious. P3 countered by noting P3's clean record on Quest 3 and Quest 5, arguing the failures map to P4 and P5 each sabotaging once, and P2 defended at length, suggesting P4 and P5 orchestrated the blame onto P2 as the common member. The central tension remained P2's placement on both failures versus P4 and P5's individual appearances, with P3 and P2 aligning against P4 and P5's accusations."
+G044,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: PASS
+
+P4 justified the passing team as a clean test excluding the Quest 1 suspects, then accused P3 and P5 based on their presence in early failures, while P2 argued that three consecutive passes including two with P2 aboard should outweigh one early fail and pointed to P5 and P4 as the real threats. P5 countered by citing the fail-set logic that one evil must come from Quest 1's {P2,P5} and one from Quest 2's {P1,P3,P4}, concluding P2 and P3 were responsible, while P3 dismissed late passes as strategically timed and maintained P4 and P5 were steering blame. The accusations hardened into two opposing camps: P4 and P5 targeting P3 (and each other's partner), versus P2 and P3 deflecting toward P4 and P5."
+G045,5,"Round 5 Summary:
+Leader: P5 | Team: P2, P4, P5 | Vote: Unanimous | Outcome: PASS
+
+P3 argued the two consecutive passes cleared P2 and pointed to P4 as the common thread across both failures, while P2 insisted P1 and P4 were the overlaps that mattered and accused the table of over-reading Q3. P4 cited the failure patterns to argue P2 and P3 were the simplest pair satisfying both fails, and P5 agreed, reasoning that P2 and P3 were both on the Q2 pass that could have been a coordinated hold. The debate hardened into two competing theories—P3/P2 pushing blame toward P1/P4, versus P4/P5 naming P2/P3—with no consensus and each camp citing the same quest outcomes as proof of opposing conclusions."
+G046,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P2 argued the Round 1 failure was more likely P3's responsibility and downplayed P5's involvement in the Round 4 fail, while P5 highlighted participation in three successful quests to deflect suspicion. P3 presented the public record to argue one saboteur from Round 1 (P2 or P3) and one from Round 4 (P4 or P5), ultimately pointing to P2 and P5 as the consistent pair, which P4 echoed by noting P2 repeatedly shifted blame to P3 while ignoring P5's role in the failed quest. The endgame debate solidified P2 and P5 as the primary suspects for P3 and P4, while P2 and P5 continued to redirect attention toward P3."
+G047,5,"Round 5 Summary:
+Leader: P3 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P5 argued P1 was the constant across both failed quests and named P1 and P2 as the pair, while P3 warned against over-crediting the final PASS and pointed to P1's presence on both fails plus P5's Round 2 leadership as evidence for P1 and P5. P4 mapped team compositions to outcomes and settled on P3 and P5, noting P3 may have withheld sabotage in Rounds 4 and 5 to avoid suspicion, while P2 walked through the full quest record and concluded P3 and P5 were the only pair consistent with both failures given P2 and P4's anchor to all three passes. The final accusations split between P1/P5 (from P3), P3/P5 (from P2 and P4), and P1/P2 (from P5), with P1 absorbing blame from multiple angles while P3 and P5 each deflected toward the other."
+G048,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P3 argued that passing the final quest proved loyalty and redirected blame toward P2 and P4 for controlling votes, while P5 claimed P2 and P4 were the actual saboteurs framing P3 and P5. P2 countered that P3 only passed to avoid suspicion after sabotaging Quest 4, citing the pattern that quests failed only when P5 or P3 joined, and P4 reinforced this by pointing to the clean Quest 2 result from the P1-P2-P4 core. The round ended with P2 and P4 firmly united in accusing P3 and P5 based on quest failure timing, while P3 and P5 maintained their innocence by questioning the voting control dynamics."
+G049,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P5 argued that the clean Q5 was a cover move and accused P3 and P4 of being responsible for Q4's failure, while P2 dismissed overlap logic as a framing trap and pointed to P3 and P5 instead. P3 and P4 both cited P2's presence on both failed quests (Q2 and Q4) as decisive evidence, with P3 and P4 converging on P2 and P5 as the pair. The round closed with P3 and P4 aligned in their accusations, while P2 and P5 each deflected blame onto different combinations that excluded themselves."
+G050,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P3 argued that three consecutive passes allowed evil to hide within the safe-looking block and named P2 and P5, while P4 pointed to P3 and P2. P2 countered by citing the full quest record, noting that only P3 and P4 never appeared on any passing quest and each was uniquely present on a different failure, then named both as evil. P5 reinforced the pattern that avoiding the Q1/Q2 participants led to immediate success and dismissed attempts to blame P2 or P5 as inconsistent with three straight passes, solidifying consensus around P3 and P4 as the likely pair."
+G081,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P3 voted no) | Outcome: FAIL
+
+P5 blamed P2 and P4 for the failures, arguing P2 appeared on both failed missions and P4 controlled the narrative, while P1 accused P2 and P5 by pointing to their presence across the failing rounds. P4 and P3 both cited the successful Rounds 2 and 3 to argue P1 and P5 were the pair responsible, with P4 walking through team overlaps to isolate P5 as the new variable in Round 4's fail and P1 as the constant from Round 1. The final clash left P2 isolated by some but defended by others, while P1 and P5 emerged as the dominant suspected pair."
+G082,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P3, P5 | Vote: Approved (P2 voted no) | Outcome: FAIL
+
+P3 blamed P2 and P5 for the failure, highlighting P2's consistent rejection of P1/P3 teams and the timing of P5's roster swap, while P4 reinforced this accusation by dismissing earlier quest patterns and stressing P2's failed quest participation. P5 countered by pointing to P3's presence on two failed quests and P4's overlap on Quest 2, declaring P3/P4 as the pair, and P1 hesitantly agreed with P3/P4 while acknowledging the confusion around P3's selective failing and P5's Quest 2 claim. Deep suspicion now centers on whether P3/P4 manipulated quest outcomes or P2/P5 coordinated the final sabotage, with P1 and P5 aligned against P3/P4 but P3 and P4 united in deflecting toward P2/P5."
+G083,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
+
+P1 deflected blame onto P3 by citing Quest 3's failure and P3's absence from Quest 4, while P4 pointed to P3's presence on both passing and failing quests as suspicious flexibility. P5 and P3 both countered by mapping the failure pattern directly to P1 as the common denominator across Quest 1 and Quest 5, with P5 adding that Quest 3's two-person structure implicated P4, and P3 arguing that P1's repeated blame-steering combined with P4's minimizing rhetoric revealed the pair. The round ended with a sharp division: P1 and P4 accused P3, while P3 and P5 converged on P1 and P4 as the pair, leaving P2 largely unmentioned and the group polarized along two competing failure-pattern narratives."
+G084,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
+
+P3 blamed P4 and P5 as the two evils, arguing P4 had been steering the narrative with convenient alternative explanations since Quest 3. P5 countered by pointing to Quest 3's failure on P3 and P4 as the only direct two-person evidence, while P4 and P1 both concluded P3 and P5 were guilty by citing P1 and P2's clean pairing in Quest 1 and arguing every subsequent failure occurred when either P3 or P5 joined the team. The final accusations split sharply: P3 and P5 each deflected blame onto P4, while P1 and P4 united behind accusing P3 and P5, creating a locked deadlock with no remaining consensus possible."
+G085,5,"Round 5 Summary:
+Leader: P3 | Team: P2, P3, P4 | Vote: Approved (only P5 voted no) | Outcome: FAIL
+
+P3 and P4 accused P1 and P5 of being the pair responsible for all failures, with P3 claiming P1 appeared in both earlier failed quests and P4 arguing that P1 had been unfairly cleared by the Round 3 two-person pass. P1 and P5 countered by pointing to the quest records showing P3 and P4 each appeared on two failed missions, arguing this pattern identified them as the pair, while P3 and P4's coordinated final accusations against P1 and P5 reinforced P1 and P5's suspicion. The round ended with a clear factional split: P3 and P4 insisting P1 and P5 were responsible, while P1 and P5 maintained P3 and P4 were the culprits based on overlapping failure participation."
+G086,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P4 | Vote: Approved (P3 voted no) | Outcome: FAIL
+
+P5 pointed to P1's presence on both failed quests to accuse P1 and P4, while P4 deflected by calling P1 and P3's coordinated logic ""lockstep"" and insisted they were the pair. P1 walked through the constraints systematically—arguing Q3's fail pins P5 and the P3→P4 swap from Q4 to Q5 pins P4—and P3 backed this reasoning, solidifying consensus around P4 and P5. The split left P4 isolated against the united front of P1, P2, and P3, with P5's attempt to shift blame failing to break their alignment."
+G087,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: FAIL
+
+P5 deflected attention away from the failed quest by framing P1 and P3 as the most consistent across failures, while P3 countered by accusing P1 of approving every team and partnering P1 with P5. P4 presented a methodical case citing quest overlaps to argue P3 appeared on both different-core failures and paired P3 with P5, while P1 acknowledged being on two fails but used that same overlap logic to also land on P3 and P5. The round ended with P3 and P5 each facing accusations from multiple players, creating a tense standoff that will dominate final-round deliberations."
+G088,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P4, P5 | Vote: Approved but P2 voted no | Outcome: FAIL
+
+The failure of the same team that passed Round 4 ignited blame centered on P5, with P3 arguing P5 had motive to flip at the final moment and P4 citing P5 as the overlap between both failed quests. P5 pushed back by naming P1 and P3 as the pair, pointing to P1's presence on Quest 1's failure and P3's consistent deflection, while P1 blamed P2 and P5 for prolonged resistance and multiple fail overlaps. The endgame left P5 under heaviest suspicion from P3 and P4, while P5 and P2 remained aligned against P1 and P3, with no consensus emerging before the round closed."
+G089,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: FAIL
+
+P5 accused P1 of controlling the endgame and named P1 and P3 as the pair, while P4 pointed to P1's presence on both failed bookend quests and questioned why P4 remained the default suspect after Quest 4 passed. P1 cited the quest record to argue P5 was the only player on two failed missions (Quests 3 and 5) plus a pass, identifying P5 and P4, while P3 agreed P5 was likely but hesitated between P1 and P4 for the second slot. The final accusations split sharply, with P5 and P4 deflecting toward P1 and P3, and P1 and P3 converging on P5 but diverging on the second name."
+G090,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Approved (P3 voted no) | Outcome: FAIL
+
+P5 and P1 immediately blamed P4 and P2 for the failure, arguing P2's voting pattern and P4's leadership choices proved coordination between them. P4 countered by citing the quest failure record showing P1 appeared on two failed quests and P5 on one, declaring P1 and P5 definitively the two saboteurs, while P3 supported this conclusion by noting P1 and P5's aggressive deflection onto their accusers. The final failure cemented P4 and P3's alignment against P1 and P5, with P2 caught in competing blame narratives from both sides."
+G091,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P3 and P4 both accused P1 and P5, arguing that P1 appeared on all passed quests by default and that P5 steered suspicion too aggressively without ever voting no, while P5 and P1 countered by pointing to the clear pattern that quests failed only when P3 or P4 were included and passed when the P1/P2/P5 core remained intact. P5 cited the quest outcomes as decisive evidence, while P3 and P4 focused on undermining P5's consistency and P1's assumed safety, leaving the group divided between defenders of the passing team and challengers questioning why the same players always controlled the narrative."
+G092,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P4 argued that passing Quest 5 while on the team proved innocence since failing would have ended the game, then accused P5 and P3 of steering votes with math talk all game. P1 deflected attention from overlap evidence by claiming the conversation ignored who pushed narratives, naming P5 and possibly P3 as the pair, while P3 and P5 both reinforced that P1 appeared on both failed quests and cited P4's repeated defense of P1 as suspicious. The final accusations hardened into P1+P4 versus P3+P5, with P2's alignment now the pivotal question heading into endgame analysis."
+G093,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P5 argued the quest pass proved P5 was not responsible for Round 4's failure and redirected suspicion toward players treated as default-safe, while P3 pointed out that P1 and P4 consistently steered blame despite P3 appearing on both failed quests alongside different players each time. P4 and P1 countered by citing the public record showing P3 as the only player on both failed missions, with P1 concluding P3 and P5 were the pair based on quest overlap. The debate solidified P3 as the primary suspect with P1 and P4 pressing the case against P3, while P5 and P3 attempted to shift focus onto their accusers."
+G094,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P5 | Vote: Approved (P3 voted no) | Outcome: PASS
+
+P4 argued the same trio passing three times meant two evils hid among P1/P2/P5 and never needed to sabotage, while P3 pointed to P1's presence on Quest 1's failure and suggested P1 plus one other as the pair. P5 and P1 both countered by highlighting that every quest excluding P3 and P4 had passed, citing the Quest 1 and Quest 2 failures as evidence tying P3 and P4 to sabotage. The round ended with sharp division: P3 and P4 cast doubt on the trusted trio, while P1 and P5 solidified their accusation that P3 and P4 were responsible for both early fails."
+G095,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+
+P3 and P4 argued that P1 and P5 were the two evil players by framing them as loud accusers deflecting from their own failures, while P1 and P5 both used the quest outcome grid to point to P3 and P4 as the only pair that intersected both failed missions. The final round locked in a sharp divide: P3 and P4 united in accusing P1 and P5 of narrative manipulation, while P1 and P5 independently cited mechanical evidence that P3 and P4 must be the pair, leaving P2 as the swing voice with no clear emerging consensus."
+G096,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Approved (P3, P5 voted no) | Outcome: PASS
+
+P4 argued the Round 1 failure implicates P5 and P3, claiming P3's logic scapegoats convenient targets while P5 has steered suspicion since the game's first fail, while P1 echoed this and accused P5 of coasting by redirecting heat after being on the two-person Quest 1 fail. P3 and P5 both countered by citing the Quest 3 pass (P2/P3) versus Quest 4 fail (P2/P3/P4) as definitive proof P4 is responsible, with P5 adding that P1's willingness to build trust on passes fits a deliberate strategy and P3 naming P4 and P1 outright. The final declarations locked into two camps: P4 and P1 insisting P5 and P3 are the pair, versus P3 and P5 insisting P4 and P1 are the pair, with P2's silence leaving the conflict unresolved."
+G097,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: PASS
+
+P1 and P4 each pointed to their presence on successful quests to deflect suspicion, with P1 blaming P3 and P4, while P4 accused P3 and P2. P3 cited the quest failure patterns to argue P1 and P4 were the logical pair, noting that passing recent quests allowed them to avoid detection after already securing two fails. P5 endorsed P3's reasoning and locked in P1 and P4 as the culprits, framing the consecutive passes as coordinated restraint rather than proof of innocence, which created a clear consensus against P1 and P4 heading into endgame."
+G098,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: PASS
+
+P1 argued the pass didn't clear anyone and accused P3 and P5, citing P3's consistent suspicion of P1 and P3's presence on the failed Quest 4, while P5 blamed P1 and P3 based on Quest 3's two-person fail and Quest 4's failure. P3 and P4 both concluded P1 and P5 were the pair, with P3 citing P1's presence on Quest 3 and P5's fit for Quest 4, and P4 calling out P1's deflection and P5's selective use of early passes as validation. The round ended with a clear divide: P1 and P5 pointing at others while P3 and P4 converged on accusing P1 and P5 as the pair responsible for both failures."
+G099,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P3, P4 | Vote: Approved but P2 voted no | Outcome: PASS
+
+P4 pointed to P2 and P5 as the pair responsible for both failures, citing their presence on the failed quests, while P5 accused P1 and P2 of being the common thread and suggested P4's inclusion on the successful mission was a cover strategy. P3 and P1 countered by citing Quest 3's clean pass with only P1 and P3, arguing that P4 and P5 each appeared on exactly one failed quest and that P4's participation in Round 5 was a deliberate late-game disguise. The table split into two opposing camps—P3 and P1 locked onto P4 and P5, while P4 and P5 each deflected blame onto P2 or P1—leaving P2's earlier no-vote and the conflicting evidence from Quests 2 and 4 as the lingering points of tension heading into endgame analysis."
+G100,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P3, P5 | Vote: Unanimous | Outcome: PASS
+
+P4 claimed the three passes were strategically timed sabotages and accused P1 and P5 as the pair, while P5 countered that P1 was the common denominator on the first fail and proposed P1 and P3 instead. P3 systematically argued that P4 and P5 satisfied both failed quests while P1 and P3's clean record in Quest 3 confirmed them as trustworthy, and P1 reinforced that every fail contained either P4 or P5. The final arguments crystallized into two competing narratives—P3 and P1 united against P4 and P5, while P4 and P5 each tried to split P1 from P3—leaving the group polarized heading into endgame."
+G131,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P5 accused P1 of orchestrating two consecutive failures and reminded P4 of their earlier trust, while P4 justified their no vote by pointing to P2's presence on the first failed quest and named P2 and P5 as their final suspects. P2 questioned why P1 would approve a team containing P2 if P2 were clearly suspicious, while P1 presented a systematic analysis of all five quests to argue that only P2 and P5's involvement explained the pattern of passes and failures. The final accusations crystalized around two competing theories: P5 and P2 blaming P1 and P3, versus P1 and P4 identifying P2 and P5 as the pair responsible for all sabotages."
+G132,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P5 | Vote: Approved (P3 voted no) | Outcome: FAIL
+
+P5 pointed to the passing records of Q3 and Q4 to name P3 and P4 as the pair, while P2 echoed the same accusation and highlighted that P4 led the failed Q2. P4 and P1 both traced P2's presence across Q1 and Q5's failures and noted P5 appeared on both Q2 and Q5, arguing the pair strategically passed Q4 to create cover before forcing the final fail. The group split sharply between blaming the Q5 team versus blaming those who voted against it, with no emerging consensus before the game ended."
+G133,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P3, P4 | Vote: Unanimous | Outcome: FAIL
+
+P2 highlighted the pattern of P3 appearing on both failed quests and suggested the two passes were deliberate cover plays, while P1 accused P2 and P5 of being the pair and pointed to P5's Round 1 leadership and P2's convenient positioning. P4 cited the hard record showing P1 on two failures and P2 approving all failing teams, while P5 named P1 and P2 as the likeliest pair but acknowledged unease about P3's presence on all three failures. The debate crystallized into competing theories—P2 versus P3 as the second culprit alongside P1—with no clear consensus emerging and mutual accusations leaving trust fractured across the group."
+G134,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: FAIL
+
+P1 accused P2 and P3 of being the saboteurs by highlighting their presence on the last two failed quests, and P4 supported this claim by invoking P4's presence on the successful Round 2 team. P2 countered by pointing to P1's participation in the failed Quests 3 and 4 and identifying P4 as the new addition to this failure, while P5 reinforced the likelihood that P1 was the initial saboteur in Round 3, making P1 and P4 the probable pair. The post-game debate solidified a sharp divide, with P1 and P4 blaming P2 and P3, while P2 and P5 pointed firmly at P1 and P4."
+G135,5,"Round 5 Summary:
+Leader: P3 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: FAIL
+
+P1 blamed P2 for voting yes on all quests including both prior fails and named P2 and P5 as the pair, while P5 pointed to P2's presence on two failed quests and added P1 as a second suspect due to P1's frequent mission participation. P4 methodically cross-referenced all three failed quests and identified P1 and P5 as the only pair appearing across all failures, while P2 defended the yes-votes as attempts to avoid blocking information-gathering teams and agreed P1 and P5 were most likely responsible. The round ended with P1 and P5 each deflecting onto P2 to fracture consensus, but P4's logical breakdown and P2's alignment with it created a clear endgame suspicion toward P1 and P5 as the pair."
+G136,5,"Round 5 Summary:
+Leader: P3 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: FAIL
+
+P2 argued the failure of the same trio that passed Quest 4 proved P1 was sabotaging, while P1 accused P4 of narrative manipulation and P5 of enabling early failures. P4 walked through the overlap logic across all failed quests to conclude P1 and P2 were the only consistent pairing, and P5 admitted confusion but agreed P1 and P2 appeared on too many failures to be innocent. Trust in P2 collapsed sharply after the repeat-team failure, with P4 and P5 now aligned against P1 and P2 despite P2's attempts to redirect blame."
+G137,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P3 voted no) | Outcome: FAIL
+
+P5 pointed to P1 as the common factor across Quest 1 and Quest 5 failures and named P1 and P4 as the pair, while P4 argued that P1 and P2 had built a convenient narrative to frame P4 across multiple rounds. P2 and P1 both cited P4's presence on two failed quests and the Quest 2/3 passes by P2 and P3 to conclude P4 and P5 were responsible, with P1 emphasizing that P3's repeated no-votes aligned with P5's suspected sabotage. The final discussion solidified a sharp divide: P5 and P4 accused P1 (and P4 also accused P2), while P1 and P2 converged on P4 and P5, leaving P3's voting pattern as a lingering point of contention."
+G138,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Approved (P3 voted no) | Outcome: FAIL
+
+P4 dismissed P1's quest participation record as narrative rather than evidence and accused P1 and P5 together, while P2 echoed the same P1/P5 pairing by claiming P1 approved contentious teams to soften his own exposure. P5 and P1 both countered by citing the full quest history to argue P2 and P4 were the only pair present across all three failures, with P5 calling P2 and P4's matching accusations coordinated. The round ended with a sharp division: P2 and P4 aligned against P1/P5, while P1 and P5 independently pointed to P2/P4 as the pair fitting all fail nodes."
+G139,5,"Round 5 Summary:
+Leader: P3 | Team: P2, P3, P5 | Vote: Unanimous | Outcome: FAIL
+
+P1 argued that P5 farmed trust by appearing on every PASS before sabotaging the final quest, accusing P4 and P5 as the pair, while P5 and P4 countered by pointing to P1's presence on two failed quests and the Round 1 fail as definitive proof. P2 cited the Quest 3 failure to lock P1 as guilty and used the Quest 5 fail to implicate P5 as the second source, building a logical case that P4 echoed. The round solidified a consensus among P2, P4, and P5 against P1, with P1 isolated and P5 successfully deflecting blame onto the Round 1 narrative despite being the fresh suspect from the final failure."
+G140,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: FAIL
+
+P2 argued that P1 appeared on both failed quests and kept proposing teams that included P2 while claiming to test P2, while P4 pointed to P5's presence on the Quest 4 failure and suggested P1 and P5 were responsible. P1 and P5 both presented logical analyses tracing the failures back through quest overlaps, with P1 citing P2 and P4 as the only pair explaining both Quest 3 and Quest 4 failures, and P5 reinforcing the same pairing while dismissing the accusations against P1 as coordinated misdirection. The final discussion solidified into two camps: P2 and P4 blaming P1 and P5, while P1 and P5 maintained their case against P2 and P4, leaving the table locked in mutual accusation with no new consensus."
+G141,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+
+P5 insisted the pass did not erase P3's presence on the failed Quest 3 and accused P3 and P1, while P1 countered by highlighting P4's lone rejection vote in Round 4 and named P4 and P5. P4 and P2 both cited the quest record to argue that P5 was locked in from Quest 3's two-person fail and P1 was the only remaining overlap explaining Quest 2, converging on P1 and P5 as their final accusation. The round closed with P1 and P5 each deflecting blame onto other pairs while P2 and P4 aligned around the same pairing based on process of elimination."
+G142,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: PASS
+
+P5 argued that the passing quest did not clear anyone and insisted P2 and P4 were evil for appearing on both failed quests without accountability, while P1 echoed blame toward P2 for driving suspicion after Quest 3. P2 and P4 independently presented constraint logic pointing to P1 and P5 as the evil pair, citing that Quest 3 failed with P1/P2 and Quest 4 failed with P3/P4/P5, with P4 knowing P4 was good and thus identifying P5 as the Quest 4 saboteur. The final discussion left a hardened split between P1/P5 deflecting blame onto P2/P4 and P2/P4 presenting overlapping logical cases against P1/P5."
+G143,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P5 argued the two failures shared unclear third-slot picks rather than P1, pointing suspicion at P3 and P4, while P1 countered by framing P3 and P5 as the common threads across failed quests and noted P4's rejection of the Round 5 team. P2 and P4 both cited P1's presence on both failures and P5's appearance on Quest 4 as the strongest overlap evidence, with P2 emphasizing that P1 could afford to pass Round 5 after banking two fails. Consensus hardened around P1 and P5 as the likely pair, though P1 and P5 each deflected by isolating P3 or P4 as alternative culprits."
+G144,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+
+P5 argued that P1 had steered the narrative from the start and accused P1 and P4, while P4 countered that P1's persistent targeting of the same players was suspicious and named P1 and P2 as the pair. P2 and P1 both reaffirmed their position that P4 and P5 were the only players absent from all passing quests and pointed to the clean mapping of each to one failed mission. The final round solidified the enduring split between the P1-P2-P3 coalition and P4-P5, with each side presenting their case but no new evidence shifting the entrenched battle lines."
+G145,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+
+P2 pointed to Quest 3's failure and argued P4 and P5 were responsible, while P4 countered that P2 and P5's repeated arguments across rounds signaled deception. P1 and P5 both cited the Quest 1 and Quest 3 failure patterns to accuse P2 and P4, with P5 emphasizing that P2's cooperation on the final quests was strategic restraint rather than proof of trustworthiness. The table split between those trusting the late-game passes and those anchoring blame on the early failures, cementing P2 versus P4 as the central tension heading into endgame judgment."
+G146,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Approved (P3 voted no) | Outcome: PASS
+
+P5 accused P1 and P4 of being protected by ""it passed so they're fine"" logic and pointed to Round 1 as weak evidence against P5, while P2 targeted P1 and P5 and dismissed the notion that passing quests clear anyone. P1 cited the full quest history to argue P2 and P5 are the pair that fits both failures without contradicting the three passes, and P4 explained the team choice as avoiding P5 and repeating Round 4's roster, then called out P2 and P5 for evasiveness. The final accusations split sharply: P1 and P4 pointed at P2 and P5, while P2 and P5 cast suspicion back at P1, with P4 also under fire from P5."
+G147,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: PASS
+
+P2 pointed to P1 and P5 as the pair, arguing P5 had driven exclusion narratives while P1 appeared on both failed quests yet later passed when paired with vocal accusers. P1 countered by highlighting clean results on small teams and suggested P2 and P4 were the real pair since P4 was on the Round 3 fail. P4 and P5 both reinforced the case against P2 as the only overlap across both failures, with P5 framing P1 as the likely second culprit who strategically stopped sabotaging, while P4 cited the pass record to argue P1 and P5 were consistent. The final accusations hardened into two competing theories: P2/P1 versus P2/P5, with P2 now isolated and P1 facing renewed skepticism despite the passing quest."
+G148,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P5 argued P1's presence on both failed quests made P1 and P2 the likely pair, while P4 also pointed to P1 but suggested P2 had been driving the anti-P4 narrative since Round 3. P2 countered by citing the quest history to argue P4 and P5 were the consistent pair, noting P4 could have passed Quest 5 for cover, and P1 echoed this read while protesting that P4 and P5 were coordinating blame against P1 across multiple rounds. The final declarations split cleanly with P4 and P5 accusing P1 and P2, while P1 and P2 accused P4 and P5, leaving P3 as the swing voter whose trust would determine the group's consensus going forward."
+G149,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P5 argued the pass didn't clear the team and pointed back to Round 2's fail implicating P1 and P3, while P1 deflected by framing P3 and P5 as the pair and claiming P5 manipulated blame throughout the game. P2 and P4 both cited P1's presence on both failed quests and accused P1 and P5 as the pair, with P2 noting P5 could have passed Round 3 to build trust and P4 calling P5's constant deflection suspicious. The final accusations converged on P1 and P5 from the good players, while P1 and P5 attempted to redirect suspicion toward P3 and each other's accusers."
+G150,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P4 pointed to the pattern of three passes involving P1/P2/P5 and argued P3 plus P2 must be the two evils who caused the early fails, while P1 countered by noting P4 and P3 each appeared on exactly one failed quest and never had to answer for it afterward. P2 shifted blame onto P4 for Quest 2's fail and suggested P1 sabotaged Quest 1 then coasted on later passes, a theory P5 echoed by citing the same quest failures as the simplest fit. The final round left P1 and P4 facing the most accumulated suspicion, though P2's wavering and P3's silence throughout the game kept alternative theories alive."
+G181,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P3 blamed P4 and P5, arguing P4's consistent rejection of non-P4 teams and P5's presence on the other failed quest marked them both, while claiming the failure on P3's own team was a setup to auto-blame the newest addition. P5 challenged the assumption that Quest 3 mechanically cleared P1 and P2, pointing to P3's presence on both failed quests and P2's consistent narrative control, but P2 countered with a full quest-log breakdown showing that since Quest 3 passed with only P1 and P2, neither could be saboteurs, making P5 responsible for Quest 4's fail and P3 for Quest 1's. P1 and P2 converged firmly on P3 and P5 as the pair, isolating P3 and P5 as the consensus targets heading into endgame while P4 remained the skeptical outlier."
+G182,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: FAIL
+
+P5 blamed P1 for the failure, arguing the same team passed Quest 4 under different leadership, while P1 deflected onto P2 and P3 by citing their prior failed quests and narrative steering. P2 and P3 both traced the fail patterns and converged on P1 and P5 as the pair, with P2 citing Quest 1 and P3 noting P5's presence on both Quest 2 and Quest 5. The group split into two camps: P1 and P5 pointing at P2/P3, while P2 and P3 united against P1 and P5, creating a clear factional divide heading into endgame."
+G183,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P5 | Vote: Approved but P4 voted no | Outcome: FAIL
+
+P3 pointed to P1 and P2 as the common thread across Quest 1 and Quest 5 failures, while P1 countered by accusing P2 and P3, citing P2's presence on both failed quests and P3's involvement in the Quest 3 failure. P2 and P5 both converged on P1 and P3 as the pair, with P2 comparing the Quest 4 pass to the Quest 5 fail using the same team and P5 emphasizing P3's role in the only two-player failure and P1's consistency across the bookend fails. The final accusations split sharply, with P3 and P1 targeting each other's partnerships while P2, P4, and P5 aligned against P1 and P3, creating a clear endgame divide that will shape any post-game analysis."
+G184,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P3 challenged the assumption that being on Quest 3 automatically made P3 suspect, suggesting P5 could have been carried on Quest 2 and that P1's presence on two failed quests (3 and 5) deserved scrutiny. P5 pointed to P1 and P3 as the pair who pushed the failed team through, while P2 and P1 both concluded P3 and P5 were the culprits, citing P3's overlap on Quests 3 and 5 and P5 as the only explanation for Quest 4's failure. P1 protested being framed as the common denominator, insisting P1 wouldn't volunteer for two conspicuous failures, leaving P4 to weigh whether the evidence against P3/P5 or the pattern around P1 was more credible."
+G185,5,"Round 5 Summary:
+Leader: P5 | Team: P2, P3, P5 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P1 argued that P3 was the common thread across both three-person failed quests and that P5 had been driving blame onto P1 since Round 1 while approving the teams that failed, while P2 pointed to P1's presence on the failed Quest 4 and P3's yes vote on Round 2 despite being positioned as untouchable. P5 and P3 both used Quest 3's success to argue P3 and P4 were trustworthy together, then traced P1's presence on Quest 4's fail to pin P1 as Evil and identified P2 as the second saboteur for appearing on early teams with P1 and the final fail. The core division solidified into P1 and P2 blaming P3 and P5 for quest failures, while P3 and P5 united around P1 and P2 as the pair based on quest participation patterns."
+G186,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P5 | Vote: Approved (P3, P4 voted no) | Outcome: FAIL
+
+P5 blamed P1 and P3 for the pattern of failures, pointing to their roles on the failed teams as the only consistent decision points. P2 redirected focus to the voting bloc formed by P3 and P4 across rounds 4 and 5, suggesting that pairing indicated coordination, while P3 and P1 both built cases around P5's presence on the failed two-person Quest 3 and P2's appearance on all three-person quests that included failures. The final accusations crystallized into two competing theories—P5 and P2 pointing at P1 and P3, while P3 and P1 pointed back at P5 and P2—leaving the group polarized with no emerging consensus on who to trust moving forward."
+G187,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Approved 3-2 (P4, P5 voted no) | Outcome: FAIL
+
+P3 blamed P4 and P5 for the failure, citing P4's presence on Round 1's failed quest and P5's swing between Round 2's pass and Round 4's fail. P1 deflected by accusing P2 of adapting stories to fit results and named P2 and P4, while P2 cited the mathematical constraints across all three failed quests to argue only P1 and P3 satisfy the failure pattern, noting Round 3's pass included P2 alongside P1. P5 echoed P2's conclusion by pointing to P3's presence on both Round 4 and Round 5 failures and dismissed P4's no-votes as consistent suspicion rather than hidden knowledge, solidifying suspicion toward P1 and P3 heading into endgame."
+G188,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P5 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P5 blamed P3 and P4 by pointing to the Round 1 and Round 2 failures and highlighting P4's consistent rejection votes, while P2 echoed this framing and dismissed the Round 5 failure as uninformative noise. P1 and P3 both countered by identifying P2 and P5 as the only pair present across all three failed quests and accused them of coordinating the blame narrative, with P3 defending against the Round 1 suspicion by arguing P5's earlier passes were tactical. The game ended with P1 and P3 aligned against P2 and P5, and P5's attempt to redirect blame onto P4 met resistance from the group's late focus on overlapping failure patterns."
+G189,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P3, P5 | Vote: Approved (only P4 voted no) | Outcome: FAIL
+
+P3 challenged the automatic blame by pointing out P1's presence on the Round 3 fail and accused P1 and P4 of coordinated disruption, while P2 echoed suspicion of P1 and P4 by arguing P4 avoided accountability through constant rejection votes. P1 and P5 both countered by citing the overlap pattern—every fail included either P2 or P3, with P1 emphasizing P3's direct implication in Rounds 3 and 5 and P5 noting P2's presence in Round 1. The final accusations split sharply: P2 and P3 blamed P1 and P4, while P1 and P5 blamed P2 and P3, leaving no consensus and deep mutual suspicion heading into endgame."
+G190,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P3, P5 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P2 argued the failure pointed harder at P1 than at P2 despite P2 appearing on two failed quests, while P3 questioned why Round 2 passed if P2 and P3 were both culpable and challenged the table's pattern-solving approach. P1 and P5 both concluded P2 and P3 were responsible, citing that Round 4 failed with both present, Round 5 failed with P3 leading, P3 approved every team including all failures, and the only clean missions were Round 1 and a potentially strategic pass in Round 2."
+G191,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P5 challenged the narrative by questioning why P1 and P2 controlled most quests and accused P1 and P3 as the pair, while P3 pointed to P4's lone rejection vote in Round 4 and named P1 and P4 as the duo. P1 and P2 both built systematic cases citing the quest history—P1 traced P3's presence on the first fail and P5's presence on the second, and P2 reinforced the same pairing by arguing that later passes don't exonerate players who can strategically choose when to sabotage. The final accusations split sharply: P5 and P3 each tried to implicate P1 with different partners, but P1 and P2 converged firmly on P3 and P5 as the pair responsible for both failures."
+G192,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+
+P3 argued that P1 remained the common denominator across failures despite the quest passing, while P5 deflected blame onto P4 and P1 for being present across most quests. P1 and P2 both cited the split failure pattern—Quest 3 had only P1 and P3, Quest 4 had only P2, P4, and P5—to argue that P3 and P5 were the pair, with P3 choosing not to sabotage the final quest to avoid detection. The consensus firmed around P3 and P5 as the accused pair, though P3 and P5 each tried to redirect suspicion onto P1 and others in their final defenses."
+G193,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P2 argued that passing the final quest proved P2's loyalty and pointed to P3 as the overlap in both failed quests, while P3 countered by highlighting P2 and P5 as the pair and noted P5's first quest leadership in Round 4 resulted in a fail. P1 and P5 both concluded P3 was the common thread in both failures and named P2 as the second suspect due to P2's leadership of the failed Round 2 team, leaving P3 isolated and the group converging on P2/P3 as the likely pair."
+G194,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P2 argued the two clean runs with P2 on board proved Round 2's fail came from P4 or P5, while P3 emphasized P1's presence on every pass as suspicious steering and cited P4's lone rejection vote in Round 4 as image management. P5 countered by applying set constraints across rounds to identify P2 and P3 as the only consistent pair across both failures, and P1 reinforced this by noting P3 never appeared on any passing quest while P2 anchored Round 2's sabotage then benefited from consecutive clean passes. The closing debate sharpened into two competing theories—P2+P3 pointing outward at P1+P4, versus P1+P5 pointing back at P2+P3—with trust now polarized around who manipulated the narrative versus who followed the evidence."
+G195,5,"Round 5 Summary:
+Leader: P5 | Team: P2, P4, P5 | Vote: Unanimous | Outcome: PASS
+
+P5 argued that P1 and P3 were the common thread across the two failed quests and accused them of deflecting by pre-labeling suspects whenever they weren't on the team, while P2 suggested the Round 1 fail was an obvious early move to create lasting distraction and pointed to P1 and P3 for never re-evaluating after passes. P3 and P1 both locked in on P2 and P5, citing that the two-player quest fails at Round 1 and Round 3 each implicated one of them, and argued that the subsequent passes were strategic cover once two fails were already banked. The group divided sharply into two camps—P1/P3 versus P2/P5—with each side presenting competing explanations for the quest outcomes and accusing the other of selective reasoning."
+G196,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P2 and P1 argued the successful quest cleared them both and pointed to P3 and P5 (or P4 and P5) as the true culprits, while P3 and P5 cited the Round 1 and Round 4 failures to argue P1 and P2 were simply choosing when to deploy sabotages. The camp split into two firm reads—P1/P2 blaming the Good players who failed Round 4, versus P3/P5 maintaining P1 and P2 were the common thread across all failures—with P4's lone rejection of the passing team leaving P4 isolated and under suspicion from P1."
+G197,5,"Round 5 Summary:
+Leader: P2 | Team: P1, P2, P3 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P5 framed P1 and P3 as the pair by pointing to the failed quests where only one of P3 or P5 appeared, while P3 countered that being on both failed and passed quests made no strategic sense and accused P2 and P5 instead. P2 and P1 both converged on P3 and P5 as the pair, with P2 citing P5's Quest 3 fail and P3's pattern of passing once under scrutiny, and P1 highlighting that P3 was the only player common to a fail and both later passes. The final consensus among P1, P2, and P4 solidified distrust of P3 and P5, while P3 and P5 each deflected blame onto different alternative pairings."
+G198,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P4 voted no) | Outcome: PASS
+
+P3 argued the pass didn't clear P2 and accused P1 and P5 as the pair based on their presence across failed quests, while P2 reframed Quest 4's failure to implicate P1 and P4 instead. P5 and P1 both used the non-overlapping fail teams from Quests 3 and 4 to argue P2 and P3 must be the pair, with P1 citing how each tried to deflect blame onto different players. The final round solidified a three-way accusation pattern with P2 and P3 each targeting different combinations while P1 and P5 aligned on suspecting P2 and P3 together."
+G199,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P2 and P3 both accused P1 and P5 of being the pair, citing P1's presence on all failed quests and P5's voting pattern, while P5 and P1 countered by pointing to P2's overlap on both failed rounds and P3's sustained deflection of blame away from P2 throughout the game. The final quest's success did not resolve suspicions—instead it deepened the standoff, with P1 and P5 insisting P2 and P3 strategically passed to avoid exposure, while P2 and P3 argued the pass proved their innocence and framed P1 as the constant factor across failures."
+G200,5,"Round 5 Summary:
+Leader: P4 | Team: P2, P3, P4 | Vote: Unanimous | Outcome: PASS
+
+P1 argued that three consecutive passes meant evil players were hiding their intentions and named P5 and P3 as the two evils, claiming P3 was on the Round 2 fail. P2 and P5 both cited P1's presence on both failed quests as damning evidence, though P2 pointed suspicion toward P5 as P1's partner while P5 named P2 instead, citing the later passing quests. P3 supported the P1-P2 pairing, rejecting P5 as a plausible partner because P5 had led the Round 1 team, leaving P1 isolated but P2 and P5 each casting doubt on the other as the second culprit."
+G231,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P3 | Vote: Approved 3-2 (P4, P5 voted no) | Outcome: FAIL
+
+P3 pinned the failure on P2 and P5 by citing Quest 1 and Quest 4 overlaps, while P1 accused P2 of deflecting accountability across multiple rounds. P4 countered by highlighting that P3 was on both the passing Quest 2 and failing Quest 4 with the same lineup, then appeared again on the final fail, naming P1 and P3 as the pair. P2 defended by pointing to P1's presence on Quest 1 and P3's ability to swing outcomes, leaving deep mutual suspicion between P1/P3 and P2/P4 heading into endgame."
+G232,5,"Round 5 Summary:
+Leader: P5 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: FAIL
+
+After the decisive quest failure, P2 and P4 both accused P1 and P3 as the pair, with P2 highlighting P3's presence on multiple failed quests and P4 criticizing the group for trusting the ""P3/P5 core"" narrative after Quest 3 passed. P1 and P3 countered by pointing to P2's presence on both early fails and P4's appearance on the final failed quest, arguing the passes occurred when P2 was absent. The final arguments solidified into two competing theories—P1/P3 versus P2/P4—with no new consensus emerging before game end."
+G233,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: FAIL
+
+P1 blamed P5's shifting vote pattern and argued P3 and P5 were the pair based on Quest 3's failure, while P2 accused P3 of steering approvals despite central involvement in failed missions and pointed to P1 and P3 as the pair. P4 and P3 both identified P1 and P2 as the common denominators across Quest 1 and Quest 3 failures, with P4 noting P1's deflection onto P5 and P3 dismissing P1's vote-pattern argument as distraction from the fail record. The final discussion locked into a hard divide: P1 and P2 pushing outward blame versus P3 and P4 pointing back at them, with P5's credibility and P3's Quest 3 involvement remaining the core unresolved tensions."
+G234,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P3, P5 | Vote: Unanimous | Outcome: FAIL
+
+P3 blamed P1 as the common thread across failed quests and named P4 as the hidden partner who sabotaged Round 4, while P4 countered by pointing to P3's presence on two failures and accused P1 and P3 as the pair. P1 and P2 both used the quest history to argue that P3 appeared on both Quest 3 and Quest 5 failures, concluding P3 and P4 must be the pair since P4 was the only explanation for the Round 4 sabotage. The group consolidated around suspicion of P3 and P4, with P3 and P4 each attempting to redirect blame but facing unified opposition from P1 and P2."
+G235,5,"Round 5 Summary:
+Leader: P2 | Team: P2, P3, P4 | Vote: Approved (P5 voted no) | Outcome: FAIL
+
+P2 blamed P1 and P3 for the failure pattern, pointing to P1's presence on two failed quests and trust in P3, while P3 turned suspicion back onto P1 and P2, citing P1's leadership and participation in Quest 4's failure. P4 and P1 both argued P2 and P3 must be the pair responsible, reasoning that no other combination accounts for all three failed quests given P4's claim of passing Quest 2 and P5's voting pattern. The round ended with P2 and P3 each deflecting onto different targets while P1 and P4 converged on accusing both P2 and P3 together."
+G236,5,"Round 5 Summary:
+Leader: P3 | Team: P2, P3, P4 | Vote: Approved (P5 voted no) | Outcome: FAIL
+
+P4 accused P1 of touching both earlier fails and claimed P1 and P2 were trading blame, while P2 deflected by pointing out P3 led a failed quest just as P1 had earlier and named P1 and P3 as the pair. P1 countered by citing that all three failed quests included at least one of P2 or P4, noting Quest 4's success could have been a strategic pass, and both P1 and P3 converged on P2 and P4 as the most likely pair. The final accusations solidified a bitter standoff between P1/P3 on one side insisting P2/P4 are responsible for all fails, and P2/P4 on the other trying to redirect blame onto P1 or P3, with P3 hedging slightly but ultimately siding with P1's logic."
+G237,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Approved (P4 voted no) | Outcome: FAIL
+
+P3 pointed to P1's presence on two failed quests and argued P1 and P4 formed the pair, citing P4's volatile Quest 4 leadership. P2 blamed P4 for including P3 and P5 together on the failed quest and suggested P1 had rubber-stamped bad teams. P4 accused P2 of appearing on both Quest 1 and Quest 5 failures and claimed P3 used successful quests to deflect suspicion. P1 cited P2's repeated presence on failed quests and argued P3 consistently redirected blame away from P2 onto others, naming P2 and P3 as the pair. The final round left deep mistrust between P1-P4 versus P2-P3, with each side framing the other as coordinated deceivers."
+G238,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Approved (P5 voted no) | Outcome: FAIL
+
+P2 argued the FAIL proved someone finally sabotaged but defended the P1/P2/P3 core while pointing at P4's presence on Round 1, while P3 claimed sabotaging Round 2 would have made no sense and also blamed P4. P4 cited the FAIL pattern across all three failed quests and argued only P2 and P3 could cover them all without requiring P5 to be involved, prompting P1 to agree the evidence pointed to P2 and P3 working together. The room polarized sharply around whether the P1/P2/P3 team hid two saboteurs or whether P4's Round 1 participation implicated P4 instead, with P2 and P3 deflecting onto P4 while P1 and P4 converged on suspecting P2 and P3."
+G239,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P3, P4 | Vote: Approved (only P5 voted no) | Outcome: FAIL
+
+P4 accused P2 and P5 of being the culprits, claiming P2 appeared on both a fail and a pass while steering trust narratives, and P5's consistent no-votes made P5 suspicious. P1 echoed suspicion toward P5 while deflecting from early fail overlap, but P2 countered by citing the evidence that P1 and P4 were the only pair appearing across multiple different failing teams, while the repeated pass team (P1, P2, P3) suggested one saboteur preserving cover. P3 reinforced the case against P1 and P4, noting P4 was the only overlap in non-P5 fails and P1 appeared on two failures, while dismissing the P5 voting pattern as distraction from actual team outcomes, solidifying a split consensus between P2/P3 suspecting P1/P4 versus P1/P4 pointing to P2/P5."
+G240,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Approved (P5 voted no) | Outcome: FAIL
+
+P4 blamed P1 and P2 for the three consecutive failed quests, pointing to their overlapping presence across the failures. P2 defended by citing past successes and argued P3 and P4 were responsible, while P3 highlighted P1's presence on Quests 3 and 5 to deflect suspicion toward P1 and P2. P1 used the Quest 2 clearing of P5 to logically narrow the blame to P3 and P4, creating a sharp divide where P1 and P2 accused P3 and P4, while P3 and P4 returned the accusation."
+G241,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: PASS
+
+P1 and P4 emphasized that every quest without P3 passed cleanly, framing P3 and P2 as the saboteurs, while P3 and P2 cited the Quest 3 failure to isolate P4 and argued that P1 and P4 passed the final quests strategically to avoid exposure. The group split sharply into two camps—P1/P4 insisting P3's presence correlated with all failures versus P2/P3 using quest intersection logic to identify P1 and P4 as the pair who chose when to sabotage. This endgame confrontation locked the narrative into opposing mathematical claims, with each side viewing the other as definitively revealed by the quest history."
+G242,5,"Round 5 Summary:
+Leader: P4 | Team: P1, P2, P4 | Vote: Unanimous | Outcome: PASS
+
+P1 argued that P2 and P3 were the pair by pointing to Quest 3's failure under P2's leadership and suggesting that passes were strategic, while P3 pushed the overlap logic naming P1 and P4 as the common factors across both failed quests. P4 and P2 both countered with disjoint-team reasoning, each independently concluding that one fail came from {P1,P2} and one from {P3,P4,P5}, with P2 citing P2's own pass on Quest 3 to lock P1 as guilty there and P4 vouching for P5 to narrow Quest 4's saboteur to P3. The consensus among P2, P4, and P5 solidified around P1 and P3 as the pair, isolating P1 and P3 as the final suspects heading into endgame."
+G243,5,"Round 5 Summary:
+Leader: P5 | Team: P2, P3, P5 | Vote: Approved 4-1 (P4 voted no) | Outcome: PASS
+
+P1 accused P3 and P4, claiming P3 benefited suspiciously from being auto-cleared after the Quest 2 fail while P4 led the failed Quest 4, but P3 countered by citing P1's presence on both failed quests as mechanical proof and argued P2 was the second evil based on voting patterns. P2 deflected by pointing to the two passed quests P2 participated in, while P4 hedged that P1 plus P2 remained the likeliest pair despite Quest 1 complicating the read, noting P2's inclusion in the final quest looked like tactical cover. The accusations hardened suspicion toward P1 and P2 as the accused pair, with P3 and P4's evidence-based arguments dominating the final consensus while P1 and P2's defenses appeared increasingly isolated."
+G244,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P4, P5 | Vote: Unanimous | Outcome: PASS
+
+P4 highlighted being on two passing quests and pointed blame toward P2 and P3, while P3 argued the composition of failed quests mattered more than simple overlap and suggested P2 plus either P1 or P4. P2 cited the public record that P3 was the only player on both fails and that all quests passed once P3 was excluded, then added P4 as the second suspect for being on Q2, while P1 agreed P3 was clearly one culprit and leaned toward P4 over P2 for the second. The group converged on P3 as the primary suspect, with tension rising between P2 and P4 over who should be named alongside P3."
+G245,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P4 pointed to the two consecutive passes as proof P1 was cleared and argued P2 and P3 controlled the narrative since Round 1, while P1 countered that passing under scrutiny proves nothing and accused P2 of leading the blame train with P4 conveniently supporting whoever was useful. P2 cited the quest outcomes systematically to argue P1 and P4 were the pair covering both failures, and P3 acknowledged uncertainty but leaned toward P4 and P1 as the most probable pairing. The group remained split with no clear consensus, P4 and P1 trading mutual suspicion while P2 and P3 offered competing logical frameworks."
+G246,5,"Round 5 Summary:
+Leader: P1 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+
+P3 accused P1 and P5 of being the saboteurs, arguing that the quest passing with P2 and P3 aboard simply meant saboteurs chose when to appear clean, while P2 echoed this theory and questioned why P1's leadership of a suddenly passing team wasn't suspicious. P4 and P1both named P2 and P3, citing overlap logic from the Round 1 and Round 4 failures and arguing that the Round 5 pass was consistent with saboteurs banking credibility after already securing two fails. The camp split sharply into two opposing theories with no remaining middle ground."
+G247,5,"Round 5 Summary:
+Leader: P4 | Team: P3, P4, P5 | Vote: Unanimous | Outcome: PASS
+
+P1 insisted P2 and P4 were responsible for both failures, pointing to P2's presence on failed quests, while P3 suggested the late passes could be a strategic cover and named P2 and P1 based on behavioral patterns. P2 cited the quest records to argue P1 was the common factor in both fails and added P3 as the second suspect, while P4 used the team's repeated success with P5 as anchor to conclude P1 and P3 were most likely. The round ended with P1 and P3 each receiving the most accusations, creating a clear division between those trusting the quest record (P2, P4) and those challenging its interpretation (P1, P3)."
+G248,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P4 accused P3 and P2, arguing P3 shaped ""don't learn anything"" teams and both players steered the narrative, while P1 claimed P2 and P3 were the consistent pair manipulating suspicion. P2 and P3 both concluded P1 and P4 were the pair satisfying both failures, with P2 citing how P1 and P4 shifted their attacks once Quest 4 failed without P1, and P3 noting each anchored a separate fail without forcing contradictions. The final accusations crystallized into a clear divide: P1 and P4 blaming the P2-P3 axis versus P2 and P3 pointing to P1 and P4 as the only logically consistent pair."
+G249,5,"Round 5 Summary:
+Leader: P5 | Team: P1, P2, P5 | Vote: Unanimous | Outcome: PASS
+
+P2 argued that P1's presence on every quest yet two failures remaining meant P1 and P5 were responsible, while P4 claimed an evil player wouldn't sabotage their own Round 4 team and pointed to P5 plus P1 as the pair. P3 countered by noting the failed quests' intersection logic pointed to one from {P1,P2} and one from {P4,P5}, identifying P2 and P4 based on blame patterns, which P1 echoed by citing their coordinated focus on P5 as suspicious cover. The final accusations solidified into P1 and P3 versus P2 and P4, with P5 remaining the swing target both sides tried to claim."
+G250,5,"Round 5 Summary:
+Leader: P3 | Team: P1, P2, P3 | Vote: Unanimous | Outcome: PASS
+
+P2 argued that being on three passing quests proved the early accusations wrong and pointed to P4 steering narratives and P1 softening positions as suspicious. P3 questioned why accused players would pass final quests when they could end the game, targeting P4's vote patterns and P5's positioning, while P4 cited that P3 was never isolated on a two-person test after Quest 2's failure and maintained P2 and P3 as the most likely pair across both early fails. P1 leaned toward P3 for deflecting blame immediately after Quest 4 and hesitantly included P2 based on Quest 1's failure, though acknowledged the late-game passes complicated confidence in any pairing."
