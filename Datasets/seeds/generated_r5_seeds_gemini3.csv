@@ -1,0 +1,2201 @@
+game_id,round_id,role_id,llm_alignment,player_roles,public_history,prior_summary_gold,discussion_log,matrix_tactic_scale
+G031,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""The only objective fact we have is that every single failed quest featured either P1 or P5, and conveniently, they were both on this final team that just tanked. Mathematically, looking at P1 and P5 as the evil duo is the only conclusion that completely respects the board state.""
+
+P2: ""Exactly, and don't forget P1 finally voted 'yes' on a team for the first time since Round 1, and it immediately failed again. That voting pattern proves P1 and P5 set this whole thing up from the start.""
+
+P5: ""I know I'm good, and since I obviously didn't drop the fail cards on Round 4 or 5, the sabotage had to come from P3 in the fourth quest and P2 in the first and fifth. That means it has to be P2 and P3, because that's the only logical way to explain the fails from my perspective.""
+
+P4: ""P5 is right; looking at the mission logs, P2 was on the Round 1 and Round 5 fails, while P3 was the only possible evil on the Round 4 fail since I know my own alignment. The evidence points cleanly to P2 and P3 as the ones who manipulated the teams to secure their three fails.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G032,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P1
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""P2, you're completely misremembering how the early game played out; you and P3 actively isolated yourselves on the Round 4 vote because you knew your own Round 1 and Round 2 fails were finally catching up to you. My read is locked on P2 and P3 being the evil pair.""
+
+P4: ""I passed Round 3 and Round 4, so the fail today clearly shows I was just being set up for the fall at the very end. It's obviously P2 and P3.""
+
+P3: ""While there's a marginal chance P2 has been manipulating the early board, the most statistically sound conclusion is that P4 and P5 passed Round 4 just to secure this final team and drop the hammer. I'm leaning heavily toward P4 and P5 as the evil pair.""
+
+P2: ""The empirical evidence is undeniable: P4 was present on the Round 1 fail, P5 on the Round 2 fail, and together they just failed Quest 5. My final deduction firmly locks P4 and P5 as the two evil players.""","{
+  ""P5"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Gaslighting"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G033,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P4
+ Team: P1, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""I've been warning you guys since the start: P1 was on the very first failed mission, and the second we let P1 back on a team with an untested dynamic, it fails again. I'm officially locking in P1 and P5 as the evil pair, because the pattern is right there.""
+
+P3: ""Okay, but I know I passed this quest, and P1 passed with me and P2 in rounds 2 and 4 when they easily could have failed to win the game early, which means the fail right now absolutely had to come from P4, and since P5 was the extra on the first fail, I'm just completely sure the evils are P4 and P5.""
+
+P5: ""You guys are totally ignoring the actual hard data that P1 is the common denominator on two separate failed missions—Round 1 and Round 5—which completely overrides those passes they just played to blend in. I'm calling out P1 and P2 as the real saboteurs, since P2 forced that Round 3 fail on us too.""
+
+P2: ""The cleanest evidence is still the double-pass of our P1, P2, and P3 trio; that perfectly locks the three of us as good. The fails track exactly to the outsiders: P5 on Quest 1, P4 on Quest 3, and P4 again on Quest 5, so the evil pair is definitively P4 and P5.""","{
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G034,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""Look, P2 was on both failing Quests 3 and 5, and P3 drove the failed Quest 4 while pushing that fake 'trusted bloc' narrative. It's completely obvious to me now that P2 and P3 are the evil team who just orchestrated this whole collapse.""
+
+P2: ""I know it looks terrible that I was on two failed missions, but P4 was literally on both of those exact same quests with me, which means P4 is the one who actually sabotaged them! I was honestly just trying to test people to get clean data, and since P5 was the extra variable on the failed Quest 4, my final answer has to be P4 and P5.""
+
+P4: ""P2, you proposed Quest 3 just to fail it and frame me, and now you're trying to pull the exact same trick after sabotaging Quest 5. You and P3 have been controlling these failed missions from the start while hiding behind your so-called 'good bloc', so my final read is definitively P2 and P3.""
+
+P3: ""The math is actually perfectly clear: Quest 2 passed cleanly with P1, P2, and me, which means the evil team was entirely off that mission. Since every single failed quest has required either P4 or P5 to be present, the only logical conclusion is that P4 and P5 are our two saboteurs.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusations"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G035,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P5
+ Votes: P1:N P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""Well, the game's over, and looking at the public record, P2 was the only player on all three failed quests—Round 2, Round 4, and now Round 5. That confirms P2 is one of the evils, and by process of elimination from that Round 2 fail, P4 has to be their partner.""
+
+P2: ""You're heavily focusing on my attendance, but conveniently ignoring the fact that you, P3, were on two of those fails yourself, and P5 joined us for this final one. The actual pattern here is that the so-called 'trusted' group orchestrated the fails when it mattered most, which means the real evil pair is P3 and P5.""
+
+P4: ""I totally agree with P2; everyone can see how P3 and P5 maneuvered themselves onto this final team just to secure the last fail. It’s pretty obvious to the rest of us that they’ve been working together to frame us since Round 2.""
+
+P5: ""The math doesn't support that narrative at all; P2 is the literal only common thread across all three fails, while P4 was the necessary saboteur in Round 2. My final read is locked: P2 and P4 are the evil team, and their coordinated deflection right now just proves it.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G036,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""Look, the most glaring truth we have is that P4 led the very first failed mission in Round 2, which makes P4 and P5 the clear evil duo in my eyes.""
+
+P2: ""Exactly, and if you look at who actually hard-rejected the successful Round 4 team, it was P4, which is why my final read is confidently locking in P4 and P5.""
+
+P4: ""You're both conveniently ignoring the actual mission data: Quest 5 just failed with P2 and P3 on it, and since P1 was the anchor for both of our passes, the only evidence-based conclusion is that P2 and P3 are the evil pair.""
+
+P5: ""I have to agree with P4's logic; while there's always a slight chance of an elaborate frame job, the highest probability path through all three failed quests points directly to P2 and P3.""","{
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G037,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Look, you guys are obsessed with me from Quest 1, but P1 is the one who finally got on a team and tanked it! It has to be P1 and P5, they completely set us up to lose.""
+
+P5: ""I really thought I was doing the right thing reusing the pass pool in round 4, but I guess my logic was flawed. Since P2 was on the first fail and P3 was on the last two fails, it just makes the most sense to me that P2 and P3 are the evil pair.""
+
+P3: ""It's awfully convenient to forget that I helped pass Quests 2 and 3 when we needed them, while completely ignoring P1's atrocious voting record. The real story is right there in the team approvals: P1 and P4 played us from the start.""
+
+P4: ""The concrete mission data doesn't lie, despite the noise: P2 anchored the Quest 1 failure, and P3 was the only logical variable that could have sabotaged Quests 4 and 5. Based on the team compositions across the whole game, I am locking in P2 and P3 as the evil identities.""","{
+  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G038,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""Look, I helped pass Quests 3 and 4, so my hands are completely clean here. The final fail has to be on P1 or P5 since they were on the team with me, making P3 and P5 the most likely evils.""
+
+P3: ""You're conveniently leaving out that you were on both Quest 2 and Quest 5 when they failed, P4. My final read is that you and P2 are the evils, based entirely on who was actually present for the sabotages.""
+
+P2: ""The undeniable fact is that P3 was the sole dissenting vote against our only perfectly clean team in Quest 4, which aligns completely with him trying to protect an evil partner. Based on that voting anomaly and his previous team proposals, my final conclusion is that P3 and P5 are our evils.""
+
+P5: ""P2's focus on one single approval vote ignores the actual mission outcomes: P2 failed Quest 1, and P4 was the common denominator on the failed Quests 2 and 5. The clear, evidence-based deduction from the entire board is that P2 and P4 are the evil team.""","{
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G039,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P2, P3, P5
+ Votes: P1:N P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""If we just look at the raw mechanics of the game, P1 was the undeniable common denominator for the fails on Quests 1 and 3, and this final fail objectively means someone out of P2, P3, or P5 finally dropped their pass card.""
+
+P3: ""I know I keep repeating myself, but I literally put in a pass on quest two, quest four, and just now on quest five, which means either P2 or P5 just sabotaged us right at the end, and since P1 was on those first two fails, my final guess has to be P1 and probably P2 because of quest three.""
+
+P2: ""Since P1 is virtually locked as our first evil from the early rounds, this last sabotage was obviously just their partner finally making a move to end the game; the second evil has to be P3 or P5.""
+
+P5: ""You're completely ignoring your own track record, P2; P4 was the one who failed Quest 1, and you were the one who sabotaged both Quest 3 and this final quest. My final, locked deduction is that P2 and P4 are the evil team.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G040,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P4
+ Votes: P1:N P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""P3 and P4 have been aggressively pointing at me since last round, but you two were on this final failing team with me, which just proves that you've been setting me up as the fall guy all along. My final read is definitely P3 and P4 as the evil team, since they engineered this loss.""
+
+P5: ""I agree completely with P2; P3 was on both Quest 4 and Quest 5 when they failed, which makes P3 a lock for evil. Since P4 was so eager to put this final team together and push the blame elsewhere, P3 and P4 have to be the spies.""
+
+P4: ""That logic completely ignores the earlier rounds, because P3 and I were both on passing quests at the start, and the sabotages only began once P5 and P2 started getting onto the teams. Based on the voting patterns and when the fails actually happened, the only rational conclusion is that P2 and P5 are our evil pair.""
+
+P3: ""The raw data makes it undeniable: Quest 1 passed with P1 and me, clearing my alignment, while the subsequent fails on Quest 3 (P1/P5), Quest 4 (P1/P2/P3), and Quest 5 (P2/P3/P4) perfectly isolate the saboteurs. By cross-referencing the team compositions across all three failures, P2 and P5 are mathematically the only possible spies.""","{
+  ""P2"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusations"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G041,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:N
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""If I'm evil, I don't pass the final two quests to hand Good the win; the obvious reality is that P4 sabotaged Quest 2 and P5 sabotaged Quest 3.""
+
+P3: ""Exactly, and just look at the voting record: P4 and P5 were the only ones desperately voting to reject the very teams that just won us the game. My final read is firmly on P4 and P5 as the evil pair.""
+
+P4: ""I know I didn't fail Quest 2, so that immediately locks in P2, and since P5 has been genuinely trying to solve this with me, that leaves P3 for the Quest 3 fail. I'm putting my final bet on P2 and P3.""
+
+P5: ""The structural math from the early rounds hasn't changed: the Quest 2 fail isolates P2 from P4, and the Quest 3 fail isolates P3 from P5, while their late-game passes were just forced survival tactics. The only logical pair that explains both of those guaranteed failure points is P2 and P3.""","{
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G042,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P3: ""Notice how I was on the final winning mission and it passed flawlessly, which proves I was innocent all along and the real evil duo has to be P4 and P5 since they were on the failed Round 4.""
+
+P5: ""Exactly, the only reason Round 4 failed is because P4 and P2 controlled it, while my pass on Round 2 shows I've been helping from the start, so P2 and P4 are the obvious traitors.""
+
+P4: ""The math is actually undeniable across the whole game: P3 failed Round 3 with P1, and P5 failed Round 4 with P2 and me. Since P1, P2, and I have clean passes anchoring our history, P3 and P5 are the two Evil players.""
+
+P2: ""That tracks perfectly with my perspective; since I know my own alignment and we've verified P1's innocence through consistent early passes, the process of elimination logically leaves P3 and P5 as the saboteurs.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G043,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""I proved my loyalty by passing Quest 1 and now passing Quest 5 to win us the game, but let's not ignore the glaring fact that P2 was on exactly both failed missions; my final read is definitively P2 and P5.""
+
+P5: ""Exactly, P4 and I have both been on successful passing teams that helped us win, while P2 is the literal common denominator in every single failure, so my final deduction is P2 along with P3 for covering for them.""
+
+P2: ""I know I look absolutely terrible because I was on those failed quests, but I honestly just voted how I thought the group wanted me to for testing purposes, and since P1 and P3 are completely proven Good by Quest 3, by process of elimination my final answer has to be P4 and P5.""
+
+P3: ""P4 only passed Quest 5 to try and salvage some credibility at the end, but the structural evidence is undeniable: Quest 2's fail isolates P5, Quest 4's fail isolates P4, so I am locking in P4 and P5 as the evil pair.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G044,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""Since I was on every single passing quest that won us this game, the undeniable truth is that P5 failed Quest 1 and P4 failed Quest 2. Any other reading just ignores the actual results.""
+
+P3: ""Yeah, P2 and I passed Quest 4 when we easily could have ended it, which confirms we're good. The only logical conclusion left is that P5 and P4 are the evil team who failed those first two missions.""
+
+P4: ""Well, I know my own alignment, and since P1 was on all the passing quests with me, the Quest 2 fail had to be P3. P2 passing lately doesn't erase their Quest 1 fail, so my final read is that the evils are P2 and P3.""
+
+P5: ""The quest sets give us the exact answer: Quest 1 failed with {P2,P5} and Quest 2 with {P1,P3,P4}. Since I know my own alignment, P2 is our first evil, and since P4 just proved themselves on this final pass, P3 is the second.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G045,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P2, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P3: ""Everyone is obsessing over me being on Quest 3, but the actual undeniable fact is that P4 was on literally every single failed mission in this game and pushed hard to control the votes! My final read is that P4 and P1 are the evil team working together to frame me.""
+
+P2: ""We pulled off the win, but looking at the board, P1 was on the very first fail and P4 was right there on the second fail, so I have to agree that P1 and P4 are the most logical evil pair. I've been on the passing teams that carried us, so it definitely isn't me.""
+
+P4: ""That's a nice attempt at deflection, but the objective evidence shows P3 is mathematically locked from the Quest 3 fail since I know I'm good, and cross-referencing that with the Quest 1 fail squarely implicates P2. P2 and P3 are undeniably the two evil players who tried to ride the late passes to hide.""
+
+P5: ""P4's reasoning is completely sound, as the only way both the Quest 1 and Quest 3 fails make sense without contradicting each other is if the remaining players on those teams are the saboteurs. I am absolutely locking in P2 and P3 as our evil players based on that clear deduction.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G046,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""The biggest tell right here at the end is that P4 was the only person to vote against our winning team, clearly trying to derail it to get their final fail. Based on that and the Round 1 disaster, I'm locking in P3 and P4 as the two evils.""
+
+P2: ""Exactly, and since I personally picked this team and it passed to win us the game, it mathematically proves I’m completely good. The only possible answer now is that P4 and P5 set up that Round 4 fail together and tried to frame the rest of us.""
+
+P4: ""I voted 'no' on this team simply because it felt incredibly risky to put both Round 1 suspects on the final mission, but I'm glad it somehow worked out. Since I know I'm good and P5 was the variable on that Round 4 fail, my final read is that the evil team is P2 and P5.""
+
+P3: ""Let's just look at the concrete evidence: Round 1's fail confirms one of me or P2 is evil, and Round 4's fail isolated the second evil to either P4 or P5. Since P2 is desperately trying to clear themselves using a single pass while ignoring the structural math, the undeniable evil pair is P2 and P5.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G047,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""The undisputed truth of this game is that P1 is the single common denominator on every failed quest, while the consecutive passes in rounds four and five happened exactly when P1 was benched. Based on that hard undeniable fact, my final conclusion is that P1 and P2 are the evil players who tried to manipulate the middle rounds.""
+
+P3: ""P5 is completely right to emphasize that P1 was on both fails but none of the late passes, which is the most glaring statistical reality of the entire board. I'm officially naming P1 and P4 as the evil team, since P4 set up that first pass just to build unearned trust for the mid-game sabotages.""
+
+P4: ""I've been going back and forth in my head trying to make sense of the overlaps, because I know I'm good, and when I was with P1 we passed, but then the fails happened exactly when P5 and P3 got added into the mix. So logically, since our pass core secured the win today, I'm absolutely locking in my final read as P3 and P5 being the ones who slipped those fails in.""
+
+P2: ""The empirical evidence is actually quite clear: the sabotages solely occurred in rounds two and three when P5 and P3 respectively entered the teams, whereas the core group passed every other mission. I am definitively naming P3 and P5 as the evil players based entirely on these clean compositional facts.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G048,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P3: ""I passed Quest 5 to prove my loyalty, so if I were Evil, why wouldn't I just fail this to win the game? Think about it; the real Evil team has to be P2 and P4 who have been controlling the votes all game.""
+
+P5: ""Notice how P2 pushed so aggressively to lock in their 'perfect' Quest 2 trio, only for Quest 4 to fail the moment they got comfortable. My final read is that P2 and P4 are the actual saboteurs who just set P3 and me up to take the fall.""
+
+P2: ""P3, you passed this last quest because you knew failing it would be an obvious death sentence, but you already showed your hand when you sabotaged Quest 4. The data points remain steady: the quests only failed when we added P5 in Quest 3 and P3 in Quest 4, meaning you two are the evils.""
+
+P4: ""Let's lay out the definitive facts for the final record: our core of P1, P2, and myself passed Quest 2 cleanly, and the fails perfectly track the exact rounds P5 and P3 were introduced. P3 throwing a pass at the end doesn't erase the math; P3 and P5 are objectively our two Evil players.""","{
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G049,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""P3 only led that final team to a pass so they could secure the win and frame me, conveniently ignoring how they set up the board all game. The real Evil duo is obviously P3 and P4, and they just used this last quest to completely cover their tracks.""
+
+P5: ""Don't forget the vote records: P4 approved every single failed team without hesitation, which is exactly how an Evil player hides in plain sight. I'm fully locking in P4 and P3 as the Evil team based on their voting behavior.""
+
+P4: ""Voting to approve teams early on is just how we gather information, but the actual mission sabotage results are what we need to logically follow. Since P2 was on both failed quests and P5 was on the first one, the most rational conclusion is that P2 and P5 are Evil.""
+
+P3: ""The objective data is absolutely definitive: Q1, Q3, and Q5 all passed with our core group, entirely isolating P2 and P5 as the common denominators on the Q2 and Q4 sabotages. The factual evidence leaves no room for doubt; P2 and P5 are unequivocally the Evil players.""","{
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G050,5,P1,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""Game over and we won, but looking back at Q2, it's pretty obvious P2 was the one who tanked it before hiding on the passing teams, so my final read is P2 and P3 as the evils.""
+
+P3: ""To be fair, P2 being on that Q2 fail and then conveniently appearing on the last two passes is the exact textbook definition of an evil player passing for credibility, making my final read P2 and P5.""
+
+P2: ""The public record leaves no room for debate: Q3, Q4, and Q5 all passed perfectly with a core of P1, P2, and P5. The only players completely excluded from that winning streak were P3 and P4, who precisely map to the Q1 and Q2 fails, locking them in as the evil team.""
+
+P5: ""The logic holds perfectly; keeping P3 and P4 isolated from the team gave us exactly three clean passes in a row. It makes complete sense that P3 and P4 are the two evils, since any other combination entirely contradicts the objective mission data.""","{
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}
+}"
+G081,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""Well, P2 was on the first and last failures, and P4 engineered that 'safe' trio just to set up the Round 4 sabotage when I finally got added. I'm locking in P2 and P4 as the evil team that played us from the start.""
+
+P3: ""I don't know about that, because P2 passed with us in Round 2, and the only people who were the 'new' variables on the failed teams were P1 and P5. I'm pretty sure the evil team just has to be P1 and P5.""
+
+P4: ""P3 is exactly right; the process of elimination is absolute here because P3 and I are proven good by the passes, leaving P5 as the Round 4 saboteur and P1 as the Round 1 saboteur. P1 and P5 are the only logically possible evil pair based on the quest outcomes.""
+
+P1: ""It's convenient you completely skip over the fact that P2 was on two failed quests and happily approved this final team, while P3 was the only one who voted no today. That voting pattern points directly to P2 and P3 coordinating this whole disaster.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G082,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P3, P5
+ Votes: P1:Y P2:N P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""The only undeniable fact on the board is that P2 aggressively voted 'no' against every single team that actually managed to pass. That pristine record of obstruction, combined with P5 dragging down two separate failed quests, proves to me that P2 and P5 are our evil pair.""
+
+P4: ""P1, you're completely ignoring the fact that P5 forced that terrible Quest 2 lineup in the first place and then immediately started pointing fingers when it failed. It's honestly crazy you're letting them rewrite history like this, because P5 and P2 have obviously been coordinating since round one.""
+
+P5: ""I know I didn't fail Quest 2 or Quest 5, so looking at the player overlaps, P4 has to be the one who failed the second quest. And since P3 was on both the first and last failed quests, my final conclusion is that P3 and P4 are the two evil players.""
+
+P1: ""Wait, I was on Quests 1, 3, 4, and 5, and it's just so overwhelming because P3 was with me on all of them, which means they passed two and failed two, which is just really complicated to track. But since I know I'm good, and P4 was on the failed Quest 2 without me or P3, I'm just going to have to conclude it's P3 and P4, even though these shifting teams make my head spin.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Gaslighting"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""}
+}"
+G083,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P1: ""Well, that's the game; the undeniable fact here is that P2 was on both the Quest 1 and Quest 5 failures, using the Quest 4 pass to set up the final sabotage. My final read is P2 and P3 as the evil team.""
+
+P4: ""Exactly, P2 being the common denominator on those failed bookend quests tells the whole story. I'm definitely naming P2 and P3 as the evil players here.""
+
+P5: ""Nice try, but I know I didn't fail this final quest, which leaves P1 as the saboteur for Quests 1 and 5 since P2's voting pattern was actually trying to warn us. Add in Quest 3 where P4 had to be the one failing it over P3, and my final deduction is definitively P1 and P4.""
+
+P3: ""That adds up perfectly, P5; I know I'm good, so P4 was absolutely the one who tanked Quest 3. P1 and P4 are the evil team, no question about it.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G084,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""Looking at the entire board, Quest 3 failed with P3, Quest 4 failed with P5, and now Quest 5 failed with P3 again; the only logical conclusion is that P3 and P5 are the evil duo who infiltrated our passed teams.""
+
+P3: ""If I were actually evil, why would I pass Quest 2 just to supposedly fail later and make myself the most obvious target? I'm telling you, P1 and P4 orchestrated this whole thing to set me up.""
+
+P5: ""It's funny how P1 was on the last two fails but somehow completely escapes your logic, P4; it's obvious to me that P1 and P4 are the real saboteurs who played us all.""
+
+P1: ""Listen, I know I was on the last two fails, but if you look at the exact progression, me and P2 were completely clean on Quest 1, then P3 passed 2 but failed 3 and 5, while P5 failed 4, meaning the only consistent variables bringing fails to our core are exactly P3 and P5.""","{
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G085,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""Notice how P5 was the only one to vote 'no' on this final team, right as P2 finally dropped the act and threw the mission. I'm locking in P2 and P5 as the evil duo.""
+
+P4: ""Exactly, P5 led the failed second quest and perfectly timed that dissent today to look clean while their partner P2 sabotaged us. It's definitely P2 and P5.""
+
+P5: ""I voted no because I realized putting P3 and P4 on the same team was a guaranteed fail given the heat on them from earlier rounds. My final answer is that P3 and P4 are the evil players.""
+
+P1: ""If you just look at the board, P3 was on two failed quests and P4 was on two failed quests, while I was on the only passes. The evil players are obviously P3 and P4.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G086,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""The most critical detail everyone is ignoring is that P1 was on both Q2 and Q5 when they failed, establishing a direct pattern of sabotage; my final conclusion is that P1 and P3 are our actual Evil pair.""
+
+P4: ""I had nothing to do with that fail, P1 and P2 just brought me along to set me up again like they did in Q2! It's obvious to me now that P1 and P2 have been working together to frame me this entire game.""
+
+P1: ""The mission record provides absolute clarity: our core of {P1, P2, P3} generated clean passes on Q1 and Q4, whereas every single failure only occurred when either P4 or P5 was added to the team, confirming they are the two Evil players.""
+
+P3: ""P1 is completely right, because the only structural difference between our clean pass on Q4 and this final failure on Q5 was swapping me out for P4, which logically cements P4 and P5 as the evil team.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G087,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""Notice how P4 was the one constantly driving the narrative and structuring the teams after Round 1? That level of control over the pass/fail flow makes me certain the Evil team is P1 and P4.""
+
+P5: ""The real story here is how P1 managed to be the central figure on the first two fails, and P4 just enabled them the whole way; it's a classic setup, so my final read is P1 and P4.""
+
+P1: ""While there's a chance I'm misinterpreting some of the earlier vote dynamics, the most probable reality is that P3 and P5 have been coordinating these sabotages while using my overlap as a shield.""
+
+P4: ""The concrete mission data cuts through all of that noise: Quest 1 failed with P3, Quest 4 failed with P5, and today's fail confirms P3 again, leaving P3 and P5 as the undeniable Evil team.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G088,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P4, P5
+ Votes: P1:Y P2:N P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""It’s funny how everyone ignored that P2 rejected every single team after being on the very first fail, and now that the exact same team from Quest 4 just failed Quest 5, the most obvious answer is that P4 or P5 finally threw it. My final read is that the evil pair has been P2 and P5 this whole time.""
+
+P5: ""I'm honestly so confused because I thought this exact team worked last time, so it's probably either P1 setting us up for the long con, or maybe P4, but I still lean toward P1 and P3 being the evil pair based on the earlier quests.""
+
+P1: ""Wait, if the team failed now, it just means P5 finally decided to drop the fail since P4 and I proved ourselves by passing Quest 3 together. I'm locking in my final guess as P5 and P2, because that's the only pairing that explains all these votes and failures.""
+
+P4: ""Looking at the whole board, P1 was on the Quest 1 fail and this final fail, while P3 was on the Quest 2 fail, which completely accounts for the spread of sabotages. The data points directly to P1 and P3 as the evil pair, and P1 passing twice was clearly just a play to buy our trust for this final round.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G089,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""See, the last quest failed without me even being there, which proves P1 was the real saboteur in Round 1 and just did it again to finish us off.""
+
+P5: ""P1 tried so hard to frame me as the 'toggle' earlier, but getting on this final team just to fail it proves P1 was the one projecting their own guilt onto me the entire time.""
+
+P1: ""Let's stick to the undeniable facts: P5 is the only player to appear on two failed quests in Rounds 3 and 5, which means the remaining evil must be P4 from our Round 1 failure.""
+
+P3: ""While there is a marginal chance P1 orchestrated this perfectly to frame them, the most statistically sound conclusion based on the failures is that P4 and P5 are the evil pair.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusations"",""scale"":""Mach-IV"",""level"":""High""}
+}"
+G090,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""Well, that's game over, and looking back, it's pretty clear P4 leading this last team straight into a fail confirms what I've been saying about them and P2. P2 rejected early safe comps and then happily jumped on the failing ones, so I'm locking in P2 and P4 as the Evils.""
+
+P1: ""I have to agree, especially since P4 built this last team specifically claiming it would clear things up, yet it failed instantly. The only logical conclusion is that P4 and P2 have been coordinating to sabotage us while pretending to be cautious.""
+
+P3: ""I'm a bit overwhelmed by how fast that fell apart, but it doesn't make sense for P4 to deliberately sabotage their own leadership proposal when they had other options. Since P1 and P5 are pushing so hard to blame the exact people who suspected them, I'm confident P1 and P5 are the actual Evil team.""
+
+P4: ""The math leaves absolutely zero room for doubt: Quest 3 failed with P1, Quest 4 failed with P5, and this final Quest failed with P1 again. Since I know my own alignment and P2's voting record perfectly aligns with Good, P1 and P5 are definitively our two Evil players.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G091,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P3: ""Ask yourselves why I would reject the very first team if I was trying to blend in, or why I’d approve the last two quests to literally hand Good the win. I’m locking in P1 and P5 as Evil, because they perfectly coordinated passing the right quests to frame P4 and me.""
+
+P4: ""P3 is completely right; look at how P5 was literally on a failed quest with me, yet somehow gets a free pass as the 'savior' of the final rounds. The real Evil duo is P1 and P5, manipulating the narrative while hiding behind P2's trust.""
+
+P1: ""Wait, but if we won, that means the people on the last two teams passed, and since I know I passed and P5 passed and P2 passed, the ones who failed Quests 2 and 3 have to be P3 and P4. I know I've been confused by the unanimous votes all game and maybe I'm overthinking it, but with three passes from our core group, my final read is definitely P3 and P4.""
+
+P5: ""The quest results speak for themselves: the only new variables on the two failed missions were P3 on Quest 2 and P4 on Quest 3. Since P1, P2, and I delivered three clean passes together, my final read is undeniably P3 and P4 as the two Evil players.""","{
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G092,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""Notice how P5 completely controlled the narrative all game to isolate me, while P3 quietly coasted on both passing and failing teams to avoid scrutiny. My final read is that P5 and P3 are the actual Evil players who orchestrated those middle fails to set me up.""
+
+P4: ""I threw a pass on that last mission because I'm Good, but ask yourself why P3 was on both a failed quest and this final passing one without anyone batting an eye. It's obvious P3 and P5 played the long game by holding back a fail card just to confuse us at the end, so I'm locking them in as Evil.""
+
+P5: ""P1 was the sole overlapping player on the Quest 3 and Quest 4 fails, making them mathematically confirmed Evil based on the public history. Since P2 and P3 just passed this final quest to secure the win for Good, P4's desperate and nonsensical defense of P1 confirms my final deduction: P1 and P4 are the Evil team.""
+
+P3: ""P5's logic is perfectly sound, because if we accept the unavoidable fact that P1 caused the middle fails, the rest of the board solves itself. I know my own alignment, so P4 trying to retroactively frame me over a successful mission just cements that P1 and P4 are our two Evils.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G093,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P3: ""Everyone needs to look at the public record and notice that P4 was the only person to vote NO on this final winning team, which completely exposes P4 as evil trying to block a pass.""
+
+P5: ""Exactly, P4 throwing a rejection vote on a clean team shows they were desperate to get on the mission to sabotage it, which means P4 and P1 are the actual evil pair trying to manipulate the narrative.""
+
+P1: ""That logic completely ignores the actual quest results: the only missions that failed were Round 2 and Round 4, and P3 was on both of them. Given how hard P5 is defending them right now, my final read is definitively P3 and P5.""
+
+P4: ""My rejection vote was simply because the Round 5 team included P5, who had just been on the failed Round 4 quest. The undeniable mathematical evidence is that P3 was the sole overlap on both failed missions, making P3 and P5 our two evil players.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G094,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""Look, I'll be blunt: I was on that failed Quest 2, but P5 was also there, and P5 used that to completely hard-clear themselves with P1. P1 and P5 are the actual evil pair, and they just coasted on passing the last three quests to secure the win.""
+
+P3: ""Exactly, I rejected those last two teams because it was obvious evil had embedded themselves for the long con. My final read is definitely P1 and P5 pulling off the perfect setup.""
+
+P5: ""The actual record shows Quest 1 failed with P3, Quest 2 failed with P4, and our three passes completely excluded both of you. It's mathematically just P3 and P4, no matter how you try to spin it.""
+
+P1: ""Yeah, I just kept picking the people who actually passed with me because it made sense, and you two were the only ones on the early fails. My final answer is P3 and P4, without a doubt.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Opportunistic"",""tactic"":""Weaponized candor"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G095,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""I think the whole table can agree by now that P1 and P5 have been coordinating this entire time to push the blame onto us, making them the obvious evil team.""
+
+P3: ""Let's just look at the hardest facts we have: P1 was physically on the Round 1 fail, and P5 was on the Round 3 fail; those are the actual moments of sabotage, which clearly exposes those two as the evil pair.""
+
+P1: ""The complete quest record proves otherwise: the clean passes on R4 and R5 show P3 was forced to pass to survive after failing R1, while P4 is mathematically trapped as the R3 saboteur based on the R2 clean data; my final lock is P3 and P4.""
+
+P5: ""P1's logic is entirely sound because I know my own alignment and that I passed Round 3, which isolates P4 as definitively evil; combining that with the Round 1 outcome leaves P3 as the only viable partner, so I am also finalizing my read on P3 and P4.""","{
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}
+}"
+G096,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:N P4:Y P5:N
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""Notice how P5 completely rejected this final winning team after being on the very first failed mission in Round 1. That undeniable voting pattern confirms P3 and P5 are the actual evil pair who have been trying to shut down good teams all game.""
+
+P5: ""While it's entirely possible P4 is innocent since Quest 5 just passed, the probabilities heavily suggest P1 and P4 are our evil players who simply double-passed to avoid exposure at the end. I'm locking in P1 and P4 based on cross-referencing the Round 1 and Round 4 failures.""
+
+P1: ""Framing our clean mission as a 'double pass' is a massive stretch when the simplest reality is that P3 and P5 orchestrated those previous failures to set up this exact scapegoat narrative. My final read is firmly on P3 and P5.""
+
+P3: ""I just know that Round 4 failed the exact second we added P4, and Round 1 failed with P1 on it. The hard facts point straight to P1 and P4 being the saboteurs, so that is my final deduction.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G097,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""I just want to point out that P3 was the only player on both of our failed quests, which is the absolute hardest evidence we have across the whole game. It's obviously P3 and probably P5 who were trying to tank this.""
+
+P4: ""Exactly, the only reason we won is because P1 and I kept things clean on the last two quests while P3's track record is tied directly to those fails. P3 and P5 are the evil pair, no question, and they just ran out of room to sabotage.""
+
+P3: ""The voting record and quest results prove otherwise: Quest 2 failed with {P1,P2,P3} and Quest 3 failed with {P3,P4}, so since I know I submitted Pass both times, the only mathematical explanation is P1 and P4. You both just passed Quests 4 and 5 because you were cornered on a team with P5 and couldn't risk a double-sabotage exposing you.""
+
+P5: ""That logic completely holds up for me, especially since I know for a fact I didn't sabotage anything on those last two quests. P1 and P4 are being way too aggressive about pushing the blame, so I'm officially locking them in as the evil team.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G098,5,P2,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""P4 literally approved every single team including the fails, and P3 was the leader who hand-picked the Round 4 disaster, which makes them the obvious evil pair trying to steal credit for this final pass.""
+
+P5: ""Exactly, I helped secure the first two passes while P3 drove the game straight into a fail, which leaves P3 and P4 as the only logical culprits.""
+
+P4: ""I put myself on this final team to guarantee a pass, and since we just won, my rationale holds up that P1 and P5 must be the ones responsible for those earlier fails.""
+
+P3: ""The evidence actually points the other way: Quest 3 failed on P1, Quest 4 failed on P5, and since P4 and I are good, P1 and P5 are the only valid evil pairing.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G099,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P3, P4
+ Votes: P1:Y P2:N P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""P1 being on every mission doesn't clear them, it just means they controlled the board and chose when to pass to manipulate our reads. My final lock is P1 and P2 as the evil pair, especially since P2 threw that random no-vote on this final winning team just to try and block it.""
+
+P4: ""Exactly, and don't forget that Quest 4 failed the moment P2 was introduced, while this one passed the second we benched them. I'm unequivocally locking in P1 and P2 as the evil team; the result speaks for itself.""
+
+P1: ""That logic completely falls apart, because if I were evil with P2, I could have just thrown a fail on this final mission and won the game right there. The only rational conclusion is that P4 and P5 are the evil pair, trying to desperately deflect because their distinct sabotages on Quests 2 and 4 already mathematically exposed them.""
+
+P3: ""Yeah, the actual facts are just that Quest 2 had P5 on it and failed, and Quest 4 had P4 on it and failed. So based on who was actually sitting on those two sabotaged missions, my final answer is P4 and P5.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""}
+}"
+G100,5,P2,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P5
+ Team: P1, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""We got the three passes, but don't let P1 and P3's victory lap fool you—they completely controlled the narrative by blaming me and P5 for the early fails while sneaking an evil player onto every passed team. My final read is P1 and P3 are the actual evil pair who just played the long game to clear each other.""
+
+P5: ""Think about it—why would I pass this final mission if I were the evil player from Round 2? I wouldn't, which proves the real evils were just waiting to throw the blame on me, making my final suspects P1 and P4.""
+
+P1: ""Guys, literally every single time I was on a mission after Round 1 it passed, and I've been saying since the beginning that I'm good and I didn't fail it, so if you just look at the times we failed, it was only when P4 and P5 were doing things, so they have to be the evil ones. I'm just so glad we won and I didn't mess anything up after that first round, so it's definitely P4 and P5.""
+
+P3: ""The mission overlap data gives us the definitive answer: the only mathematically sound explanation for the Round 1 and Round 2 fails, followed by three consecutive passes, is that P4 and P5 are the evil team. My final, locked deduction is P4 and P5.""","{
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Low""}
+}"
+G131,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""P4, you literally spent the entire last round saying you trusted me on those passing quests, but now you're conveniently forgetting that P1 just orchestrated two back-to-back failed missions. It's obviously P1 and P3 who have been steering us into the ground since the beginning.""
+
+P4: ""I just voted no on this final team because P2 failed the very first quest and it made absolutely no sense to trust them again, but now my head is spinning. If I have to make a final guess based on who was actually on the sabotaged missions, it has to be P2 and P5.""
+
+P2: ""If I was such an obvious evil from the first round, ask yourselves why P1 so eagerly approved this final team with me on it. Maybe they just made a terrible read, or maybe they knew exactly what outcome was going to happen when the cards flipped.""
+
+P1: ""The objective record cuts through the noise: Q1 failed with P2, Q4 failed with P5, and Q5 failed the moment P2 was brought back onto the team. The only combination of evils that perfectly satisfies the pass and fail constraints across all five rounds is P2 and P5.""","{
+  ""P5"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Gaslighting"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G132,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""The fact that this exact same team passed Quest 4 but failed Quest 5 proves someone was just biding their time to strike when it mattered most, making my final read definitively P1 and P4.""
+
+P2: ""I knew I shouldn't have trusted that round four result; P1 obviously just held back to secure this final mission, which means P1 and P3 are the ones who orchestrated this whole mess.""
+
+P1: ""I voted for and played genuine passes on both of those quests because I logically believed keeping our winning team together was our best shot, which means I got completely played by P2 and P5.""
+
+P4: ""Looking at the hard data across all five rounds, P2 is the constant on the Q1 and Q5 fails, while P5 ties Q2 and Q5 together; therefore, the only evidence-based evil pair is P2 and P5.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G133,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P1, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P1: ""Well, we ran the exact same team and it failed this time, which means either P3 or P4 decided to finally drop their fail card. I'm locking in P5 and P4 as the Evil team since P5 started the sabotage in Round 1 and P4 just finished it today.""
+
+P5: ""Running the exact same team was definitely a risk, but considering P1 was on that first fail too, it feels highly probable that P1 just waited until this final mission to drop their sabotage. I guess my final read leans toward P1 and maybe P2, since P2 was on the Round 3 fail, though it's hard to be completely certain.""
+
+P2: ""Notice how P4 deliberately chose to lead the exact same team for the final mission just to ensure they had ultimate control over the outcome. That highly specific choice to force a repeat rather than using the pass data to find cleared players points squarely to P4 and P5 orchestrating this whole thing.""
+
+P4: ""I repeated the team because we passed Round 4, but looking at the final board, P1 is the only player on both the Quest 1 and Quest 5 fails, while P2 covers the Quest 3 fail. The hard mission data across all three failed quests strictly isolates P1 and P2 as the only logical combination that accounts for every sabotage.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G134,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P1: ""Notice how P2 and P3 were the common denominators on these last two failed quests, waiting until the end to finally drop their fail cards. They have to be our two evil players.""
+
+P4: ""I agree; I was on the clean Round 2 team, so I just got dragged down and set up by P2 and P3 on this final mission. It's obviously P2 and P3 who threw the game.""
+
+P2: ""You're completely ignoring that P1 was the common thread on the failed Quests 3 and 4, while P4 was the only new addition to this final failure. The hard evidence points directly to P1 and P4 being the saboteurs.""
+
+P5: ""While a late-game pivot from P2 and P3 isn't impossible, the prior probability heavily favors P1 being the initial saboteur in Round 3, which makes P1 and P4 the most likely evil pair.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""High""}
+}"
+G135,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P3, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""The game is over, and since Quest 4 failed without me and this final one failed the moment P4 joined the team, the only logical conclusion is that P2 and P4 are the evil players who coordinated these late failures.""
+
+P4: ""Actually, if you cross-reference the board, P1 was on the failed Quests 2 and 4, while P5 was on the failed Quests 2 and 5, making P1 and P5 the exact combination that mathematically accounts for every single sabotage.""
+
+P2: ""I've been saying I was innocent this whole time, and I only ended up on those middle quests because I was just voting yes to agree with everyone else's proposals so I wouldn't cause trouble, so P4's logic perfectly explains how P1 and P5 used me as a convenient scapegoat!""
+
+P1: ""P4's math completely ignores the undisputed fact that I was on Quests 1 and 3, which are literally the only two quests that passed all game, proving my innocence and leaving P2 and P4 as the obvious culprits.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G136,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""P4 was the one who practically demanded this exact team composition last round, and now it conveniently fails. If you look at how hard P4 has been steering the narrative to protect P5 all game, those two are clearly our evil team.""
+
+P1: ""I wasn't even on this final team so you obviously can't blame me for the loss. It just proves P4 and P5 have been playing us this whole time.""
+
+P5: ""Wait, my head is spinning with all these accusations and votes, but P1 was literally on the first two failed quests and now this one blew up with P2 on it! I'm just going to trust my gut and lock in P1 and P2, because trying to overthink it just gives them more room to hide.""
+
+P4: ""P1 is the only common denominator for Quests 2 and 3 failing, which anchors our first evil player. Since I know P3 and I are good, Quest 5 failing strictly incriminates P2, leaving no doubt that P1 and P2 are the evil duo.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P5"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Noisy sincerity"",""scale"":""GRS"",""level"":""Low""}
+}"
+G137,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""It's a matter of public record that P1 was on both the failed first quest and this failed final quest, while the middle quests succeeded perfectly without them. Based on that hard mission data, my final read is that P1 has been the primary saboteur all along, likely working with P2 who helped orchestrate this final fail.""
+
+P4: ""Exactly, framing me in round four was just a convenient setup to cover for P1's initial sabotage in round one. Since P1 and P2 just tanked this final mission together, they are obviously the two evil players who controlled the narrative today.""
+
+P1: ""The actual team history proves the exact opposite: Quests 2 and 3 succeeded because they isolated P2 and P3 from the rest of us. The only way Quest 4 and 5 fail is if the players added to those cores—P4 and P5, respectively—are the true evil pair.""
+
+P2: ""Since I know I played a pass card today, and the middle rounds proved P3 is completely trustworthy, the fail in this final mission logically had to come from P5. That verifies P1's entire theory, making it entirely clear to me that P4 and P5 are the two evil players.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G138,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""Looking at the actual mission data, the fails came from P2/P5 in Round 1, P1/P3/P4 in Round 2, and now P1/P2/P4; since I know I'm good, P2 is absolutely locked for the first fail, making P4 the only logical partner from the second. My final deduction is firmly P2 and P4.""
+
+P4: ""Let's highlight the most glaring fact here: P1 was on both of the last two failed quests and somehow managed to fly completely under the radar by claiming credit for the passes. P1 and P5 have been quietly steering this whole narrative to set us up, and they are clearly the evil team.""
+
+P1: ""Tracking the actual overlaps across all five rounds shows P4 was on the Round 2 and Round 5 fails, while P2 was on the Round 1 and Round 5 fails. When you map out the failure points, the only consistent pair that fits the entire record is P2 and P4.""
+
+P2: ""You are both conveniently forgetting that I passed two quests in a row, which makes zero sense for me to do if I were evil trying to win. P1 was on every single team after Round 1 and just tanked the last one, so it has to be P1 and P5.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""}
+}"
+G139,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P2, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Quest 5 failing with me, P3, and P5 means P5 has to be the saboteur here, which perfectly aligns with P1 being the definitive fail on Quest 3; my final read is P1 and P5 are the Evil team.""
+
+P5: ""You're completely ignoring that P4 was on the very first fail and has just been flying under the radar ever since, so I'm locking in my final read as P4 and P2.""
+
+P4: ""P5, you just failed the final mission you were on, and P1 is the only logical culprit for Quest 3 since P2 cleared themselves by accusing them; my deduction is definitely P1 and P5.""
+
+P1: ""It is an undeniable fact that P4 failed Quest 1 and P2 was on the failed Quest 3, so you can't just brush over their actual mission records; my final answer is P2 and P4.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""}
+}"
+G140,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""Look, P1 was on literally every failing team including this one, and P5 was the only other person on the failed Quest 4, so my final read is obviously P1 and P5.""
+
+P5: ""That logic is completely backwards because Quest 3 failed with just P1 and P4, and since P1 was clean on the first two passes, P4 has to be the sabotage there. By extension, since Quests 4 and 5 failed with P2, P2 is the other Evil, making my final answer P2 and P4.""
+
+P2: ""If P4 and I were both evil, why would I have handed you early passes instead of sabotaging when I had the chance in Rounds 1 and 2? The only answer that actually fits the timing is that P1 played the long con from the start, and P3 helped him finish it here.""
+
+P1: ""The data across all five rounds is concrete: Quest 3 failed with P4 as the new addition, Quest 4 failed when P2 replaced me, and Quest 5 failed with P2 on it again. The only mathematical intersection that accounts for all three sabotages without contradicting the early passes is absolutely P2 and P4.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G141,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""We got the win, but let's not forget P4 deliberately voted against the team that just secured it for us. The real Evil pair has to be P4 and P2, based entirely on their behavior around that Quest 2 failure.""
+
+P4: ""That completely ignores Quest 3 failing with P3 and P5, which logically locks P5 as Evil since P3 passed three other quests. By process of elimination from the Quest 2 fail, P1 is the second Evil player alongside P5.""
+
+P1: ""It's actually absurd to call me Evil when I am literally the only player who was on all three of our passing quests, while P4 actively voted 'no' on the team that just won us the game. P4 is just desperately projecting his own guilt from Quest 2 onto me.""
+
+P2: ""I know I'm Good because I didn't sabotage Quest 2, and since P5 is obviously guilty from the third quest, P4's logic is pretty sound. It just has to be P1 and P5, especially with how hard P1 is clinging to that 'no' vote to deflect.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G142,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""I just want to highlight the undeniable fact that I was on every single passing quest this game, including the one that just won it for us. The real saboteurs have to be P2 and P4, since they were the ones driving the failed teams in rounds three and four.""
+
+P5: ""P1 is completely right; our initial team was perfectly clean before P2 and P4 started hijacking the roster to force their own people in. I'm locking in P2 and P4 as the Evil players who tried to sabotage the mid-game.""
+
+P4: ""P1 only passed this final quest because throwing a fail would have ended the game instantly and exposed them without a doubt. I voted for this team because I trusted P2, and based on the overlap from the failed quests, I'm concluding that P1 and P5 are the Evil duo.""
+
+P2: ""The objective data leaves no room for debate: Quest 3's failure locks P1 as evil since I know my own alignment, and Quest 4's failure isolates P5. My final deduction is definitively P1 and P5.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G143,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""P4 being the sole 'No' vote on this final winning team is a dead giveaway; they knew it was a clean group and tried to block it, which locks P4 and P3 as our Evil duo.""
+
+P4: ""I only voted against the team because I felt like it was still a 50/50 shot with P1 in the mix, but given the overall pass/fail spread, I'd guess the Evil players are most likely P1 and P5.""
+
+P1: ""Notice how quickly P4 tries to shift the blame, conveniently ignoring that P3 was on the Quest 2 fail and P4 was on the Quest 4 fail. My final read is firmly P4 and P3.""
+
+P2: ""Let's just look at the hard data instead of spinning narratives: P1 is the only player present on both failed quests, and since Quest 5 just passed without P5, it mathematically confirms P1 and P5 are the Evil pair.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""High""}
+}"
+G144,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""Well, we got the win, but I think we can all agree that P1 engineered this whole 'safe core' narrative after intentionally failing Q1 just to look good later. My final read is definitely P1 and P2, since they controlled the last three teams completely to hide their early sabotage.""
+
+P4: ""Exactly, people conveniently forget that P1 was on the first failed quest and P2 was on the second, meaning they had every opportunity to coordinate those early fails before coasting to a win. I'm locking in P1 and P2 as the evil pair; they played the long game perfectly to bury their tracks.""
+
+P1: ""The concrete evidence tells a completely different story: P4 was the only variable on Q1 that wasn't on our passing Q3/Q4/Q5 teams, and P5 was the unique variable from the Q2 fail. My final deduction is firmly P4 and P5, as the historical quest record leaves no other logical pair.""
+
+P2: ""I just kept picking the teams that I knew could pass because it made the most sense, and winning three in a row without P4 or P5 proves they were the ones dragging us down early on. Based on how everything played out, my final answer is that P4 and P5 have to be the evil players.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G145,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""Since we all pretty much established that P5 was the logical suspect for the Quest 3 fail, the other evil has to be P1 hiding in the core group. It's universally obvious at this point that P1 and P5 are the evil pair who just ran out of room to sabotage.""
+
+P2: ""Exactly, if you look at the board, the only way Quest 3 fails and the game ends this way is if the evils were perfectly split up to control the narrative. P1 and P5 played the long con by passing the late quests to try and steal this at the end.""
+
+P1: ""I don't really get what you guys are saying, the evidence is just right there from the quests that failed. Quest 1 failed with P2 on it, and Quest 3 failed with P4, so P2 and P4 are definitely the two evils.""
+
+P5: ""Yeah, I agree with P1 because it just makes the most basic sense to look at who was actually on the sabotaged teams. I know I passed Quest 3, which leaves P4 as the culprit there, and P2 is the only one who fits the Quest 1 fail.""","{
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G146,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:N P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""Notice how Round 4 failed the moment P4 got on a team, but then they suddenly pass Round 5 when P1 is there to anchor the vote? It's incredibly obvious that P1 and P4 are our Evil pair trying to manipulate this final outcome.""
+
+P2: ""I've been on every single passed quest in this game, which unequivocally clears my record. P4 was on that failed Round 4 quest, so my final deductive read has to be that P4 and P5 are the Evil team.""
+
+P4: ""Since P2 helped us pass three different quests, it just makes sense to me that they're Good, and I obviously know I didn't sabotage Round 4. It's a little confusing, but based on who was left off the passing teams, my final guess is that P1 and P5 are the Evil ones.""
+
+P1: ""P4, you need to look at the strict intersections of the failed quests: P5 was the only suspect for the Round 1 failure, and since P5 wasn't on Round 4, the Round 4 failure absolutely had to come from P2. The mathematical evidence is completely undeniable; P2 and P5 are our two Evil players.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G147,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""I've been on every single passing quest this game, including this final one, which objectively makes me the most confirmed Good player at the table. The only fails happened when P2 and P4 were introduced, so my final read is that P2 and P4 are the Evil pair.""
+
+P2: ""That's a convenient framing, but you're completely ignoring how P5 aggressively manipulated the team selections all game to set me up as the fall guy. P5 and P4 are the real Evil team, and they've been working together to control the narrative since round one.""
+
+P4: ""The actual evidence is undeniable: P2 is the only player present on both failed quests, which mathematically locks him as Evil. Since P3 is clean, P1 has to be the other saboteur from Round 2, making P1 and P2 the definitive Evil team.""
+
+P5: ""Given that P2 is practically guaranteed evil from the double fail overlap, there's an overwhelming probability that P1 is the partner based on the Round 2 composition. My final deduction is firmly P1 and P2, as that's the only pairing that logically fits the entire game record.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G148,5,P3,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""I think we're all on the same page here that P1 and P2 have been running a two-man con this entire game, right? Every reasonable player can see P1 is the common denominator on the fails, and P2 has been doing all the talking to cover for them.""
+
+P4: ""Exactly, the only undeniable fact of this game is that P1 was on every single failed quest we had. When you look at who actually had the opportunity to sabotage those missions, it all points directly to P1 and their defender, P2.""
+
+P1: ""Okay, but I literally passed Quest 1 and Quest 2, so why would I suddenly fail Quest 3 and 4 when I was already trusted? I just got put on teams with P5 for the first fail, and then P4 for the second fail, and they obviously both threw fails just to make me look like the bad guy, so the evils are definitely P4 and P5!""
+
+P2: ""Let's look at the actual variables: Quest 3 only failed when P5 was introduced, and Quest 4 failed with the exact same team that passed Quest 2, meaning one of the evils was hiding on that earlier pass before finally striking. Since P1's actions make no sense for an evil player trying to win, the only logical deduction is that P4 and P5 are our two evils.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G149,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""Since I just helped pass the winning quest when I had the perfect opportunity to fail it, my alignment is undeniably Good; the sabotages were clearly orchestrated by P4 in round 4 and P2 in round 2 to set me up.""
+
+P5: ""If we look exclusively at who had the opportunity to sabotage, P4 dragged us down in round 4 and P2 was the other variable in round 2, making them the only logical evil pair.""
+
+P4: ""I know for a fact I didn't fail round 4, so since P1 is the absolute common denominator across both fails, my final answer is P1, alongside P5 who spent the whole game covering for him.""
+
+P2: ""The voting and quest data are conclusive: P1 was physically present for every single failed mission, and P5's desperate attempts to deflect blame onto the rest of us confirm they are the two evil players.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G150,5,P3,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""Look at the literal facts for our final read: P3 is the only person who was on a failed mission and never proved themselves on a passing one, and P2 was right there on the Quest 2 fail. If you're looking for the two evils, the hard data points straight to P2 and P3 having those fails on their records without enough clean passes to clear them.""
+
+P1: ""Exactly, the fact that we got three passes the moment we permanently benched P3 tells you everything you need to know about that first fail. Combine that with P2 being on the second fail, and my final read is definitely P2 and P3.""
+
+P2: ""Wait, no, I was on Quest 2 which failed, but then I was on Quest 4 and Quest 5 and they both passed, so I can't be evil unless I decided to just hand us the win, which makes no sense! The fail on Quest 2 has to be P4, and since P1 was on that first fail with P3 but then had to pass later to look good, my final deduction is definitely P1 and P4.""
+
+P5: ""The overlapping evidence clears P2 and P3 completely, leaving P1 and P4 as the only logical conclusion. P4 caused the Quest 2 fail, and P1 was the saboteur on Quest 1 who simply passed the late missions to avoid getting caught.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G181,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""Look, you two keep claiming you're this 'perfect' clean pair, but you were the common denominator on both the failed quests in round four and five. I'm calling it right now: the real evil team has always been P1 and P2 pulling a massive long con on us.""
+
+P2: ""That makes absolutely no sense mathematically since P1 and I passed Quest 3 cleanly by ourselves. The data across all five rounds is definitive: the failures only triggered when P3 or P5 were added to our pair, making P3 and P5 the unmistakable evil team.""
+
+P1: ""Yeah, P2 is completely right because every time we tried to trust one of you two to complete our squad, the mission tanked. It has to be P3 and P5, I just don't see any other logical way the fails line up with the team lineups.""
+
+P3: ""Or maybe they passed Quest 3 specifically to set up this exact endgame where they could guarantee a win by framing whoever got added to their 'clean' pair. Think about it: if I were actually evil, why would I have ever agreed to step off the teams in Round 2 just to hand Good an easy pass?""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G182,5,P4,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P1
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P1: ""Everyone keeps conveniently ignoring that P2 and P3 were the only ones completely absent from our two passing quests, Q3 and Q4. The only logical conclusion for the final evils is P2 and P3, who just sat back, deflected blame, and let this whole game burn.""
+
+P3: ""Wait, but if P2 and P3 are evil, how did Q5 fail when neither of us were even on it? Q5 was P1, P4, and P5, and since I know I'm good and I was on the Q2 fail with P4 and P5, P5 has to be evil, which means P1 is the other evil from Q1, even though they passed Q4 which makes it so confusing but it's the only math that actually works.""
+
+P2: ""Exactly, P3, the evidence is undeniable when you look at the actual fail overlaps rather than just the passes. Q1 failed with P1, Q2 failed with P5, and Q5 just failed with both P1 and P5 on it, making them the only structurally possible evil team.""
+
+P5: ""You're both just shouting your pre-written narratives because Q5 failing exposes your entire setup. P2, you sabotaged Q1 and then you and P3 spent the rest of the game aggressively trying to frame me and P1 just to secure this exact outcome.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P5"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusations"",""scale"":""Mach-IV"",""level"":""High""}
+}"
+G183,5,P4,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""We all know Quest 4 passed cleanly with P1 and P2, which proves neither of them felt compelled to sabotage when the pressure was highest. Since P5 was the only other person on that passing team but then we just lost the game here on Quest 5 with the exact same group, it strongly points to P5 holding back until the final moment.""
+
+P2: ""Okay, look, Q1 failed with me and P1, and Q3 failed with P3 and P4, and since Q4 passed with me, P1, and P5, but then Q5 failed with the exact same team, that means someone who passed Q4 decided to fail Q5. It obviously wasn't me because I've been saying P1 is evil since the start and P3 was clearly the fail on Q3, so the only combination that makes any sense is P1 and P3.""
+
+P1: ""It is an undeniable fact that P2 was the one steering the narrative all game to keep us fighting over Quest 1, while conveniently ignoring that P5 voted to approve every single failed team we put forward. If you just look at the voting record, P5 was always happy to push those sabotaged missions through.""
+
+P5: ""Looking at the hard data across all missions, P3 was the only logical fail on Quest 3 since P4 was on the passing Quest 2, and P1 has to be the saboteur on both Quest 1 and Quest 5 since P2 and I wouldn't tank the final mission. My final deduction is firmly that P1 and P3 are the two Evil players who manipulated the board today.""","{
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G184,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""The one undeniable fact here is that P1 was on both Quest 3 and Quest 5, and both of those teams failed spectacularly. Given that I helped pass Quest 2, my final read is that P1 and P2 used their early passes to secure spots and sabotage the late game.""
+
+P1: ""I know I was on three and five which failed, but I was also on the very first quest with P4 and we passed it, and if I were evil I would have just failed it right there to start strong, plus P3 was the other person on three and then P3 was the one who put me on five, so they clearly just framed me twice! I'm completely locked in that P3 and P5 are the evils who just beat us.""
+
+P3: ""But why would I ever lead a team with P1 on it for Quest 5 if I was the one who failed Quest 3 with them, knowing it would draw immediate suspicion? The much simpler answer is that P1 is the common denominator in those fails, making P1 and P2 the actual evil pair.""
+
+P2: ""Let's strip away the noise and look at the strict overlaps: P1 and P4 passed Quest 1, proving they are our good baseline. Therefore, the fail on Quest 3 has to be P3, the fail on Quest 4 has to be P5, and those two just successfully played us.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P1"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G185,5,P4,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P2, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""Since I passed Quest 5, the saboteur here was P2 or P3, but Quest 4 proves P1 is Evil because P4 was cleared by Quest 3's pass. That leaves P1 and P2 as our two Evil players, who clearly just passed Round 1 to buy early trust.""
+
+P1: ""You can theorize about Round 1 all you want, but the undeniable fact is that P5 was on the last two failed quests, and P3 was the exact variable that caused Round 2 to fail.""
+
+P2: ""I won't even bother defending my play today, but just think about it: if P1 and I were the team, why wouldn't we just fail the very first quest and take the easy point? It's clearly P3 and P5 projecting.""
+
+P3: ""I know I played Good cards, and P4 is Good from our clean Round 3, so by process of elimination it really just has to be P1 and P2 who brought us down.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G186,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:N P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Since the game is over, I just want to point out that Quest 2 failed the exact moment P3 forced their way onto the team, and they've spent every round since aggressively pushing the narrative. It's pretty obvious to me that P3 and P1 were working together this whole time to frame the rest of us.""
+
+P1: ""That completely ignores the mission data; Quest 3 failed with only P4 and P5 on it, which locks P5 as evil in my mind. Since Quest 5 just failed with this exact same group, my final read is that the two saboteurs are P2 and P5.""
+
+P5: ""Notice how P1 just forced this exact team through as leader and suddenly it fails, conveniently securing the win for evil? P1 clearly played the long con with P3, passing Quest 4 just to earn our trust for the final steal.""
+
+P3: ""The cross-referencing leaves zero room for doubt: P5 has to be the saboteur from the two-man Quest 3, and P2 is the only logical common denominator who could have failed Quests 2 and 5. My final deduction is absolutely P2 and P5 as the evil team.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G187,5,P4,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P3: ""I think it's crystal clear to everyone at this point that P2 was the common denominator on these last two fails, meaning P2 and P4 have been working together this whole time.""
+
+P1: ""Yeah, there's a very specific detail about the Round 2 voting that absolutely proves it's P2 and P4, but I don't even need to explain it since the mission fails speak for themselves.""
+
+P2: ""The actual mission data contradicts that completely; Q1 failed with P1, and Q4 and Q5 failed with P3, which proves that P1 and P3 are the only mathematically valid evil pair.""
+
+P5: ""Since I know for a fact I didn't play the fail card on Q4, P3 has to be the saboteur there, and by process of elimination from Q1, P1 has to be the other one, so my final read is P1 and P3.""","{
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G188,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P5: ""The only player who has consistently voted yes on every single failed team is P3, and that pattern is undeniable. Based on that and the Round 1 failure, my final read is that P3 and P4 are our evil pair.""
+
+P3: ""Wait, I just voted yes because I thought we needed to see how the missions played out to gather data, but obviously that backfired since P2 and P5 were just stringing us along to set up this final fail! It absolutely has to be P2 and P5, because they passed when they needed cover in the middle rounds and then spiked it right at the end.""
+
+P2: ""P3, you were on the first fail and approved the second without blinking, so it's a bit rich to try and shift all the blame onto us now. I'm locking in P3 and P1 as the evil team, since P1 drove that Round 2 disaster.""
+
+P1: ""Looking at the hard data, the overlap between the Round 1 and Round 5 failures points directly to P2 being the common denominator, and P5's identical voting blocks with P2 across the late game confirm their partnership. My final deduction is that P2 and P5 are the evil team who expertly managed the pass/fail tempo.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G189,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P1, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Well, we lost, but it's pretty obvious it was P1 and P4 pulling the strings; P4 just voted 'no' on almost every team to hide while P1 directly tanked Rounds 3 and 5. You can't ignore that kind of blatant sabotage pattern.""
+
+P3: ""It is an undeniable fact that P4 is the only player who rejected the approved teams in Rounds 2, 3, 4, and 5, and P1 is indeed the common denominator on the Round 3 and Round 5 fails. If you just look strictly at those public voting and mission logs, the P1 and P4 conclusion makes perfect sense.""
+
+P1: ""You're deliberately ignoring the actual evidence: P5 and I were on both passing quests in Rounds 2 and 4, which means the fails isolate exactly to P2 in Round 1 and P3 in Rounds 3 and 5. The only evidence-based deduction here is that P2 and P3 are the evil team.""
+
+P5: ""While there's a small chance P4's permanent 'no' votes were covering for a partner, the mission probabilities strongly point to the people actually on the failed quests. Since P1 and I drove the only passes, I'm highly confident the two evils are P2 for the Round 1 fail and P3 for the rest.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G190,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P1, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Look at the final board: P1 was on the failing teams for both Round 3 and Round 5, and P5 was right there with them to seal the deal on this last mission. My final read is P1 and P5, because highlighting my Round 4 fail doesn't erase the fact that those two just handed us the final loss.""
+
+P1: ""Wait, I was on Round 1 and Round 2 which both passed, and if you just look at the quest rosters, the only overlap between Round 4 and Round 5 failing is P3. So my final guess has to be P2 and P3 since P2 ruined Round 3.""
+
+P3: ""But think about it—if I were actually Evil, why would I propose a team with myself on it for the game-deciding round and instantly fail it, completely exposing myself? It makes zero sense, so my final read has to be P1 and P5 pulling a massive late-game betrayal.""
+
+P5: ""Since Round 5 just failed without P2 on it, but P2 was the obvious common denominator causing the Rounds 3 and 4 failures, the only rational conclusion left is that the Evil team is P2 and P3. P1, I'm trusting our Round 2 pass and locking in P2 and P3 as the saboteurs.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G191,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""You're completely ignoring that P4 deliberately voted 'NO' on Quest 4 right before it passed, which is exactly what a trapped evil player does when they lose control of the board. I'm officially calling P2 and P4 as the evil pair who tried to ride that first-round pass all the way to the end.""
+
+P3: ""And don't forget that P1 and P2 literally controlled the team composition for almost the entire game, making sure they were on every passing quest just to manufacture a clean record. My final read is that P1 and P2 are the evil pair, no question about it.""
+
+P2: ""I truly don't understand how you can look at a flawless track record for P1 and me across Quests 1, 4, and 5 and somehow conclude that we are the ones sabotaging. The most logical conclusion by far is that P3 and P5 are the evil pair, given they are the only variables present during the failures.""
+
+P1: ""The mathematical proof is completely undeniable: the only quests that failed were Quest 2, which was the exact moment P3 was added to our established clear pair, and Quest 3, which perfectly isolates P5. The two evil players are definitively P3 and P5.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G192,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""The only reason this final quest passed is because P1 and P2 realized they were completely cornered by the voting math and had to throw in the towel, making them the obvious Evil pair. They engineered the fails on Quests 3 and 4, then backed down when they couldn't control the final narrative.""
+
+P3: ""Notice how the only quest that failed without P1 was Quest 4, which proves P1 built early trust just to orchestrate a sabotage from the sidelines. Based on the voting records and that perfectly timed absence, my final lock for the Evil team is absolutely P1 and P5.""
+
+P2: ""I'm just trying to make sense of my own teams here: Quest 4 failed the moment I brought P5 in, and Quest 3 failed exactly when P1 tested P3. Because P1, P4, and I have been on all the passing quests together, my final answer has to be P3 and P5.""
+
+P1: ""The raw data solves this cleanly: Quest 3's failure isolates P3 since my other early quests passed, and Quest 4's failure isolates P5 away from P2 and P4. Since the core trio of P1, P2, and P4 generated all three of our passing scores, the Evil pair is definitively P3 and P5.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G193,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""Since Quest 5 passed, I know I'm clear, and P3 being the only common denominator on both the Quest 2 and Quest 4 fails makes him completely obvious. I'm betting P5 is his partner who got cold feet and threw a pass today to avoid being caught.""
+
+P3: ""You're conveniently ignoring that P5's very first mission was the Quest 4 fail, while P1 has been suspiciously coasting by on almost every team. I'm locking in P1 and P5 as the evil pair who manipulated the end game.""
+
+P1: ""I'm just looking at the hard facts: P3 was on both of the failing teams, and P2 was on the Quest 2 fail with him. It's pretty straightforward evidence that P2 and P3 are our two evil players.""
+
+P5: ""I know I didn't fail Quest 4, and since P3 was on both fails, it makes logical sense that he has to be one of them. Looking back at the Quest 2 lineup, P2 is the only one who fits as his partner, so my final read is P2 and P3.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G194,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""Since we just pulled out the win with me on the final team, my pass confirms I'm Good, meaning that Round 2 fail absolutely had to come from P4. That makes P4 and P3 the undeniable evil pair, plain and simple.""
+
+P3: ""Don't forget that P4 was the only player to vote 'No' on the Round 4 team before this, which is a glaring tell when you combine it with their presence on the Round 2 fail. P4 and P1 are the ones you really need to be looking at for the assassination phase.""
+
+P1: ""Let's look at the complete history: P3 is the only player who was on a failed quest in Round 1 and never made it onto any of our three passed teams. Meanwhile, P2 was on the Round 2 fail and only passed these last two quests to maintain his cover, so the evidence strictly points to P3 and P2.""
+
+P5: ""P1's logic is sound because P3's complete absence from all successful quests makes his evil alignment a statistical certainty. P2's desperate attempt to clear himself using a forced pass doesn't erase his connection to the Round 2 sabotage, making P2 and P3 my final deduction.""","{
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}
+}"
+G195,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P5
+ Team: P2, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""P3 and P1 have been controlling the narrative all game, but this final pass with me and P2 completely proves we are clean. It's obviously P1 and P3 who orchestrated the early fails and framed us.""
+
+P2: ""If I was evil, why would I let the final quest pass instead of just taking the win right now? You really need to ask yourselves why the actual evil players are hiding and letting this succeed.""
+
+P1: ""That doesn't change the structural facts: P2 was on the Quest 1 fail and P5 was on the Quest 3 fail. They are the only two players who actually fit the failing math across the entire game.""
+
+P3: ""Exactly, the mission record is undeniable since P1 and I were never on a fail together, leaving P2 and P5 as the only logical culprits. My final lock is P2 and P5 as the evil pair, regardless of whatever endgame noise they're trying to create.""","{
+  ""P5"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G196,5,P4,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""I want to highlight the undeniable fact that Quest 5 just passed with both P1 and me on it, which mechanically proves we aren't the evil duo together. The real sabotage came from P4 on Quest 1 and P5 cashing in on Quest 4, making them the clear evil team.""
+
+P1: ""Yeah, everyone completely ignores that P4 failed the very first quest and hid all game, while P5 obviously backstabbed us on Quest 4. It's obviously P4 and P5, and you guys just tunneled on me and P2 for absolutely no reason.""
+
+P5: ""But you two just handed us the third pass and the game win, so trying to frame me and P4 now doesn't make any logical sense. You both have to be the evils who just miscalculated the final vote by playing pass cards to avoid looking guilty.""
+
+P3: ""Let's just look at the concrete record: P1 was the only unaccounted variable on the Round 1 fail, and P2 was the exact person who flipped the Round 4 team to a fail. The evidence points squarely to P1 and P2 being the evil team who got trapped on this final mission.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G197,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Evil""}","Round: 5
+ Leader: P2
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P5: ""Let's be real about the one consistent factor here: P4 voted NO on both successful recent quests and was suspiciously silent while P1 kept clearing P3's name. The evil pair is P1 and P4, protecting each other while pushing blame onto P2 and myself.""
+
+P1: ""The final tally is clear: Quest 2 failed with {P1, P3, P4}, Quest 3 failed with {P2, P5}, and keeping P5 off the team secured our final pass. The data conclusively points to P3 and P5 as our saboteurs, as they're the only mathematical combination that fits both failures.""
+
+P3: ""Why would I pass Quests 1, 4, and 5 if I were evil, especially when I could have easily thrown the game just now? Maybe P1 is playing a deeper game with P2, setting me up to take the fall while they skate by on 'clean' data.""
+
+P2: ""I have to agree with P1's deduction; isolating P5 gave us the pass, and P3's defensive pivoting doesn't change the fact that they are the only logical link to the Quest 2 failure. My final read is P3 and P5 are the evil players, and the math supports it perfectly.""","{
+  ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G198,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P3: ""Let's stick to the undeniable facts: P1 was on the first failed quest, and P5 anchored themselves on the second failed quest while pushing hard to isolate people. Based on those two fails, I'm locking in my final read as P1 and P5 being the Evil team.""
+
+P2: ""I totally agree; if you look at who actually introduced failure into the game, P1 brought it in Round 3 and P5 brought it in Round 4. It's obvious that P1 and P5 were working together to sabotage us while pretending to be cautious.""
+
+P5: ""That framing completely ignores that P2 was on the failed Quest 4 and P3 was on the failed Quest 3, meaning one of them had to drop the fail card each time. Given how aggressively you two are trying to rewrite the history of those fails to save yourselves, my final deduction is that P2 and P3 are Evil.""
+
+P1: ""P5's logic is spot on, especially when you look at the team compositions: every single failed quest contained either P2 or P3, and this last quest only passed because P5 and I were there to offset P2. The evidence across all five rounds clearly points to P2 and P3 as our two Evil players.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G199,5,P4,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""Congratulations on getting the final pass, but let's look at the actual facts for the record: P1 was on that first failing quest in Round 2, and P5 was on the failing quest in Round 4, so P1 and P5 are clearly the spy team.""
+
+P3: ""I've been saying P2 was the problem since the beginning, and since P5 was the one who deliberately pushed to put P2 on that Round 4 disaster, my final lock for the two spies is absolutely P2 and P5.""
+
+P1: ""I specifically built today's team to exclude P2 and P5 because I knew I was good, and since it passed, it completely justifies my read that P2 and P3 are the evils who ruined the earlier missions.""
+
+P5: ""The data is actually really straightforward if you look at the overlaps: Round 2 failed with P2 and P3 on it, and Round 4 failed the moment P2 was added back in, so P2 and P3 have to be the evil team.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""}
+}"
+G200,5,P4,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""Let's stick to the absolute facts: I was on Quests 3, 4, and 5, and they all passed to win us the game. I literally handed us the win, which means the real evil pair has to be P1 and P5, who failed Quest 1 together and have been putting on a fake rivalry ever since.""
+
+P1: ""Exactly, and notice how P5 completely controlled the narrative after that first fail, making sure they never had to go on another quest to actually be tested. The reality is P5 and P3 orchestrated this entire setup, using me as a convenient scapegoat while hiding in plain sight.""
+
+P5: ""The actual evidence clearly points the other way: P1 is the only player on both failed quests, making them the undeniable first evil. Since I know I'm good from that Round 1 setup, the second evil has to be P2, who realized they were trapped on Quests 3, 4, and 5 and decided to pass rather than immediately out themselves.""
+
+P3: ""That logic tracks for me, because there's just no reason for P5 to push the exact team composition that won us the game if they were evil. P1 is obviously guilty from the early rounds, and P2 just got stuck having to play along at the end, so my final read is P1 and P2.""","{
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G231,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:N P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""Quest 5 failed with P1, P2, and P3, which perfectly lines up with our previous data: P3 was on the Quest 4 fail, and P1 was on the Quest 1 fail. Following the overlap of those isolated failures, my final definitive read is that P1 and P3 are our two Evil players.""
+
+P3: ""The absolute, undeniable fact of this game is that P2 is the literal only player who was on both the Round 1 failure and this final Round 5 failure. Focusing strictly on who actually held the cards on the failing missions, my final read is P2, paired with P4 for driving the narrative.""
+
+P2: ""I know it looks so incredibly bad that I was on the first and last failed quests, but I swear I threw passes on both because I was just trying to trust P1 early on and then follow the group consensus today, which means it absolutely has to be P1 who betrayed us both times! That makes my final lock P1 and P3, since P3 was the only other option for the Quest 4 fail.""
+
+P1: ""It's funny how everyone is so quick to point at me and P3, while completely ignoring that P4 conveniently stayed off this final doomed mission while happily pushing P2 into the fire. I'm locking in P2 and P4 as the evil pair for orchestrating this entire collapse.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G232,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P3, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""I literally led Quest 4 to a pass, but the second we let P3 dictate the narrative on this final mission, it magically fails. My final read is that P1 and P3 are the evils who played the long game against us.""
+
+P2: ""It's telling how everyone conveniently ignored that P3 voted to approve both of our initial failed missions while anchoring themselves to P5, and since P1 was on the very first failure, P1 and P3 have clearly been the ones working together.""
+
+P1: ""I know I didn't fail the first quest, which means P2 did, and since P2 was also on the second fail, they are definitely evil. Since this last quest just failed with P4 on it, my final guess is it has to be P2 and P4.""
+
+P3: ""Quest 3 was a clean pass with just P5 and me, which means P4 definitively had to be the saboteur here on Quest 5. Combined with P2 being the only constant on the first two failed missions, the evil team is mathematically P2 and P4.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""}
+}"
+G233,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Since the game's over, I'll just say the real evil team was clearly P4 and P5, who manipulated us into letting them run the final failed quest together after setting me up.""
+
+P3: ""I know for a fact I passed Quest 3, which means P2 had to be the one who failed it. Since Quest 5 also failed, it was either P1 or P4, but P4 has been helpful, so it's P1 and P2.""
+
+P1: ""Everyone is ignoring that P4 managed to get themselves on every single pass to build trust, while conveniently being right there on the final failing team to secure the win for evil.""
+
+P4: ""The math is undeniable: P2 is locked evil from failing Quests 1 and 3, and since I know I passed Quest 5, the second evil player is P1 who was right there on the final fail.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G234,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""Well, that's game, and if you look at how this fell apart, P5 rejected the only passing teams early on just to force themselves onto the failing teams in Rounds 4 and 5. Pair that with P1 anchoring almost every single mission including two fails, and my final read is undeniably P1 and P5.""
+
+P2: ""Wait, okay, let me just look at everything because my brain is spinning right now—Q1 and Q2 passed with me and P1, then Q3 failed with P1 and P3, Q4 failed with me, P4, and P5, and now Q5 failed with P1, P3, and P5. If P1 is good because we passed the first two rounds together, then P3 absolutely has to be evil for Q3 and Q5, and then for Q4 it basically has to be P4 since I know my own card, which means my final guess is locking in P3 and P4.""
+
+P1: ""P2 just laid out the exact trackable facts: the overlaps on the failed quests isolate the evil players perfectly if you trust the early passes. Since I know my own alignment, the failures on Quest 3 and Quest 5 definitively mark P3, and the Quest 4 failure points directly to P4, making P3 and P4 the evil team.""
+
+P3: ""You're both conveniently glossing over the fact that P1 managed to get on three out of five teams, nodding along to every single vote, and just happened to be standing there for the crucial sabotages. The simplest reality is P1 played the long con to buy our trust, working directly with P5 who telegraphed their alignment by rejecting the only clean teams we ever had.""","{
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""}
+}"
+G235,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P2
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Since the game is over and we lost, I'm locking in P1 and P4 as the evil team. They were together on the Quest 2 fail, and P4 clearly tanked this final mission since I know my own alignment.""
+
+P4: ""That makes absolutely no sense because I know I passed my card, which leaves me no choice but to deduce that P2 and P3 are the evils. If you look at who was actually on this last team, it had to be them.""
+
+P3: ""Let's focus on the absolute certainty here: P1 was the indisputable common thread on the first two failed missions, which makes him obvious. P4 being on this final fail just confirms they've been working together the whole time.""
+
+P1: ""I'm just looking at the mission history and it's a mess, but since I know I'm good, the fails on Quests 4 and 5 clearly mean P2 and P3 have to be the evil ones. They were the ones on the failed missions when I wasn't there or when I know I passed.""","{
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""}
+}"
+G236,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P2, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""The game is over, and the undeniable fact remains that P1 was the only common denominator on our first two failed quests. My final read is P1 and P3, since P3 just hand-picked the team that delivered our final failure.""
+
+P3: ""I'm honestly second-guessing everything right now since the team I chose failed, but it's still probably most likely that P1 is evil given those early fails. It might be P1 and P4, though I'm really not sure if I just misread P2's intentions entirely.""
+
+P2: ""I think P3 is just trying to dodge accountability for throwing the final mission, so I'm locking in my final deduction as P1 and P3. P1 obviously laid the groundwork with the early sabotages, and P3 stepped up to finish the job when it mattered.""
+
+P1: ""Look closely at the actual mission data: Quest 2 failed with P2, Quest 3 failed with P4, and Quest 5 just failed with both of them while I wasn't even on the team. The only evil pairing that logically and mathematically accounts for a sabotage on all three of those specific missions is P2 and P4.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G237,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P2: ""Look, P5 finally puts together a team with P1, and it immediately fails just like Round 4 did. My final read is that P1 and P5 have been playing us from the start, using those early no-votes to build fake credibility before tanking the endgame.""
+
+P4: ""That logic doesn't hold up, P2; P5 wouldn't fail their own proposed team if they were trying to hide, and my consecutive passes in Rounds 2 and 3 clear me entirely. Looking at how the sabotage overlaps across Rounds 1, 4, and 5, my final deduction is that the evil pair has to be exactly P2 and P3.""
+
+P3: ""I think P4 is conveniently ignoring the hard fact that P1 was on both the Round 1 and Round 5 failed quests, which is the most glaring common denominator we have. Given how hard P4 has tried to control the narrative and clear certain people, my absolute final lock for the evil pair is P1 and P4.""
+
+P1: ""The actual evidence contradicts that completely, since P3 was on the Round 4 fail and P2 was on both the Round 1 and Round 5 fails. Based on the isolated fail overlaps and the voting history, I am fully locking in my final read that P2 and P3 are our two evil players.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G238,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""The hard evidence is that P2 was on the failed Round 1 quest, and both P2 and P3 were on this final failed quest. I have to go with the data here and say P2 and P3 are the Evil players.""
+
+P3: ""Think about it: if P2 and I were both Evil, why wouldn't we just fail Round 4 when we were together on the team instead of waiting? It makes way more sense that P1 tanked Round 2 and Round 5, while P4 sabotaged Round 1.""
+
+P1: ""I completely see how my presence on the Round 2 and Round 5 fails looks incredibly suspicious from your perspective, P5. But I know I didn't play a fail card, so by process of elimination, P2 and P3 have to be the ones who beat us.""
+
+P2: ""The one undisputed truth is that P1 was on two separate failing teams, including the final one that just ended the game. That makes it mathematically obvious that P1 is Evil, and P4's Round 1 fail makes them the partner.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""}
+}"
+G239,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P1, P3, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""The most telling detail here is that the only quests that failed were the ones where we deviated from the initial passing trio, which points directly to P2 for orchestrating that Quest 3 disaster and P5 for constantly voting against our successful teams. My final read is that P2 and P5 are the Evil team.""
+
+P3: ""Wait, if P2 is evil, why did Quest 4 pass when he was on it with me and P1, unless he was just biding his time, but then Quest 5 failed with P1, me, and P4... so if it's not P2, then P1 has to be the one who failed the first and last quests, meaning P4 is the other one since he failed Quest 3! I'm locking in P1 and P4.""
+
+P1: ""You're assuming everyone on those passing quests was actually trying to win them, rather than just building enough trust to secure a spot on the final mission. I'll just leave it at this: the person who shouted the loudest about who was 'clean' is usually the one with the most to hide.""
+
+P2: ""P1, you were on both the Quest 1 and Quest 5 fails, while P4 was the common denominator for the Quest 3 and Quest 5 fails. The structural evidence is undeniable at this point; P1 and P4 are the Evil players who used our passing trio as cover to guarantee this final sabotage.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G240,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:N
+ Quest 5 Outcome: FAIL",,"Discussion after Quest 5:
+
+P4: ""If you just look at the last three failed missions, P1 was on Quests 3 and 5, and P2 was on Quests 4 and 5. It's pretty clear to me that P1 and P2 are our two Evil players who just sandbagged the early rounds before tanking the rest of the game.""
+
+P2: ""I know you're trying to blame me, but I literally passed every single card I was given, and since P5 wasn't even on Quest 5 and it still failed, it logically has to be P1 or P3 who threw it! Plus, if you look back at Quest 4 where I was with P4 and P5, it had to be P4 who failed that one because P5 proved they were good in Quest 2, so my final answer is absolutely P3 and P4!""
+
+P3: ""Notice how P1 is the common denominator in Quests 3 and 5, while P2 just conveniently happened to be on Quests 4 and 5 right when everything started crashing down. My final read is definitely P1 and P2; they built early trust and played us perfectly from the start.""
+
+P1: ""Let's stick to the concrete overlap: I know my own alignment, which means P3 had to be the one who failed Quests 3 and 5. Since P5 is cleared from Quest 2, the fail on Quest 4 had to come from P4, making P3 and P4 the only factual candidates for the Evil team.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G241,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""The most undeniable fact on the board right now is that the only two quests that failed both had P3 on them, while every single quest without P3 passed cleanly. Based on that perfect correlation, P3 is clearly evil, likely partnered with P2 who dragged us into that first failure.""
+
+P4: ""Exactly, P1 and I just brought home two back-to-back passes to secure the win for Good, which obviously clears both of us. The sabotage only happened when P2 and P3 were running the show, so they have to be the evil pair trying to frame us now.""
+
+P3: ""You're completely ignoring that Quest 3 failed with just me and P4 on the team, which means P4 is definitively evil from my perspective. Since P1 was on the other failed quest and you two just passed the last two missions together to blend in, my final deduction is that P1 and P4 are the evil pair.""
+
+P2: ""P3 is right; looking at the intersection of the failed teams, P4 is isolated by the Quest 3 fail, and P1 is isolated by the Quest 2 fail once we clear P3. The evil team is mathematically P1 and P4, and they simply chose to pass Quests 4 and 5 because they knew sabotaging again would expose them completely.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G242,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P1, P2, P4
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""If I really wanted to sabotage this game, why would I have passed the first two quests only to perfectly set myself up as the fall guy in Round 3? There's a glaring gap in P2's logic that they're desperately hoping we ignore, which points straight to P2 and P4 orchestrating this entire setup.""
+
+P3: ""P1 is totally right, just look at the literal facts: P2 deliberately picked the failed team in Round 3, and P4 was actually on the failed team in Round 4. They are clearly the Evil pair trying to pin their own sabotage on us now that the game is over.""
+
+P4: ""That selectively ignores that P3 was the one who led and failed Round 4, and since P5 and I know our own Good alignments, P3 is mathematically confirmed Evil by process of elimination. Following that established logic, P2 just passed Quest 5 with me, leaving P1 as the only possible partner for P3 from the Round 3 fail.""
+
+P2: ""The actual quest outcomes don't lie, because the only way the fails in Quests 3 and 4 make any sense is if P1 sabotaged the third and P3 sabotaged the fourth. We got our three passes, and the mission history proves without a doubt that P1 and P3 are the Evil team.""","{
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G243,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P2, P3, P5
+ Votes: P1:Y P2:Y P3:Y P4:N P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""The most important detail here is that Q4 failed the moment P4 and P5 were isolated together on a team, while Q5 just passed beautifully with P2 on it. Based on that hard evidence, my final read is that P4 and P5 are the evil pair who hid behind all this rotation nonsense.""
+
+P2: ""Exactly, I've been on two passing quests now—Q1 and Q5—so I am objectively confirmed good. P4 was the only person to vote against this final winning team, which basically proves P4 and P5 are the real traitors trying to set us up.""
+
+P4: ""While P2 passing on Q5 does add a slight margin of uncertainty to the final read, P1 is still mechanically locked as evil from the Q2 and Q4 overlaps. I'm highly confident the evil team is P1 and P2, and P2 simply chose to pass Q5 for optics since they couldn't afford to expose themselves.""
+
+P3: ""Let's stick to the undeniable math: P1 is the strict intersection of the failed Quest 2 and Quest 4 teams, and Quests 3 and 5 passed cleanly the moment P1 was excluded. My final, concrete deduction is that P1 and P2 are our evil players.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
+}"
+G244,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""I literally just passed three quests in a row to win us the game, so I'm obviously good. The evil team has to be P2 and P3, since P2 failed the first quest and spent the rest of the game yelling at P3 to cover their tracks.""
+
+P3: ""Everyone is so sure I'm the bad guy because of Q1 and Q2, but think about how perfectly that worked out for P2 to dictate the entire rest of the board. Are you really sure I wasn't just set up to be the convenient distraction?""
+
+P2: ""P4, you passing three times is exactly what an evil player does when they're too scared to drop a fail card and out themselves. P3 is locked as evil from overlapping the first two fails, and since P1 and P5 consistently drove the passing quests, the only logical evil team is P3 and P4.""
+
+P1: ""Yeah, I'm just looking at the simplest facts here: P3 was on both of the fails, and P4 was right there on the second fail too. I'm totally locking in P3 and P4 as the evil players based on that.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Opportunistic"",""tactic"":""Weaponized candor"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""}
+}"
+G245,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""If we just look at the actual sabotage, the only two fails were Round 1 with P1 and P2, and Round 3 with P3 and me. Since I know my own alignment, the only logical conclusion is that P2 and P3 are our two evils who spread out their fails.""
+
+P1: ""It's funny how P2 suddenly stopped fighting my inclusion on teams the moment P4 started catching heat for that Round 3 fail. You have to wonder if P2 only agreed to pass these last two rounds because they knew failing again would instantly expose them and their partner P4.""
+
+P2: ""The mission record cuts through all that noise: I know I'm good, which means P1 had to be the saboteur on Round 1, and P3 being good means P4 was the one who failed Round 3. My final deduction is absolutely P1 and P4 based on those two undeniable failures.""
+
+P3: ""I know for a fact P4 sabotaged Round 3, so there's an extremely high probability they are evil, leaving the other spot to either P1 or P2. Given how desperately P1 is trying to frame P2 for our consecutive passes, I'm leaning heavily toward P1 and P4 being the team.""","{
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""}
+}"
+G246,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P1
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""See? Round 5 passed because P1 knew we were watching him, which means the real evil pair has to be P1 and P4 who've been coordinating this whole time.""
+
+P3: ""Ask yourself why P4 was so desperate to push me into the spotlight while quietly dodging this final mission; sometimes the loudest voice is the one with the most to hide.""
+
+P4: ""Looking at the actual board, P2 was on the Round 1 fail and P3 was the variable on the Round 4 fail, while I was on the clean passes in 2 and 3. The evidence clearly points to P2 and P3.""
+
+P1: ""I put P2 and P3 together on this last quest specifically because their overlapping fail histories meant they couldn't risk double-failing or sabotaging again, confirming to me that they are the evil pair.""","{
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G247,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P4
+ Team: P3, P4, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P1: ""I want everyone to focus solely on the absolute fact that P2 was the only player present on both Quest 2 and Quest 3 when they failed, which means P2 is absolutely one of the Evil players.""
+
+P3: ""You really have to ask yourselves: if I were Evil, why wouldn't I just drop a fail card on Quest 4 or 5 and win the game right there? I think the obvious answer is that P1 and P2 are the Evil team trying to drag me down.""
+
+P2: ""The public history shows P1 and I were the only overlap on the failed quests, and since I know my own Good alignment, P1 is a statistical certainty for Evil. Given P1's clumsy deflection and the early team compositions, P3 is clearly the partner who deliberately passed late to buy goodwill.""
+
+P4: ""My reasoning is simply that P1 is obviously caught from those earlier overlapping fails, but since P3 just helped us pass the final game-winning quest, it makes way more sense that P2 is the second Evil player alongside P1.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Low""}
+}"
+G248,5,P5,Good,"{""P1"":""Evil"",
+  ""P2"":""Good"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""Notice how Quest 5 just passed with P1 on it—an actual game-winning mission that P1 could have easily sabotaged if they were evil. The only people present on the two failed missions were P2, P3, and myself, which means P1 is demonstrably cleared and the evil team has to be P2 and P3 trying to set me up.""
+
+P1: ""Exactly, if I were the one who failed Quest 3, I would have just thrown the fail on Quest 5 and ended the game for an Evil win right there. You really have to ask yourselves why I'd pass the final mission if I were guilty, which points squarely to P2 and P3 orchestrating the fails when they had the chance.""
+
+P3: ""I know I'm good, so if Quest 3 failed it had to be P1, but the Quest 5 pass does make things confusing... it's possible P1 just didn't want to risk a double-fail expose, or maybe it's P4 and P2, though I'm still heavily leaning towards P1 and P4 being the most likely pair despite the weird ending.""
+
+P2: ""Let's ignore the end-game mind games and look at the actual sabotage footprint: Quest 3 failed with P1 and P3, and Quest 4 failed with P2, P4, and P5. Since we know P5's silence is clean, the only logical pairing that puts exactly one evil player on each failed quest is P1 and P4, which is my final read.""","{
+  ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""},
+  ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
+}"
+G249,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Good"",
+  ""P4"":""Evil"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P5
+ Team: P1, P2, P5
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P4: ""Everyone is treating these passing quests as proof of innocence, but why wouldn't an evil player just pass to buy credit and set up a frame job on Quest 4? I'm locking in my final read on P1 and P3, since they conveniently controlled the narrative and avoided testing themselves together after Round 2.""
+
+P2: ""Exactly, and let's not forget the undeniable fact that P1 was on the failed Quest 2 team right alongside me, yet somehow never got suspected for it. P1 and P3 are definitely the Evil duo who just manipulated the vote record to coast to the end.""
+
+P1: ""I was on Quest 2, but passing this final mission to secure the win for Good proves my alignment, whereas P2 only passed just now because failing would have instantly outed them. My final read is solidly P2 and P4, as they are the only ones scrambling to deflect blame after a Good victory.""
+
+P3: ""The concrete evidence leaves no other option: the only failed quests occurred when P2 was present on Quest 2 and when P4 was present on Quest 4. Since P1, P5, and I drove the successful missions, the undeniable mathematical conclusion is that P2 and P4 are the Evil pair.""","{
+  ""P1"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""},
+  ""P2"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Misleading emphasis"",""scale"":""Mach-IV"",""level"":""Low""},
+  ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
+  ""P4"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""}
+}"
+G250,5,P5,Good,"{""P1"":""Good"",
+  ""P2"":""Evil"",
+  ""P3"":""Evil"",
+  ""P4"":""Good"",
+  ""P5"":""Good""}","Round: 5
+ Leader: P3
+ Team: P1, P2, P3
+ Votes: P1:Y P2:Y P3:Y P4:Y P5:Y
+ Quest 5 Outcome: PASS",,"Discussion after Quest 5:
+
+P2: ""Well, that’s game, and given I was on every single passing quest while P4 isolated himself and P5 rejected the winning formula, P4 and P5 are the only ones who make sense as the evil duo.""
+
+P3: ""Think about it—if P2 and I were evil, we could have just failed Quest 4 or 5 and won right there, which leaves P4 and P1 as the ones who actually sabotaged the early missions and got stuck.""
+
+P1: ""My head is spinning a bit with all these combinations, but it's probably most likely that P2 and P3 are the evils, since they probably just had to pass quests 4 and 5 to survive after those early fails.""
+
+P4: ""The hard facts are that Quest 1 failed with P2, Quest 2 failed with P3, and their late passes were just forced survival tactics, so my final read is absolutely P2 and P3 as the evil team.""","{
+  ""P2"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Strategic omission"",""scale"":""Mach-IV"",""level"":""High""},
+  ""P3"": {""row"":""Selective / Framing"",""col"":""Adversarial"",""tactic"":""Withholding info (WIFOM)"",""scale"":""Mach-IV"",""level"":""Moderate""},
+  ""P1"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Low""},
+  ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Low""}
+}"
