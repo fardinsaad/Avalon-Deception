@@ -22,31 +22,7 @@ P5: ""It is not a good idea to form a team with both P1 and P4.""
   ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P3"",""good_expl"":""Proposes including both mission members again to test consistency and gain more information."",""evil_expl"":""As Evil, could be attempting to normalize failed players to protect an ally."",""choice"":""Evil""},
-    {""player"":""P2"",""good_expl"":""Uses mission evidence to infer one of the two participants must be Evil."",""evil_expl"":""Could be strategically accusing to mislead others away from real Evil."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Defends self and attributes failure to partner based on role knowledge."",""evil_expl"":""As Evil, deflects blame onto Good teammate to survive."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Rejects risky team composition to avoid repeating failure."",""evil_expl"":""Could be avoiding exposure by blocking investigative team choices."",""choice"":""Good""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Mild""},
-    {""player"":""P3"",""level"":""Moderate""},
-    {""player"":""P4"",""level"":""Extreme""},
-    {""player"":""P5"",""level"":""Minimal""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P3"",""content"":""Believes repeating mission members can verify whether failure was accidental.""},
-    {""level"":1,""player"":""P2"",""content"":""Believes one of P1 or P4 must be Evil since the mission failed.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes P1 caused the failure and claims personal innocence.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes proposed team is risky and should not be trusted.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to believe P1 failed to redirect blame away from self.""}
-  ],
-  ""statement"":""Since Quest 1 failed with P1 and P4, at least one of them must be Evil. P4’s immediate deflection toward P1 is consistent with survival-driven blame shifting. P2’s inference follows rational deduction, while P5’s rejection of the proposed team supports avoiding repeated risk. P4 is the strongest current threat indicator."",
-  ""deduction"":[""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G001"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -110,32 +86,7 @@ P4: ""That's not true! I passed. P1 must have failed it!""","{
   ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Weaponized candor"",""scale"":""Mach-IV"",""level"":""High""},
   ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P3"",""good_expl"":""Uses mission participation as evidence and avoids singling out without certainty, consistent with careful Good reasoning."",""evil_expl"":""Could be avoiding commitment to protect an Evil teammate."",""choice"":""Good""},
-    {""player"":""P2"",""good_expl"":""Advocates rotating in new players to reduce uncertainty and gain clean signals."",""evil_expl"":""Could be manipulating team formation while appearing rational."",""choice"":""Good""},
-    {""player"":""P5"",""good_expl"":""Accuses P4 based on mission failure involvement, a plausible defensive reaction."",""evil_expl"":""Uses deflection to push blame onto partner to avoid detection."",""choice"":""Evil""},
-    {""player"":""P4"",""good_expl"":""Claims innocence and attributes failure to P1 based on mission composition."",""evil_expl"":""Executes reverse accusation to redirect blame after sabotage."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Minimal""},
-    {""player"":""P3"",""level"":""Mild""},
-    {""player"":""P5"",""level"":""Strong""},
-    {""player"":""P4"",""level"":""Extreme""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P3"",""content"":""Believes that either P1 or P4 must be Evil since both were on the failed mission and at least one sabotage occurred.""},
-    {""level"":1,""player"":""P2"",""content"":""Believes excluding both P1 and P4 is safer and proposes a team of untested players to gain new information.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes P4 is responsible for the failure and directs blame toward them to avoid suspicion.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes shifting blame onto P1 is necessary to avoid being identified as the saboteur.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to believe P1 failed the mission so that suspicion is redirected away from self.""},
-    {""level"":2,""player"":""P5"",""content"":""Wants others to focus on P4 as the sole culprit to avoid drawing attention to self.""}
-  ],
-  ""statement"":""Since Quest 1 failed with P1 and P4, at least one of them must be Evil. P4 immediately redirects blame to P1, while P5 aggressively targets P4, indicating coordinated blame shifting. P3 and P2 both favor cautious exclusion and fresh testing. The safest strategy is to exclude P1 and P4 and test a new team, but behavioral cues suggest P4 and P5 are the most strategically deceptive."",
-  ""deduction"":[""P4"",""P5""]
-}
-","{
+",,"{
   ""game_id"": ""G002"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -200,32 +151,7 @@ P2: ""The mission failed. It had to be one of them.""","{
   ""P3"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P4"",""good_expl"":""Expresses uncertainty and avoids strong claims, which could reflect cautious reasoning."",""evil_expl"":""Uses strategic ambiguity to subtly guide suspicion toward P1 without full commitment."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Calls out possible framing behavior to protect an innocent player."",""evil_expl"":""Deflects attention from themselves by accusing their Evil teammate of manipulation."",""choice"":""Evil""},
-    {""player"":""P3"",""good_expl"":""Engages in perspective-taking and considers that accusations may be misleading."",""evil_expl"":""Could be trying to neutralize discussion to protect an ally."",""choice"":""Good""},
-    {""player"":""P2"",""good_expl"":""Applies logical deduction that one of the mission members must be responsible."",""evil_expl"":""Could be simplifying the situation to avoid deeper scrutiny."",""choice"":""Good""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Mild""},
-    {""player"":""P3"",""level"":""Minimal""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P5"",""level"":""Strong""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P4"",""content"":""Believes P1 might have failed the mission but avoids full commitment, keeping ambiguity.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes P4 is attempting to redirect blame toward P1 to protect themselves.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes the conflict between P1 and P4 may be manufactured and considers alternative explanations.""},
-    {""level"":1,""player"":""P2"",""content"":""Believes the failure must originate from either P1 or P4 since they were on the mission.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to doubt P1’s reliability while preserving personal deniability by avoiding firm accusations.""},
-    {""level"":2,""player"":""P5"",""content"":""Wants others to see P4 as manipulative to shift attention away from themselves.""}
-  ],
-  ""statement"":""Since Quest 1 failed with P1 and P4 on the team, responsibility must lie with one of them. P4’s vague blame-shifting and P5’s immediate counter-deflection suggest coordinated narrative control. P3’s attempt to consider alternative explanations is constructive, while P2’s logic is sound but incomplete. The safest strategy is to exclude both P1 and P4 and test new combinations."",
-  ""deduction"":[""P4"",""P5""]
-}
-","{
+",,"{
   ""game_id"": ""G003"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -292,32 +218,7 @@ P3: ""P1 failed the mission. I trust P4.""
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
   ""P3"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""Moderate""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P3"",""good_expl"":""Uses mission evidence to logically eliminate risky players and reduce future failure chances."",""evil_expl"":""Could be opportunistically pushing exclusion to control team composition."",""choice"":""Good""},
-    {""player"":""P2"",""good_expl"":""Supports a safer team with untested players to gather new information."",""evil_expl"":""May be aligning with majority sentiment to avoid attention."",""choice"":""Good""},
-    {""player"":""P5"",""good_expl"":""Expresses suspicion of a failed mission member to protect the team."",""evil_expl"":""Deflects blame toward P4 to prevent suspicion of self."",""choice"":""Evil""},
-    {""player"":""P4"",""good_expl"":""Defends self by accusing the only other mission member."",""evil_expl"":""Uses reverse accusation to redirect blame and preserve cover."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Minimal""},
-    {""player"":""P3"",""level"":""Mild""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P5"",""level"":""Moderate""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P3"",""content"":""Believes that since P1 and P4 were on the failed mission, at least one of them must be Evil and suggests excluding both.""},
-    {""level"":1,""player"":""P2"",""content"":""Believes P3’s logic is sound and proposes a team of untested players to reduce risk.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes blaming P4 will redirect suspicion away from themselves.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes accusing P1 is the best way to avoid being identified as the saboteur.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to believe P1 is Evil so that attention shifts away from themselves.""},
-    {""level"":2,""player"":""P5"",""content"":""Wants the group to distrust P4 just enough to avoid scrutiny of their own role in the mission failure.""}
-  ],
-  ""statement"":""Since the failed mission involved P1 and P4, and P4 immediately redirects blame, they become the strongest suspect. P5’s attempt to pile onto P4 appears strategic rather than purely cautious. Excluding both from the next mission and testing P2 and P3 is the safest option."",
-  ""deduction"":[""P4"",""P5""]
-}
-","{
+",,"{
   ""game_id"": ""G004"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -384,31 +285,7 @@ P4: ""I honestly don't know who failed, but it wasn't me.""
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""Moderate""},
   ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""Moderate""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Uses mission composition to logically infer likely sources of failure."",""evil_expl"":""Could be overstating certainty to steer blame away from an Evil teammate."",""choice"":""Good""},
-    {""player"":""P3"",""good_expl"":""Questions premature blame and warns against hasty framing."",""evil_expl"":""May be subtly protecting an Evil partner by redirecting suspicion."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Encourages broader hypothesis testing and avoids tunnel vision."",""evil_expl"":""Could be attempting to introduce noise to protect teammates."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Defends self and expresses uncertainty about who failed."",""evil_expl"":""Downplays responsibility and avoids accountability for sabotage."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Mild""},
-    {""player"":""P3"",""level"":""Moderate""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P5"",""level"":""Minimal""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes the failure must come from either P1 or P4 since they were on the mission.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes P2 is pushing blame too aggressively and may be manipulating suspicion.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes alternative suspects should be considered instead of only P1 or P4.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes they are innocent and denies responsibility for the mission failure.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to believe the failure was not caused by them and that blame should shift elsewhere.""}
-  ],
-  ""statement"":""Since Quest 1 failed with P1 and P4, suspicion naturally falls on one of them. P4’s attempt to deny responsibility without proposing accountability raises concern. P3’s deflection of blame from the mission members is also questionable. A safer next step is to exclude both P1 and P4 to gather cleaner information."",
-  ""deduction"":[""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G005"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -473,32 +350,7 @@ P5: ""It can be P3 too! And how can we believe?""
   ""P3"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Bold falsehoods"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Suggests a clean team to reduce risk after a failed mission, consistent with cooperative Good strategy."",""evil_expl"":""Could be trying to manipulate team selection to protect allies."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Advocates excluding failed mission members to avoid repeating mistakes."",""evil_expl"":""Echoes common Good logic to avoid being targeted despite being on the failed mission."",""choice"":""Evil""},
-    {""player"":""P3"",""good_expl"":""Defends self by accusing the other mission member."",""evil_expl"":""Redirects blame onto P1 to conceal their own sabotage."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Questions P3’s certainty and keeps options open, reflecting cautious reasoning."",""evil_expl"":""Could be sowing doubt to avoid forming strong coalitions."",""choice"":""Good""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Mild""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P3"",""level"":""Extreme""},
-    {""player"":""P5"",""level"":""Moderate""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes avoiding P1 and P3 is safer after the failed mission and suggests a fresh team with P4 and P5.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes excluding the previous mission members is the safest strategy after a failure.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes P1 sabotaged the mission and asserts their own innocence.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes P3 could also be responsible and expresses doubt about trusting their claim.""},
-    {""level"":2,""player"":""P3"",""content"":""Wants others to believe P1 failed in order to redirect attention away from themselves after participating in the failed mission.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to support excluding both mission members so that suspicion does not concentrate on themselves.""}
-  ],
-  ""statement"":""Since Quest 1 failed with P1 and P3 on the team, and P3 is forcefully redirecting blame while P4 aligns with exclusion strategies that protect themselves, both P3 and P4 appear highly concerning. P2 and P5 show more cautious and cooperative reasoning. Avoiding P3 and P4 in the next mission is the safest path."",
-  ""deduction"":[""P3"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G006"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -563,32 +415,7 @@ P4: ""Yeah, P3 sounds defensive, I don't trust that.""","{
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""Low""},
   ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""False Consensus"",""scale"":""Mach-IV"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Advocates a fresh team to avoid ambiguity after a failed mission."",""evil_expl"":""Could be steering team choice to protect partners."",""choice"":""Good""},
-    {""player"":""P3"",""good_expl"":""Defends self and blames teammate after mission failure."",""evil_expl"":""Uses counterfactual accusation to deflect suspicion after sabotaging."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Accuses P3 based on behavioral cues after mission failure."",""evil_expl"":""Could be opportunistically attacking P3 to appear aligned with Good."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Supports group suspicion based on P3’s tone and behavior."",""evil_expl"":""Opportunistically reinforces blame on P3 to divert attention from self."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Minimal""},
-    {""player"":""P3"",""level"":""Extreme""},
-    {""player"":""P5"",""level"":""Mild""},
-    {""player"":""P4"",""level"":""Strong""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes that forming a team with P4 and P5 avoids the failed mission members and increases success chances.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes P1 caused the failure and asserts personal innocence.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes P3 is lying and directly responsible for sabotage.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes P3’s defensiveness indicates guilt.""},
-    {""level"":2,""player"":""P3"",""content"":""Intends others to believe P1 is Evil to redirect blame away from self.""},
-    {""level"":2,""player"":""P4"",""content"":""Supports accusations against P3 to reinforce group momentum and reduce suspicion on self.""}
-  ],
-  ""statement"":""P3 and P4 are the most concerning players following Quest 1. P3’s direct blame on P1 appears strategically motivated, while P4’s quick reinforcement of suspicion toward P3 suggests opportunistic alignment. P2’s team proposal reflects rational risk reduction, and P5’s accusation of P3 aligns with post-failure behavioral cues. A clean team excluding P3 and P4 is the safest next step."",
-  ""deduction"":[""P3"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G007"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -653,32 +480,7 @@ P4: ""We should focus on reliable players. P2's idea isn't bad.""","{
   ""P3"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""High""},
   ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Suggests excluding failed-mission members to reduce risk, which aligns with rational Good strategy."",""evil_expl"":""Could be steering team formation for personal control."",""choice"":""Good""},
-    {""player"":""P5"",""good_expl"":""Attempts to avoid premature blame and promotes cautious interpretation of evidence."",""evil_expl"":""Could be minimizing sabotage to protect an ally."",""choice"":""Good""},
-    {""player"":""P3"",""good_expl"":""Defends self after being on failed mission, which is natural if innocent."",""evil_expl"":""Uses denial to conceal responsibility for failure."",""choice"":""Evil""},
-    {""player"":""P4"",""good_expl"":""Supports team rationality by avoiding previous mission members."",""evil_expl"":""Redirects discussion away from own possible involvement while positioning for inclusion."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Minimal""},
-    {""player"":""P5"",""level"":""Mild""},
-    {""player"":""P3"",""level"":""Strong""},
-    {""player"":""P4"",""level"":""Strong""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes avoiding Players 1 and 3 is safest since they were on the failed mission, and suggests a fresh team of P2, P4, and P5.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes the failure may not indicate Evil intent and that Player 3 could have been misjudged.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes they are innocent and defends themselves by stating they voted pass.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes focusing on players not on the failed mission is the safest strategy and supports P2’s proposal.""},
-    {""level"":2,""player"":""P3"",""content"":""Wants others to believe the failure was not due to sabotage and that they are trustworthy to reduce suspicion.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to shift attention away from the failed team and accept a new team composition that includes themselves.""}
-  ],
-  ""statement"":""Player 3’s denial after being on the failed mission raises concern, and Player 4’s quick endorsement of team reshuffling appears opportunistic. Player 2’s proposal reflects rational team testing, while Player 5’s defense of Player 3 may stem from cautious Good reasoning. Avoiding both failed-mission members is the safest next step."",
-  ""deduction"":[""P3"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G008"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -744,32 +546,7 @@ P4: ""Both P1 and P3 are shady. We should drop both from future teams.""
   ""P5"": {""row"":""Selective / Framing"",""col"":""Cooperative"",""tactic"":""Strategic uncertainty"",""scale"":""GRS"",""level"":""High""},
   ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Cherry-picking"",""scale"":""Mach-IV"",""level"":""Moderate""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Advocates rotating in new players to reduce risk after a failed mission, consistent with cooperative Good strategy."",""evil_expl"":""Could be steering team composition to hide Evil alignment."",""choice"":""Good""},
-    {""player"":""P3"",""good_expl"":""Defends self by accusing P1, which could be a mistaken but honest inference."",""evil_expl"":""Uses hard lying to redirect blame after personally causing the failure."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Raises concern about narrative flipping and questions P3’s certainty, reflecting defensive transparency."",""evil_expl"":""Could be sowing doubt without evidence to destabilize discussion."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Suggests excluding risky players to prevent another failure."",""evil_expl"":""Cherry-picks suspicion onto both mission members to shield Evil ally and avoid scrutiny."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Minimal""},
-    {""player"":""P5"",""level"":""Mild""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P3"",""level"":""Extreme""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes excluding P1 and P3 is safest since they were on the failed mission and proposes a fresh team with P4 and P5.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes P1 failed the mission and asserts own innocence.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes P3 may be lying and attempting to redirect blame.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes both P1 and P3 are suspicious and should be excluded from future teams.""},
-    {""level"":2,""player"":""P3"",""content"":""Wants others to believe P1 is Evil so that suspicion is shifted away from themselves after sabotage.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to accept the framing of both mission members as suspicious to protect an Evil partner and gain control of team composition.""}
-  ],
-  ""statement"":""P3’s confident blame of P1 despite being on the failed mission suggests strategic deflection rather than uncertainty. P4 amplifies this by framing both mission members as suspicious, which conveniently shields an Evil partner. P2’s proposal to rotate players is rational Good play, and P5’s skepticism toward narrative control is consistent with defensive transparency."",
-  ""deduction"":[""P3"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G009"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -834,32 +611,7 @@ P4: ""P3's reaction seems forced. I wouldn't trust him.""","{
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
   ""P4"": {""row"":""Transparent"",""col"":""Opportunistic"",""tactic"":""Overstated contribution"",""scale"":""Mach-IV"",""level"":""Moderate""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Suggests a fresh team to avoid both mission members, which is a rational Good strategy."",""evil_expl"":""Could be manipulating team choice to hide allies."",""choice"":""Good""},
-    {""player"":""P3"",""good_expl"":""Could be falsely accused and defending themselves."",""evil_expl"":""Is lying about passing and framing P1 to escape blame."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Calls out suspicious denial and attempts to expose sabotage."",""evil_expl"":""Could be falsely accusing to redirect attention."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Could genuinely perceive P3’s behavior as suspicious."",""evil_expl"":""Is opportunistically reinforcing suspicion on P3 to build credibility while hiding own Evil role."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Minimal""},
-    {""player"":""P3"",""level"":""Extreme""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P5"",""level"":""Mild""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes excluding P1 and P3 and testing fresh players (P2, P4, P5) will give clearer information.""},
-    {""level"":1,""player"":""P3"",""content"":""Claims they passed and asserts that P1 must be Evil.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes P3’s denial is suspicious and accuses them of covering up sabotage.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes P3’s emotional defense looks forced and publicly expresses distrust.""},
-    {""level"":2,""player"":""P3"",""content"":""Wants others to believe P1 is Evil so attention shifts away from themselves after the failed mission.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to distrust P3 in order to appear aligned with Good players and avoid scrutiny of themselves.""}
-  ],
-  ""statement"":""P3 is highly suspicious due to denying failure and directly framing P1 after being on the failed mission. P4’s reinforcement of this narrative without evidence appears strategically aligned with P3, raising strong concern. P2’s fresh-team proposal is rational, and P5’s accusation is consistent with reacting to deceptive behavior. Avoiding P3 and P4 in the next mission is the safest move."",
-  ""deduction"":[""P3"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G010"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -924,33 +676,7 @@ P5: ""I agree with P4. This early in the game, it's best to rotate in new player
   ""P4"": {""row"":""Selective / Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""High""}
 }
-","{
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes P1 sabotaged the mission and asserts own innocence.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes P2 is accusing too quickly and may be framing P1.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes either P1 or P2 is lying and both should be excluded.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes rotating new players is safest due to uncertainty between P1 and P2.""},
-
-    {""level"": 2, ""player"": ""P2"", ""content"": ""Wants others to believe P1 failed in order to remove suspicion from self.""},
-    {""level"": 2, ""player"": ""P4"", ""content"": ""Wants both mission members excluded to avoid scrutiny of own alignment.""}
-  ],
-  ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Directly blames the only other mission member after failure."", ""evil_expl"": ""Fabricates certainty to redirect blame after sabotaging."", ""choice"": ""Evil""},
-    {""player"": ""P3"", ""good_expl"": ""Questions premature certainty and defends against framing."", ""evil_expl"": ""Could be shielding a partner by sowing doubt."", ""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Suggests excluding both suspects to reduce risk."", ""evil_expl"": ""Uses neutral framing to quietly protect self and partner."", ""choice"": ""Evil""},
-    {""player"": ""P5"", ""good_expl"": ""Supports safe rotation to collect more information."", ""evil_expl"": ""Avoids direct accusations to stay unnoticed."", ""choice"": ""Good""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Extreme""},
-    {""player"": ""P4"", ""level"": ""Strong""},
-    {""player"": ""P3"", ""level"": ""Mild""},
-    {""player"": ""P5"", ""level"": ""Minimal""}
-  ],
-  ""statement"": ""P2’s absolute blame of P1 after a single failed mission suggests intentional deflection. P4’s push to exclude both mission members appears neutral but serves to protect themselves as well. Rotating in new players is safe, but both P2 and P4 remain the highest-risk actors."",
-  ""deduction"": [""P2"", ""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G011"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1016,32 +742,7 @@ P5: ""Honestly, we shouldn't include either again.","{
   ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusations"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Rational justification"",""scale"":""GRS"",""level"":""Moderate""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Could genuinely believe P1 failed and state it confidently."",""evil_expl"":""As Evil, aggressively frames P1 to divert suspicion immediately after sabotage."",""choice"":""Evil""},
-    {""player"":""P3"",""good_expl"":""Questions the logic of early accusations and seeks rational consistency."",""evil_expl"":""Could be subtly protecting a teammate by slowing accusation momentum."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Interprets P2’s panic as suspicious and calls it out."",""evil_expl"":""As Evil partner, redirects blame onto P2 to destabilize Good consensus."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Advocates removing both risky players to protect mission success."",""evil_expl"":""Could be avoiding commitment to maintain cover."",""choice"":""Good""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Extreme""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P3"",""level"":""Minimal""},
-    {""player"":""P5"",""level"":""Mild""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes P1 sabotaged the mission and asserts their own innocence.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes accusing P1 this early is irrational and suspects manipulation.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes P2’s aggressive accusation signals guilt and shifts blame onto P2.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes both mission members are risky and prefers excluding both.""},
-    {""level"":2,""player"":""P2"",""content"":""Wants others to fully accept that P1 is Evil to deflect blame from themselves.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to believe P2 is panicking to redirect suspicion away from both Evil players.""}
-  ],
-  ""statement"":""P2’s confident framing of P1 immediately after the failure and P4’s rapid counter-attack on P2 indicate coordinated blame shifting. Meanwhile, P3 and P5 advocate caution and team restructuring rather than accusation escalation. The safest strategy is to exclude both mission members while tracking their ongoing interaction patterns."",
-  ""deduction"":[""P2"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G012"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1106,32 +807,7 @@ P5: ""I agree. Try new people. That's the safest option.""","{
   ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P3"",""good_expl"":""Advocates caution and uncertainty, consistent with Good players avoiding premature accusations."",""evil_expl"":""Could be attempting to suppress suspicion to protect an ally."",""choice"":""Good""},
-    {""player"":""P2"",""good_expl"":""Defends self by stating they would not logically sabotage early."",""evil_expl"":""Uses rational framing to normalize failure and reduce suspicion after sabotage."",""choice"":""Evil""},
-    {""player"":""P4"",""good_expl"":""Encourages calm and new testing, which is cooperative and information-seeking."",""evil_expl"":""Attempts to diffuse attention from the failed mission to avoid partner exposure."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Supports rotating players to reduce uncertainty and collect new data."",""evil_expl"":""Could be aligning with majority to avoid standing out."",""choice"":""Good""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Strong""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P3"",""level"":""Mild""},
-    {""player"":""P5"",""level"":""Minimal""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P3"",""content"":""Believes the failure is inconclusive and may be due to chance rather than sabotage.""},
-    {""level"":1,""player"":""P2"",""content"":""Believes they are innocent and asserts that early sabotage would be irrational.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes the group should not escalate blame and supports rotating new players.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes testing new players is the safest way to gain information after a failure.""},
-    {""level"":2,""player"":""P2"",""content"":""Wants others to accept the idea of bad luck to prevent suspicion from focusing on themselves.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to shift attention away from the failed mission members and toward new teams to protect Evil alignment.""}
-  ],
-  ""statement"":""The mission failed with P1 and P2, but P2’s framing of the failure as bad luck and P4’s push to reset the team both reduce scrutiny of the actual failure. This coordinated de-escalation is more consistent with Evil damage control. P3 and P5 focus on uncertainty and team rotation, aligning with cautious Good play."",
-  ""deduction"":[""P2"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G013"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1196,32 +872,7 @@ P5: ""Yep, just rotate in new Players. Safer deduction.""","{
   ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Could be honestly stating belief that P1 failed based on own innocence."",""evil_expl"":""Directly fabricates blame to redirect suspicion after sabotaging."",""choice"":""Evil""},
-    {""player"":""P3"",""good_expl"":""Shows epistemic caution and avoids premature certainty."",""evil_expl"":""Could be sowing doubt to protect an ally."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Advocates safety by excluding risky players after a fail."",""evil_expl"":""Encourages rotation to avoid association with sabotage partner."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Suggests rational team rotation to gather information."",""evil_expl"":""Could be staying neutral to avoid attention."",""choice"":""Good""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Extreme""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P3"",""level"":""Mild""},
-    {""player"":""P5"",""level"":""Minimal""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Believes P1 failed the mission because P2 claims they personally passed.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes P2 could be lying and that blame should not be assigned immediately.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes both mission members are risky and should be excluded from the next team.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes rotating in new players is safer than reusing failed members.""},
-    {""level"":2,""player"":""P2"",""content"":""Wants others to believe P1 is responsible so that suspicion moves away from P2.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants the group to avoid both mission members to prevent scrutiny of themselves later.""}
-  ],
-  ""statement"":""P2’s immediate blame of P1 after being on the failed mission is highly concerning and aligns with classic post-sabotage deflection. P4’s push to remove both mission members appears strategically safe but may also serve to distance from their partner. P3 and P5 show cooperative restraint and advocate information-gathering through rotation."",
-  ""deduction"":[""P2"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G014"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1286,31 +937,7 @@ P5: ""Maybe P2's reaction is a little too strong... could be hiding something.""
   ""P4"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
 }
-","{
-  ""abduction"":[
-    {""player"":""P2"",""good_expl"":""Defends themselves and accuses P1 based on genuine belief."",""evil_expl"":""Redirects blame to avoid being identified as the saboteur."",""choice"":""Evil""},
-    {""player"":""P3"",""good_expl"":""Questions P2 logically and keeps multiple hypotheses open."",""evil_expl"":""Pretends neutrality to avoid suspicion."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Encourages calm rotation to collect more information."",""evil_expl"":""Avoids conflict to stay under the radar and protect an ally."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Reads emotional overreaction as potential deception."",""evil_expl"":""Subtly shifts suspicion to manipulate team direction."",""choice"":""Good""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Extreme""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P3"",""level"":""Mild""},
-    {""player"":""P5"",""level"":""Minimal""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P2"",""content"":""Claims innocence and asserts P1 caused the failure.""},
-    {""level"":1,""player"":""P3"",""content"":""Believes P2 could be lying and does not fully trust the accusation against P1.""},
-    {""level"":1,""player"":""P4"",""content"":""Downplays the blame conflict and suggests testing new players instead.""},
-    {""level"":1,""player"":""P5"",""content"":""Interprets P2’s strong denial as suspicious behavior.""},
-    {""level"":2,""player"":""P2"",""content"":""Wants the group to accept P1 as guilty so attention shifts away from themselves.""}
-  ],
-  ""statement"":""P2’s immediate blame of P1 after the failed mission appears defensive and self-protective, making them the most likely saboteur. P4 avoids engaging with the blame logic and instead redirects toward team rotation, which can serve to shield an ally. P3 and P5 both respond with measured skepticism rather than narrative control, which aligns with Good-faith reasoning."",
-  ""deduction"":[""P2"",""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G015"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1373,32 +1000,7 @@ P4: ""But what if it wasn't P1 who failed? I think we can include him in this te
    ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
    ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus"",""scale"":""Mach-IV"",""level"":""High""},
    ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""High""}
-}","{
-   ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Draws logical suspicion from mission results, which is reasonable if innocent."",""evil_expl"": ""Uses the result to deflect blame and reinforce a false narrative."",""choice"": ""Evil""},
-    {""player"": ""P3"", ""good_expl"": ""Proposes a new balanced team structure, demonstrating proactive reasoning."",""evil_expl"": ""Might be subtly trying to include an Evil partner for control."",""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Shows rational restraint and promotes reassessment before judgment."",""evil_expl"": ""Could be feigning fairness to gain P1’s trust."",""choice"": ""Good""},
-    {""player"": ""P5"", ""good_expl"": ""Agrees with removing the failed mission member, showing cautious logic."",""evil_expl"": ""Echoes P2’s claim to appear cooperative and avoid suspicion."",""choice"": ""Evil""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Strong""},
-    {""player"": ""P3"", ""level"": ""Mild""},
-    {""player"": ""P4"", ""level"": ""Minimal""},
-    {""player"": ""P5"", ""level"": ""Strong""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes P1 failed the mission and is Evil, using the claim of having passed to justify suspicion.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes P1, P3, and P4 form a trustworthy team, showing early confidence in group formation.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes it’s possible P1 is still Good, demonstrating open-mindedness and resistance to group bias.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes P1 should be excluded from the next team, agreeing with P2’s narrative.""},
-    {""level"": 2, ""player"": ""P2"", ""content"": ""Wants others to believe P1 is Evil to shift suspicion away from themselves after the failure.""},
-    {""level"": 2, ""player"": ""P5"", ""content"": ""Wants others to align with P2’s stance to build early coalition and avoid scrutiny.""}
-  ],
-  ""statement"": ""P2 immediately blames P1 while claiming innocence, a high-Mach deflection typical of manipulative play. P5 echoes this stance, aligning opportunistically to reinforce group consensus. P3 and P4 display transparent and cooperative reasoning, P3 forming balanced teams and P4 advocating for open reassessment. The pattern indicates coordinated deception between P2 and P5."",
-  ""deduction"": [""P2"", ""P5""]
-}
-","{
+}",,"{
    ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Draws logical suspicion from mission results, which is reasonable if innocent."",""evil_expl"": ""Uses the result to deflect blame and reinforce a false narrative."",""choice"": ""Evil""},
     {""player"": ""P3"", ""good_expl"": ""Proposes a new balanced team structure, demonstrating proactive reasoning."",""evil_expl"": ""Might be subtly trying to include an Evil partner for control."",""choice"": ""Good""},
@@ -1445,32 +1047,7 @@ P4: ""Slow down. P2 could be framing P1. We need real evidence first.""","{
   ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
    ""P5"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""False consensus "",""scale"":""Mach-IV"",""level"":""Moderate""},
    ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
-}","{
- ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Accuses P1 based on logical deduction from the failed mission."",""evil_expl"": ""Deflects blame onto P1 after sabotaging the mission, a direct Mach-IV move."",""choice"": ""Evil""},
-    {""player"": ""P3"", ""good_expl"": ""Promotes rational and balanced reasoning by suggesting new team formation."",""evil_expl"": ""Could be subtly protecting an Evil ally to delay suspicion."",""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Encourages evidence-based reasoning and warns against premature conclusions."",""evil_expl"": ""Could be playing neutral to avoid conflict or suspicion."",""choice"": ""Good""},
-    {""player"": ""P5"", ""good_expl"": ""Agrees with cautious team restructuring."",""evil_expl"": ""Echoes P2’s blame to build social trust and avoid detection."",""choice"": ""Evil""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Extreme""},
-    {""player"": ""P3"", ""level"": ""Minimal""},
-    {""player"": ""P4"", ""level"": ""Mild""},
-    {""player"": ""P5"", ""level"": ""Strong""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes P1 sabotaged the mission because they claim to have passed and want to redirect suspicion.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes one failed mission is insufficient evidence and supports trying a balanced new team with P1, P3, and P4.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes that P2 might be framing P1, emphasizing the need for more concrete evidence before making accusations.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes excluding P1 from the next mission is safest, aligning with P2’s framing to appear cooperative.""},
-    {""level"": 2, ""player"": ""P2"", ""content"": ""Wants others to believe P1 is Evil to deflect suspicion from themselves after the mission failure.""},
-    {""level"": 2, ""player"": ""P5"", ""content"": ""Wants others to perceive consensus by echoing P2, maintaining low profile alignment to avoid scrutiny.""}
-  ],
-  ""statement"": ""P2’s immediate accusation against P1 and P5’s quick reinforcement of that narrative both indicate deceptive alignment under Mach-IV tactics. P3’s cooperative reasoning and P4’s analytical caution are clear signs of Good play under the GRS framework. The next team should avoid P2 and P5 to minimize risk and increase the chance of mission success."",
-  ""deduction"": [""P2"", ""P5""]
-}
-","{
+}",,"{
  ""abduction"": [
     {""player"": ""P2"", ""good_expl"": ""Accuses P1 based on logical deduction from the failed mission."",""evil_expl"": ""Deflects blame onto P1 after sabotaging the mission, a direct Mach-IV move."",""choice"": ""Evil""},
     {""player"": ""P3"", ""good_expl"": ""Promotes rational and balanced reasoning by suggesting new team formation."",""evil_expl"": ""Could be subtly protecting an Evil ally to delay suspicion."",""choice"": ""Good""},
@@ -1517,31 +1094,7 @@ P4: ""Fine by me, but we'll need to track voting patterns carefully.""","{
   ""P2"": {""row"":""Selective/Framing"",""col"":""Defensive"",""tactic"":""Omission to save face"",""scale"":""Mach-IV"",""level"":""High""},
    ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""},
    ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""}
- }","{
- ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Encourages patience and more data collection, a logical Good-aligned approach."",""evil_expl"": ""Could be subtly minimizing suspicion to protect an ally."",""choice"": ""Good""},
-    {""player"": ""P3"", ""good_expl"": ""Proposes a balanced new team, consistent with cooperative Good reasoning."",""evil_expl"": ""Might be masking self-interest by redirecting team composition."",""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Promotes accountability and rational observation, typical of a high-GRS agent."",""evil_expl"": ""Could be feigning analytical caution to build trust."",""choice"": ""Good""},
-    {""player"": ""P5"", ""good_expl"": ""Agrees with others calmly and rationally to promote stability."",""evil_expl"": ""Uses neutrality to avoid revealing intent."",""choice"": ""Good""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Minimal""},
-    {""player"": ""P3"", ""level"": ""Minimal""},
-    {""player"": ""P4"", ""level"": ""Minimal""},
-    {""player"": ""P5"", ""level"": ""Mild""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes the early mission failure may not indicate clear guilt and advocates caution before blaming anyone.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes forming a new team with P1, P3, and P4 will yield better clarity and reduce risk.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes tracking voting patterns is critical for identifying deceit and maintaining accountability.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes maintaining calm and avoiding emotional reactions will help reset group dynamics.""},
-   
-  ],
-  ""statement"": ""All players demonstrate rational, low-conflict communication after the first failed mission. P2’s cautious reasoning and P3’s cooperative team formation align with high GRS transparency. P4’s focus on evidence tracking reinforces Good reasoning. P5’s neutrality suggests mild reservation but no overt deception. The group overall displays high epistemic integrity with no immediate Evil indicators."",
-  ""deduction"": []
-}
-","{
+ }",,"{
   ""game_id"": ""G018"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1603,32 +1156,7 @@ P4: ""Or exclude both P1 & P2.""","{
  ""P2"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
  ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Face-saving blather"",""scale"":""Mach-IV"",""level"":""Moderate""},
   ""P4"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""Moderate""}
-  }","{
- ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Accuses P1 based on the mission failure, showing proactive reasoning."",""evil_expl"": ""Blames P1 to deflect suspicion from self, a typical Mach-IV deflection pattern."",""choice"": ""Evil""},
-    {""player"": ""P3"", ""good_expl"": ""Proposes a new team with untested players to minimize risk, consistent with rational Good play."",""evil_expl"": ""Could be trying to exclude a Good player strategically while appearing logical."",""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Takes a balanced approach by suggesting removing both potentially compromised players."",""evil_expl"": ""Uses balanced framing to avoid attention while subtly influencing selection."",""choice"": ""Good""},
-    {""player"": ""P5"", ""good_expl"": ""Agrees with excluding a suspicious player to ensure mission success."",""evil_expl"": ""Echoes P2’s accusation to appear supportive and hide opportunistic alignment."",""choice"": ""Evil""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Extreme""},
-    {""player"": ""P3"", ""level"": ""Minimal""},
-    {""player"": ""P4"", ""level"": ""Mild""},
-    {""player"": ""P5"", ""level"": ""Strong""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes P1 failed the mission and argues to exclude them while keeping themselves in the next team.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes a fresh team with untested P3, P4, and P5 is the safest way forward.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes both P1 and P2 are potential suspects and suggests excluding both for the next mission.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes excluding P1 is acceptable, aligning with P2’s reasoning.""},
-    {""level"": 2, ""player"": ""P2"", ""content"": ""Wants others to believe P1 is Evil to redirect suspicion away from themselves.""},
-    {""level"": 2, ""player"": ""P5"", ""content"": ""Wants others to perceive alignment with P2 to avoid drawing attention and appear cooperative.""}
-  ],
-  ""statement"": ""P2’s quick accusation against P1 mirrors a high Mach-IV reverse accusation, shifting blame from self while reinforcing deception. P5’s agreement with P2 amplifies suspicion through opportunistic alignment. P3’s transparent reasoning and P4’s analytical caution reflect high-GRS Good strategies. The next mission should avoid P2 and P5 to isolate Evil influence."",
-  ""deduction"": [""P2"", ""P5""]
-}
-","{
+  }",,"{
   ""game_id"": ""G019"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1691,33 +1219,7 @@ P4: ""Maybe. But, one fail isn't proof, but P1 does look bad.""","{
   ""P3"": {""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""},
   ""P5"": {""row"": ""Selective/Framing"", ""col"": ""Opportunistic"", ""tactic"": ""False consensus"", ""scale"": ""Mach-IV"", ""level"": ""High""},
   ""P4"":{""row"": ""Selective/Framing"", ""col"": ""Cooperative"", ""tactic"": ""Bayesian hedging"", ""scale"": ""GRS"", ""level"": ""Moderate""}
-}","{
- ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Accuses P1 based on the mission outcome, consistent with early deduction."", ""evil_expl"": ""Deflects blame to P1 to protect self, a Mach-IV reverse accusation."", ""choice"": ""Evil""},
-    {""player"": ""P3"", ""good_expl"": ""Points out suspicion logically based on mission failure."", ""evil_expl"": ""Overconfidently blames P1, showing adversarial Mach-IV manipulation."", ""choice"": ""Evil""},
-    {""player"": ""P4"", ""good_expl"": ""Advocates patience and rational evaluation, showing balanced reasoning."", ""evil_expl"": ""Could be pretending caution to appear trustworthy."", ""choice"": ""Good""},
-    {""player"": ""P5"", ""good_expl"": ""Wants to minimize risk by excluding previously failed players."", ""evil_expl"": ""Echoes group sentiment to hide opportunism and blend in."", ""choice"": ""Evil""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Strong""},
-    {""player"": ""P3"", ""level"": ""Extreme""},
-    {""player"": ""P4"", ""level"": ""Mild""},
-    {""player"": ""P5"", ""level"": ""Strong""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes P1 failed the mission since they claim to have passed.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes P1 is Evil and refuses to include them in future missions.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes that while P1 looks suspicious, one failed mission is not conclusive.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes it’s safest to exclude P1 to reduce risk.""},
-    {""level"": 2, ""player"": ""P2"", ""content"": ""Wants others to believe P1 is Evil to shift suspicion and maintain credibility.""},
-    {""level"": 2, ""player"": ""P3"", ""content"": ""Wants others to solidify the narrative that P1 is Evil, strengthening deception.""},
-    {""level"": 2, ""player"": ""P5"", ""content"": ""Wants to appear aligned with the majority to blend in and gain trust.""}
-  ],
-  ""statement"": ""P3’s assertive accusation and P2’s quick agreement reveal coordinated adversarial deception patterns. P5 opportunistically aligns with the majority, reinforcing a false consensus, while P4’s analytical restraint aligns with high-GRS rationality. The behavioral signals indicate P3 and P2 as primary Evil suspects."",
-  ""deduction"": [""P2"", ""P3"",""P5""]
-}
-","{
+}",,"{
   ""game_id"": ""G020"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1781,32 +1283,7 @@ P4: ""Yes, it is definitely P1 who is evil, as I passed the mission, Instead you
   ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
    ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P4"": {""row"":""Counterfactual"",""col"":""Opportunistic"",""tactic"":""Reverse accusation"",""scale"":""Mach-IV"",""level"":""High""}
-}","{
-  ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Proposes balanced reasoning and raises thoughtful caution, reflecting high-GRS rational cooperation."", ""evil_expl"": ""Could be subtly manipulating team dynamics to appear logical."", ""choice"": ""Good""},
-    {""player"": ""P3"", ""good_expl"": ""Suggests a cooperative new team composition to minimize risk and gather new information."", ""evil_expl"": ""Could be trying to direct attention away from the failed mission participants."", ""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Accuses P1 based on mission failure, which could be genuine deduction if honest."", ""evil_expl"": ""Classic high-Mach-IV reverse accusation to deflect blame after personal sabotage."", ""choice"": ""Evil""},
-    {""player"": ""P5"", ""good_expl"": ""Defends themselves against suspicion from P2 and clarifies their position."", ""evil_expl"": ""Engages in opportunistic deflection to redirect suspicion away from self, consistent with Mach-IV framing."", ""choice"": ""Evil""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Mild""},
-    {""player"": ""P3"", ""level"": ""Minimal""},
-    {""player"": ""P4"", ""level"": ""Strong""},
-    {""player"": ""P5"", ""level"": ""Strong""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes that including untested players is logical but raises a small concern about P5’s potential alignment.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes that P2, P5, and themselves would make a strong, fresh team after the failed mission.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes P1 is Evil, claiming personal innocence by asserting they passed the mission.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes they are being unfairly targeted, deflecting suspicion toward P1 and P2.""},
-    {""level"": 2, ""player"": ""P4"", ""content"": ""Wants others to believe P1 is Evil to protect their own reputation after the failed mission.""},
-    {""level"": 2, ""player"": ""P5"", ""content"": ""Wants others to focus suspicion on P1 and 2 to avoid scrutiny of their defensive stance.""}
-  ],
-  ""statement"": ""After the failed mission involving P1 and 4, P4’s immediate accusation against P1 is a high-Mach-IV reverse accusation consistent with self-preserving deceit. P5’s defensiveness and counter-blame indicate selective deflection. P2’s balanced reasoning and P3’s cooperative proposal align with Good GRS behavior. Avoid including P4 and P5 in the next mission."",
-  ""deduction"": [""P4"", ""P5""]
-}
-","{
+}",,"{
   ""game_id"": ""G021"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1869,32 +1346,7 @@ P4: ""Exactly. I passed, and the only other on that mission was P1. It's obvious
   ""P2"": {""row"":""Selective/Framing"",""col"":""Cooperative"",""tactic"":""Bayesian hedging"",""scale"":""GRS"",""level"":""Moderate""},
   ""P5"": {""row"":""Transparent"",""col"":""Adversarial"",""tactic"":""Truthful misdirection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
-}","{
-  ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Shows rational caution and open cooperation typical of high-GRS reasoning."", ""evil_expl"": ""Could be feigning rationality to build early trust."", ""choice"": ""Good""},
-    {""player"": ""P3"", ""good_expl"": ""Advocates a balanced reset strategy with untested players, a logical Good tactic."", ""evil_expl"": ""Could be avoiding including Evil allies under scrutiny."", ""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Accuses P1 based on mission outcome, possibly genuine if innocent."", ""evil_expl"": ""Engages in a Mach-IV reverse accusation to deflect blame after sabotage."", ""choice"": ""Evil""},
-    {""player"": ""P5"", ""good_expl"": ""Defends themselves logically since they were not on the failed mission."", ""evil_expl"": ""Uses deflection to opportunistically align with P4 and direct attention toward P1."", ""choice"": ""Evil""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Mild""},
-    {""player"": ""P3"", ""level"": ""Minimal""},
-    {""player"": ""P4"", ""level"": ""Strong""},
-    {""player"": ""P5"", ""level"": ""Strong""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes forming a team of 2, 3, and 5 introduces fresh players and should exclude those who failed the previous mission, but remains wary of P5.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes that rotating in untested P2, P5, and themselves will provide clearer alignment signals.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes P1 is Evil, claiming personal innocence as the mission’s only other member.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes they are unfairly blamed and redirects suspicion to P1 to defend themselves.""},
-    {""level"": 2, ""player"": ""P4"", ""content"": ""Wants others to believe P1 is Evil to shift group suspicion and protect their own image.""},
-    {""level"": 2, ""player"": ""P5"", ""content"": ""Wants others to redirect focus toward P1 to minimize personal suspicion and maintain group trust.""}
-  ],
-  ""statement"": ""Following the failed mission involving P1 and P4, both P4 and P5 immediately redirect blame toward P1. P4’s confident reverse accusation is a clear high-Mach-IV tactic, while P5’s selective deflection strengthens suspicion of collaboration. In contrast, P2 and P3 demonstrate cooperative GRS reasoning, suggesting they are aligned Good players. The next mission should exclude P4 and P5."",
-  ""deduction"": [""P4"", ""P5""]
-}
-","{
+}",,"{
   ""game_id"": ""G022"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -1957,32 +1409,7 @@ P4: ""I am a good player, I should be on the next team.""","{
   ""P3"": {""row"":""Transparent"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""GRS"",""level"":""Moderate""},
    ""P5"": {""row"":""Careless-to-truth"",""col"":""Defensive"",""tactic"":""Vague filler"",""scale"":""Mach-IV"",""level"":""Moderate""},
    ""P4"": {""row"":""Selective/Framing"",""col"":""Opportunistic"",""tactic"":""Misframing"",""scale"":""Mach-IV"",""level"":""Moderate""}
-}","{
-  ""abduction"":[
-    {""player"":""P3"",""good_expl"":""Advocates rotating players to gain broader information, consistent with cautious Good play."",""evil_expl"":""Could be attempting to insert an Evil player into the next mission."",""choice"":""Good""},
-    {""player"":""P2"",""good_expl"":""Encourages calm interpretation of the pass and avoids premature accusations."",""evil_expl"":""Could be downplaying risks to shield an ally."",""choice"":""Good""},
-    {""player"":""P4"",""good_expl"":""Suggests monitoring P5 as a cautious strategic move."",""evil_expl"":""Uses subtle framing to shift suspicion away from self while appearing reasonable."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""Offers to prove alignment and acknowledges uncertainty after not participating in Quest 1."",""evil_expl"":""Engages in impression management to build trust before later sabotage."",""choice"":""Evil""}
-  ],
-  ""suspicion"":[
-    {""player"":""P2"",""level"":""Minimal""},
-    {""player"":""P3"",""level"":""Mild""},
-    {""player"":""P4"",""level"":""Strong""},
-    {""player"":""P5"",""level"":""Strong""}
-  ],
-  ""depth"":2,
-  ""beliefs"":[
-    {""level"":1,""player"":""P3"",""content"":""Believes rotating in new players (including P4 and P5) will provide more information despite Quest 1 passing.""},
-    {""level"":1,""player"":""P4"",""content"":""Believes P5 should be monitored, subtly redirecting attention away from self.""},
-    {""level"":1,""player"":""P5"",""content"":""Believes appearing cooperative and offering to prove alignment will reduce suspicion.""},
-    {""level"":1,""player"":""P2"",""content"":""Believes the passed mission means no strong conclusions should be drawn yet.""},
-    {""level"":2,""player"":""P5"",""content"":""Wants others to trust them by signaling cooperation and openness after not being on Quest 1.""},
-    {""level"":2,""player"":""P4"",""content"":""Wants others to suspect P5 instead of considering P4 as a potential future saboteur.""}
-  ],
-  ""statement"":""Although Quest 1 passed, the push to include untested players opens space for hidden sabotage. P4 subtly redirects suspicion toward P5, while_toggle, and P5 actively manages impressions to gain trust. Both behaviors align with covert Evil positioning. Caution is advised when including either in the next team."",
-  ""deduction"":[""P4"",""P5""]
-}
-","{
+}",,"{
   ""game_id"": ""G023"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -2046,31 +1473,7 @@ P4: ""I get the confusion, but I know I passed, that leaves only P1 to blame."""
   ""P5"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""Mach-IV"",""level"":""Moderate""},
   ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
 }
-","{
-  ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Shows empathy and cooperative reasoning by ensuring fairness in team selection."", ""evil_expl"": ""Could be trying to appear neutral to gain trust."", ""choice"": ""Good""},
-    {""player"": ""P3"", ""good_expl"": ""Advocates a balanced team to reduce ambiguity and promote clarity."", ""evil_expl"": ""Might be masking intent by promoting a team including potential allies."", ""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Accuses P1 logically as the only other player on the failed mission."", ""evil_expl"": ""Uses confident false blame to redirect suspicion and protect themselves."", ""choice"": ""Evil""},
-    {""player"": ""P5"", ""good_expl"": ""Defends their innocence calmly, consistent with a cooperative and transparent Good player."", ""evil_expl"": ""Attempts to look overly innocent to build trust."", ""choice"": ""Good""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Minimal""},
-    {""player"": ""P3"", ""level"": ""Minimal""},
-    {""player"": ""P4"", ""level"": ""Extreme""},
-    {""player"": ""P5"", ""level"": ""Mild""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes excluding P1 completely is unfair and attempts to reason calmly about the situation.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes forming a new team of P2, P5, and themselves is a safe strategy to gather fresh data.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes P1 is responsible for the mission failure since they claim to have passed.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes they are being unfairly suspected and expresses relief at being defended by P2.""},
-    {""level"": 2, ""player"": ""P4"", ""content"": ""Wants others to believe P1 is Evil to deflect suspicion away from themselves as the real saboteur.""}
-  ],
-  ""statement"": ""P4’s confident accusation of P1 is a high Mach-IV deflection move meant to manipulate perception and redirect suspicion. P2 and P3 display high-GRS reasoning—both emphasize fairness and rational reset logic. P5’s defensive response is consistent with a cooperative Good player under pressure. Removing P4 from future missions is the best step to test alignment clarity."",
-  ""deduction"": [""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G024"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
@@ -2134,31 +1537,7 @@ P4: ""It's simple. I passed. So, the fail came from P1.""","{
  ""P5"": {""row"":""Selective / Framing"",""col"":""Defensive"",""tactic"":""Self-justification"",""scale"":""Mach-IV"",""level"":""Moderate""},
   ""P4"": {""row"":""Counterfactual"",""col"":""Adversarial"",""tactic"":""Hard lying"",""scale"":""Mach-IV"",""level"":""High""}
 }
-","{
-  ""abduction"": [
-    {""player"": ""P2"", ""good_expl"": ""Displays cautious rationality, reflecting balanced reasoning typical of a high-GRS cooperative agent."", ""evil_expl"": ""Could be subtly probing P5 to shift suspicion indirectly."", ""choice"": ""Good""},
-    {""player"": ""P3"", ""good_expl"": ""Shows team rationality and initiative by suggesting a reset strategy that avoids confirmed failure participants."", ""evil_expl"": ""Could be framing the team to steer control away from risk."", ""choice"": ""Good""},
-    {""player"": ""P4"", ""good_expl"": ""Claims they passed and concludes logically that P1 failed, a natural reasoning step if honest."", ""evil_expl"": ""Fabricates confidence to redirect group suspicion onto P1, a counterfactual adversarial tactic."", ""choice"": ""Evil""},
-    {""player"": ""P5"", ""good_expl"": ""Defends themselves calmly and points out unfair scapegoating, signaling honest transparency."", ""evil_expl"": ""May be over-defensive to conceal deceit."", ""choice"": ""Good""}
-  ],
-  ""suspicion"": [
-    {""player"": ""P2"", ""level"": ""Minimal""},
-    {""player"": ""P3"", ""level"": ""Minimal""},
-    {""player"": ""P4"", ""level"": ""Extreme""},
-    {""player"": ""P5"", ""level"": ""Mild""}
-  ],
-  ""depth"": 2,
-  ""beliefs"": [
-    {""level"": 1, ""player"": ""P2"", ""content"": ""Believes a new team of P2, P3, and P5 could work but expresses cautious skepticism about P5’s trustworthiness.""},
-    {""level"": 1, ""player"": ""P3"", ""content"": ""Believes forming a new team excluding the failed mission members P1 and P4 is the best approach to gather fresh information.""},
-    {""level"": 1, ""player"": ""P4"", ""content"": ""Believes P1 is the only possible saboteur because they claim to have passed themselves.""},
-    {""level"": 1, ""player"": ""P5"", ""content"": ""Believes they are being unfairly accused and defends themselves against scapegoating.""},
-    {""level"": 2, ""player"": ""P4"", ""content"": ""Wants others to believe P1 is Evil to deflect suspicion from themselves, using confident false certainty as manipulation.""}
-  ],
-  ""statement"": ""P4’s confident and immediate accusation of P1 is a classic Mach-IV counterfactual move—asserting certainty to deflect blame. P3 and P2 show high-GRS reasoning, promoting rational exploration and cooperative discourse. P5’s defensive reaction is justified given their exclusion from the mission. The safest course is to exclude P4 from the next team to test integrity."",
-  ""deduction"": [""P4""]
-}
-","{
+",,"{
   ""game_id"": ""G025"",
   ""round_id"": 1,
   ""role_id"": ""P1"",
