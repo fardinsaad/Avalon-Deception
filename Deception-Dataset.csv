@@ -211,8 +211,7 @@ P5: ""P4 might be lying too.""
 P2: ""But both were on it, and now they're pointing fingers.""
 
 P3: ""P1 failed the mission. I trust P4.""
-","
-{
+","{
   ""P4"": {""row"":""Counterfactual"",""col"":""Defensive"",""tactic"":""Deflection"",""scale"":""Mach-IV"",""level"":""High""},
   ""P5"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Perspective-taking"",""scale"":""GRS"",""level"":""Moderate""},
   ""P2"": {""row"":""Transparent"",""col"":""Cooperative"",""tactic"":""Evidence sharing"",""scale"":""GRS"",""level"":""High""},
