@@ -1,19 +1,33 @@
-# Requirements for Avalon Deception Dataset - Seed Dialog Generation
+# Requirements for Avalon Deception Dataset
 # Install with: pip install -r requirements-seed-generation.txt
+# Python 3.12 required
 
-# Core dependencies
+# ── Core data / numerics ──────────────────────────────────────────────────────
 pandas>=2.0.0
-openai>=2.0.0  # >=2.0.0 required for httpx 0.28+ compatibility
-anthropic>=0.18.0
-python-dotenv>=1.0.0
-backoff>=2.2.0
+numpy>=1.24.0
 
-# Gemini API support
+# ── LLM API clients ───────────────────────────────────────────────────────────
+openai>=2.0.0
+anthropic>=0.40.0
 google-genai>=1.0.0
 
-# HTTP client (required by openai and google-genai)
+# ── HTTP / networking ─────────────────────────────────────────────────────────
 httpx>=0.28.0
 
-# Optional: For notebook environment
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+backoff>=2.2.0
+chardet>=5.0.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Jupyter / notebook environment ────────────────────────────────────────────
 jupyter>=1.0.0
-ipykernel>=6.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
+tqdm>=4.65.0
+widgetsnbextension>=4.0.0
+jupyter_contrib_nbextensions>=0.7.0
