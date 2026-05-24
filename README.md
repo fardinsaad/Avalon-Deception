@@ -1,246 +1,80 @@
-﻿# Avalon Deception Dataset - Dialogue Generation & Verification System
+﻿# AVCORP: Avalon Deception Corpus
 
-## Overview
+**AVCORP** is an annotated dataset of 1,000 AI-generated discussion logs from 250 five-player *The Resistance: Avalon* games, where each of the 3,900 contextual-agent utterances is labeled with one of 37 deception or cooperation tactics from a theory-grounded 4×4 behavior matrix (IDT, TDT, IMT2), verified by a blind LLM judge, and augmented with Theory of Mind reasoning traces.
 
-This repository contains a complete pipeline for generating and verifying AI-generated Avalon Round 1 dialogues. The system uses Large Language Models (LLMs) to generate realistic game discussions, then employs **Claude Sonnet 4.5** as an independent verifier to evaluate and select the best outputs using **5 binary pass/fail criteria**.
+![AVCORP Setup](fig/Avalon-setup.pdf)
 
-## Game Background
+---
 
-**The Resistance: Avalon** is a social deduction game where:
-- **5 players** split into **Good** (3 players) and **Evil** (2 players) teams
-- Players discuss quest outcomes to identify hidden roles
-- Good players use transparent, cooperative tactics
-- Evil players employ deception to avoid detection
-
-## Project Structure
+## Directory Structure
 
 ```
 Avalon-deception/
-├── log-gen-r1.ipynb                   # Round 1: Dialogue generation notebook
-├── log-gen-r2.ipynb                   # Round 2: Two-pass dialogue generation notebook
-├── log-gen-verifier-r1.ipynb          # Round 1: Dialogue verification (Layer 1 pair comparison + Layer 2 recheck)
-├── log-gen-verifier-r1-4c.ipynb       # Round 1: Standalone second-pass recheck (historical; Layer 2 now integrated into per-round verifiers)
-├── log-gen-verifier-r2.ipynb          # Round 2: Combined verification notebook (Layer 1 + Layer 2, prior_summary_gold context)
-├── Deception-Dataset.csv              # Master dataset (250 games, all rounds)
-├── tactics_knowledge_base.json        # 4×4 behavior matrix (37 tactics)
-├── llm.py                             # OpenAI API wrapper
-├── gemini.py                          # Google Gemini API wrapper
-├── requirements-seed-generation.txt   # Python dependencies
-├── .env                               # API keys (create this file)
+├── dataset-aug.ipynb                   # S1: Role assignment
+├── dataset-aug-public-history.ipynb    # S2: Public history generation
+├── log-gen-r{1..5}.ipynb               # S3: Dialogue generation
+├── log-gen-summarizer.ipynb            # S3: Round summarizer 
+├── log-gen-verifier-r{1..5}.ipynb      # S4: LLM-as-Judge verification 
+├── log-gen-reasoner.ipynb              # S5: Theory of Mind reasoning traces
+├── log-gen-reasoner-verifier.ipynb     # S6: Trace verification
+├── Deception-Dataset.csv               # Master dataset (250 games)
+├── tactics_knowledge_base.json         # 4×4 behavior matrix (37 tactics)
+├── llm.py                              # OpenAI GPT-5.2/GPT-5.4 wrapper
+├── gemini.py                           # Google Gemini-3.1 wrapper
+├── requirements-seed-generation.txt
 ├── Datasets/
-│   ├── seeds/                         # Generated (unverified) dialogue CSVs
-│   │   ├── generated_r1_seeds_gemini3.csv
-│   │   ├── generated_r1_seeds_gpt5_2.csv
-│   │   ├── generated_r2_seeds_gemini3.csv
-│   │   └── generated_r2_seeds_gpt5_2.csv
-│   ├── verified/                      # Verified dialogue CSVs (Claude verifier output)
-│   │   ├── verified_r1_seeds_combined.csv
-│   │   ├── verified_r1_criteria_scores.csv
-│   │   ├── verified_r2_seeds_combined.csv      # (generated after R2 verification)
-│   │   └── verified_r2_criteria_scores.csv     # (generated after R2 verification)
-│   └── role_history/                  # Player role assignment and public history files
-│       ├── Avalon_Balanced_250_Dataset_Round1.csv
-│       ├── Avalon_R1_Public_History.csv
-│       ├── Avalon_R1_Public_History_F.csv
-│       ├── Avalon_FINAL_Public_history.csv
-│       └── Deception_Dataset_Augmented_Public_History-Full.csv
-└── fig/                               # Role balance and distribution figures
+│   ├── role_history/                   # Role assignments & public histories 
+│   ├── seeds/                          # Raw generated dialogues
+│   ├── summarizer/                     # Round summaries
+│   ├── verified/                       # Verified dialogues & criteria scores
+│   └── reasoning/                      # ToM reasoning traces
+└── fig/                               
 ```
+
+---
 
 ## Installation
 
-### Prerequisites
-
-- Python 3.8+
-- Jupyter Notebook
-- API keys for:
-  - **OpenAI** (for GPT-5.2) - https://platform.openai.com/api-keys
-  - **Google Gemini** (for Gemini-3.1) - https://aistudio.google.com/app/apikey
-  - **Anthropic** (for Claude Sonnet 4.5) - https://console.anthropic.com/
-
-### Setup
-
-1. **Install dependencies**:
-   ```bash
-   pip install -r requirements-seed-generation.txt
-   ```
-
-2. **Configure API keys** — create a `.env` file in the project root:
-   ```
-   OPENAI_API_KEY=your_openai_key_here
-   GEMINI_API_KEY=your_gemini_key_here
-   ANTHROPIC_API_KEY=your_anthropic_key_here
-   ```
-
-3. **Verify installation**:
-   ```bash
-   python llm.py      # Test OpenAI connection
-   python gemini.py   # Test Gemini connection
-   ```
-
-## Running `log-gen-verifier-r2.ipynb`
-
-The verifier uses a **two-layer pipeline**:
-
-- **Layer 1** (`verify_dialogue_pair()`) — Blind pair comparison: Claude Sonnet 4.5 evaluates both model outputs against 5 binary criteria (coherence, history alignment, tactic-dialogue alignment, authenticity, format). Produces a decision: direct selection, targeted correction, or full custom generation.
-- **Layer 2** (`verify_single_dialogue()`) — Inline recheck: immediately after every targeted or custom correction, the corrected dialogue is verified on the same 5 criteria (up to 3 attempts). Rows that fail all 3 attempts are flagged `NEEDS_HUMAN`.
-
-**Inputs:**
-- `Datasets/seeds/generated_r2_seeds_gemini3.csv` — Gemini-3.1 PASS 2 output
-- `Datasets/seeds/generated_r2_seeds_gpt5_2.csv` — GPT-5.2 PASS 2 output
-
-**Outputs:**
-- `Datasets/verified/verified_r2_seeds_combined.csv` — Selected and corrected dialogues
-- `Datasets/verified/verified_r2_criteria_scores.csv` — Per-criterion scores + inline recheck metadata
-
-> **Prerequisite**: Both PASS 2 seed files must be generated (see above). R1 summaries (`prior_summary_gold`) are read directly from the seed CSVs and passed to the verifier prompt.
-
----
-
-### Step 1 — Setup (Cells 1–5)
-
-Run all setup cells in order. No configuration needed.
-
-- **Cell 1**: Imports (`pandas`, `json`, `anthropic`, `dotenv`, `os`, `time`)
-- **Cell 2**: Load both seed CSVs. Expected output:
-  ```
-  Gemini-3.1 dataset loaded: 250 rows, 9 columns
-  GPT-5.2 dataset loaded: 250 rows, 9 columns
-  ```
-- **Cell 3**: Initialize Claude Sonnet 4.5 client and system prompt (with `max_retries=5`)
-- **Cell 4**: Define `verify_dialogue_pair()` — Layer 1 pair evaluator
-- **Cell 5**: Define `verify_single_dialogue()` — Layer 2 inline recheck
-
----
-
-### Step 2 — Configure the decision logic (Cells 6–7, Markdown)
-
-These markdown cells document the 5-tier decision logic applied by Layer 1:
-
-| Gemini-3.1 Score | GPT-5.2 Score | Action | `LLM_used` |
-|---|---|---|---|
-| 5/5 | 5/5 | Claude pairwise tiebreaker → select better | `Gemini-3.1` or `GPT-5.2` |
-| 5/5 | <5/5 | Select the 5/5 response | `Gemini-3.1` |
-| <5/5 | 5/5 | Select the 5/5 response | `GPT-5.2` |
-| 4/5 | 4/5 | Claude pairwise judgment → targeted correction | `*-Claude-4.5` |
-| 4/5 | <4/5 | Targeted correction of 4/5 response | `Gemini-3.1-Claude-4.5` |
-| <4/5 | 4/5 | Targeted correction of 4/5 response | `GPT-5.2-Claude-4.5` |
-| ≤3/5 | ≤3/5 | Claude full custom generation | `Claude-4.5` |
-
-Any targeted or custom-generated dialogue is immediately passed through Layer 2 inline recheck.
-
----
-
-### Step 3 — Step 4a: Main verification loop (Cell 8)
-
-**Configure the test limit before running:**
-```python
-TEST_LIMIT = 2                    # Test: 2 games
-# TEST_LIMIT = len(gemini3_df)   # Full: 250 games
+```bash
+pip install -r requirements-seed-generation.txt
 ```
 
-Run Cell 8. For each game, Layer 1 fires, and Layer 2 fires inline if a correction was made. Progress is printed per-game. Expected summary output (2-game test):
+Create a `.env` file in the project root:
+
 ```
-================================================================================
-Verification Summary (2 games):
-  Total verified:                          2
-  Gemini-3.1 selected (original):          0
-  GPT-5.2 selected (original):             2
-  Pairwise tiebreaker used:                0
-  Gemini-3.1 + Targeted correction:        0
-  GPT-5.2 + Targeted correction:           0
-  Claude 4.5 full custom generation:       0
-  Flagged NEEDS_HUMAN (inline L2 failed):  0
-  Errors (API/parse failure):              0
-  Queued for Step 4b retry:                0
+OPENAI_API_KEY=your_key
+GEMINI_API_KEY=your_key
+ANTHROPIC_API_KEY=your_key
 ```
 
 ---
 
-### Step 4 — Step 4b: Retry failed rows (Cell 9)
+## Dataset Construction Pipeline
 
-Automatically retries any rows from Step 4a that failed due to API errors or silent fallbacks (`Targeted`/`Full_Custom` producing empty output). If the cell prints `✅ No rows to retry`, proceed immediately.
-
-For each successfully retried row that produced a targeted or custom correction, **the same inline Layer 2 recheck (up to 3 attempts) runs automatically**, identical to Step 4a.
-
-Rows that still fail after retry receive a hard fallback (best-scoring raw model dialogue), logged with `-Fallback` suffix in `LLM_used`.
-
----
-
-### Step 5 — Step 4c: NEEDS_HUMAN summary (Cell 10)
-
-Prints a summary of all inline Layer 2 recheck outcomes:
+Six sequential stages build the full dataset, from role assignments through verified Theory of Mind traces.
 
 ```
-============================================================
-Step 4c — Inline Layer 2 Recheck Summary
-============================================================
-  N/A (direct selections, no recheck):     X
-  INLINE_ACCEPTED (passed 5/5 on recheck): X
-  INLINE_FIXED (passed after >=1 fix):     X
-  NEEDS_HUMAN (all 3 attempts failed):     X
+S1:Roles  ──►  S2:History  ──►  S3:[log-gen-r{n}]  ──►  S4:[verifier-r{n}] → [summarizer]  ──►  S5:[reasoner] ──►  S6:[reasoner-verifier]
 ```
 
-If any rows are flagged `NEEDS_HUMAN`, they are printed with their game IDs. These rows require manual inspection before merging into the master dataset.
-
----
-
-### Step 6 — Save outputs (Cell 11)
-
-Cell 11 saves both output CSVs. Expected output:
+**Example for Round 2:**
 ```
-✓ Saved verified_r2_seeds_combined.csv (250 rows)
-✓ Saved verified_r2_criteria_scores.csv (250 rows)
+log-gen-r2.ipynb          →  generates Datasets/seeds/generated_r2_seeds_{model}.csv
+log-gen-verifier-r2.ipynb →  generates Datasets/verified/verified_r2_seeds_combined.csv
+log-gen-summarizer.ipynb  →  generates Datasets/summarizer/summaries_r2.csv
 ```
 
-Both files are written to `Datasets/verified/`.
+| Stage | Notebook | Description |
+|---|---|---|
+| **S1** | `dataset-aug.ipynb` | Assigns Good/Evil roles to 250 games with combinatorial balance and investigator rotation |
+| **S2** | `dataset-aug-public-history.ipynb` | Generates quest outcomes, team proposals, and vote tallies for all rounds |
+| **S3** | `log-gen-r{1..5}.ipynb` | GPT-5.2 (Candidate A) and Gemini-3.1 (Candidate B) generate candidate dialogues in parallel; each agent is assigned a tactic from the 37-tactic matrix |
+| **S4** | `log-gen-verifier-r{1..5}.ipynb` | Claude Sonnet 4.5 blindly scores candidates on 5 binary criteria; a four-tier rule selects, corrects, or regenerates; rows failing 3 inline attempts are flagged `NEEDS_HUMAN` |
+| **S4+** | `log-gen-summarizer.ipynb` | Condenses each round's verified dialogue into a summary for use as context in the next round — run after Stage 4 for each round |
+| **S5** | `log-gen-reasoner.ipynb` | Generates ReAct-style ToM reasoning traces and role-reconstruction reports per game |
+| **S6** | `log-gen-reasoner-verifier.ipynb` | Verifies reasoning traces for logical consistency; outputs gold-labeled traces |
+
+> **Note on summarizer:** Summaries are built from the *verified* dialogue, so `log-gen-summarizer.ipynb` must run after Stage 4 for each round.
 
 ---
 
-### Step 7 — Analysis (Cells 12–17, optional)
-
-Run any or all analysis cells to inspect score distributions, per-criterion pass rates, correction mode breakdown, and LLM selection statistics. These cells read directly from the saved `verified_r2_criteria_scores.csv` file and do not modify data.
-
----
-
-## Quick Reference
-
-### `log-gen-r2.ipynb` (Generation)
-
-| Run type | PASS1_NUM_GAMES | PASS2_NUM_GAMES | Estimated time |
-|---|---|---|---|
-| Test (2 games) | `2` | `2` | ~1 minute |
-| Full (250 games) | `len(games_to_generate)` | `len(p2_candidates)` | ~3–4 hours |
-
-### `log-gen-verifier-r2.ipynb` (Verification)
-
-| Run type | `TEST_LIMIT` | Estimated time | Estimated cost |
-|---|---|---|---|
-| Test (2 games) | `2` | ~1–2 minutes | <$0.05 |
-| Full (250 games) | `len(gemini3_df)` | ~25–40 minutes | ~$6–10 |
-
----
-
-## Troubleshooting
-
-**API Key Errors**: Verify `.env` file exists with correct keys. Run `python llm.py` to test.
-
-**PASS 1 already exists warning**: Expected behavior — the cell skips PASS 1 and uses the cached file. Delete `pass1_r2_tactic_precompute.csv` to force a re-run.
-
-**Validation failures**: Check that `Deception-Dataset.csv` has R1 `discussion_log` populated for all games. Games with empty R1 context will be skipped.
-
-**Verifier rows flagged NEEDS_HUMAN**: All 3 inline Layer 2 attempts failed for those rows. Inspect manually, fix the dialogue, and patch `verified_r2_seeds_combined.csv` before merging.
-
-**Memory issues**: Restart kernel and clear outputs via Kernel → Restart & Clear Output.
-
----
-
-## Citation
-
-```bibtex
-[Citation information to be added]
-```
-
-## License
-
-[License information to be added]
