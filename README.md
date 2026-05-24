@@ -2,7 +2,7 @@
 
 **AVCORP** is an annotated dataset of 1,000 AI-generated discussion logs from 250 five-player *The Resistance: Avalon* games, where each of the 3,900 contextual-agent utterances is labeled with one of 37 deception or cooperation tactics from a theory-grounded 4×4 behavior matrix (IDT, TDT, IMT2), verified by a blind LLM judge, and augmented with Theory of Mind reasoning traces.
 
-![AVCORP Setup](fig/Avalon-setup.pdf)
+![AVCORP Pipeline](fig/Avalon-architecture.jpg)
 
 ---
 
