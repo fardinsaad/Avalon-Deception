@@ -38719,28 +38719,28 @@ P5: ""Okay, I know this is messy, but I’m trying to be concrete: I was only on
   ""P5"": {""row"":""Careless-to-truth"",""col"":""Cooperative"",""tactic"":""Over-explaining"",""scale"":""GRS"",""level"":""Low""}
 }","{
   ""abduction"": [
-    {""player"":""P4"",""good_expl"":""P4 may be Good and correctly notes that a pass on Quest 2 did not truly clear anyone, so he is re-evaluating earlier assumptions after Quest 4 failed."",""evil_expl"":""P4 could be Evil who failed the 2-person Quest 3 with P2 and is now pushing back toward the older P1-P5 fail to escape the direct implication on himself."",""choice"":""Evil""},
-    {""player"":""P5"",""good_expl"":""P5 may be Good and stuck defending himself from the Round 1 failure while trying to use later team results to identify a better pair of suspects."",""evil_expl"":""P5 could be Evil from the failed P1-P5 team who keeps sounding measured and adaptive while avoiding the simplest explanation that he caused Quest 1 to fail."",""choice"":""Evil""},
-    {""player"":""P1"",""good_expl"":""P1 may be Good and sees Quest 4 as proof that the earlier trust in the P1-P2-P3 trio was misplaced, so he now focuses on P2's repeated presence on failed teams."",""evil_expl"":""P1 could be Evil who passed Quest 2 for cover, then failed Quest 4 and is now blaming P2 and P5 to avoid the strongest combined-team solve."",""choice"":""Good""},
-    {""player"":""P2"",""good_expl"":""P2 is laying out the team-by-team logic and arriving at the pair that best fits all failures while accounting for the fact that a pass does not clear anyone absolutely."",""evil_expl"":""P2 could be Evil on both failed teams involving him, using structured logic to frame P4 and then P1 while hiding behind analytical language."",""choice"":""Good""}
+    {""player"":""P4"",""good_expl"":""P4 may be Good and genuinely reading Quest 4 as proof that the P1-P2-P3 trio was never safe, which would make the older P1-P5 fail the better anchor."",""evil_expl"":""P4 could be Evil who sabotaged the two-person Quest 3 and is now naming a pair that conveniently excludes himself, even at the cost of accusing P1."",""choice"":""Evil""},
+    {""player"":""P1"",""good_expl"":""P1 may be Good and frustrated that Quest 4 failed on the trio he vouched for, which would explain him turning on P2 now."",""evil_expl"":""P1 could be Evil who is the single common member of the failed Quests 1 and 4, passed Quest 2 with me to buy cover, and now names P2 and P5 to keep P4 out of the conversation."",""choice"":""Evil""},
+    {""player"":""P2"",""good_expl"":""P2 works the failed teams one by one and reaches the only pair that satisfies all three fails, which is what a Good player with nothing to hide would do."",""evil_expl"":""P2 could be Evil using correct-sounding constraint logic to steer the table onto P1 and P4 while quietly excusing his own presence on two failed teams."",""choice"":""Good""},
+    {""player"":""P5"",""good_expl"":""P5 may be Good who was only ever on the failed Quest 1 and has now worked through the failed teams to the same pair P2 reached independently."",""evil_expl"":""P5 could be Evil from the Quest 1 team who echoes P2's solve late to look cooperative once the table had already turned toward P1 and P4."",""choice"":""Good""}
   ],
   ""suspicion"": [
-    {""player"":""P4"",""level"":""Extreme"",""reason"":""Quest 3 was a failed 2-person team of P2 and P4, and later evidence makes P2 more plausible as Good, leaving P4 as the strongest direct culprit.""},
-    {""player"":""P5"",""level"":""Strong"",""reason"":""Quest 1 failed on P1-P5, and across the game P5's discussion repeatedly preserves ambiguity around the most incriminating early result instead of resolving it.""},
-    {""player"":""P1"",""level"":""Moderate"",""reason"":""P1 is still implicated by Quests 1 and 4, but Quest 2 passing with P1, P2, and me makes him less likely than P4 or P5 overall.""},
-    {""player"":""P2"",""level"":""Mild"",""reason"":""P2 was on failed Quests 3 and 4, but his explanations have stayed the most evidence-based and are more consistent with Good solving than with Evil deflection.""}
+    {""player"":""P4"",""level"":""Extreme"",""reason"":""Quest 3 failed on the two-person P2-P4 team, and P4's final call of P1 and P5 leaves that fail unexplained, which is what someone covering his own quest would argue.""},
+    {""player"":""P1"",""level"":""Strong"",""reason"":""P1 is the only player on both the failed Quest 1 and the failed Quest 4, and passing Quest 2 with me now reads as cover rather than clearance.""},
+    {""player"":""P2"",""level"":""Mild"",""reason"":""P2 was on failed Quests 3 and 4, but his explanations have stayed the most evidence-based and are more consistent with Good solving than with Evil deflection.""},
+    {""player"":""P5"",""level"":""Moderate"",""reason"":""P5 is still tied to the failed Quest 1 and cannot be fully cleared, but his reasoning converges with P2's rather than protecting anyone.""}
   ],
   ""depth"": 2,
   ""beliefs"": [
-    {""level"":1,""player"":""P4"",""content"":""P4 likely believes the table may still be persuaded by the original P1-P5 failure and wants to redirect attention there instead of letting Quest 3 center on him.""},
-    {""level"":1,""player"":""P5"",""content"":""P5 likely believes he remains under suspicion from Quest 1 and that his best chance is to sound balanced while pairing P1 with someone else.""},
-    {""level"":1,""player"":""P1"",""content"":""P1 likely believes Quest 4 reopens the case on P2 and gives him room to stop defending Quest 1 and attack a new suspect set.""},
-    {""level"":1,""player"":""P2"",""content"":""P2 likely believes the cleanest full-board solve is to intersect the failed teams and identify P1 and P4 as the pair that best explains them.""},
-    {""level"":2,""player"":""P4"",""content"":""P4 wants others to believe the real answer is still hidden in the Round 1 P1-P5 team so that the table overlooks how dangerous the failed 2-person Quest 3 is for him.""},
-    {""level"":2,""player"":""P5"",""content"":""P5 wants others to believe he is a reasonable evaluator of evidence rather than the likely saboteur from the first failed 2-person quest.""}
+    {""level"":1,""player"":""P4"",""content"":""P4 likely believes that pointing back at the oldest fail will stop the table settling on the two-person Quest 3 that implicates him directly.""},
+    {""level"":1,""player"":""P1"",""content"":""P1 likely believes his Quest 2 pass still functions as clearance and that redirecting onto P2 will hold.""},
+    {""level"":1,""player"":""P2"",""content"":""P2 likely believes the intersection of the three failed teams settles the board and that stating it plainly will convince us.""},
+    {""level"":1,""player"":""P5"",""content"":""P5 likely believes that walking the failed teams openly is his best route out of the Quest 1 shadow.""},
+    {""level"":2,""player"":""P4"",""content"":""P4 wants others to believe the first quest is the unresolved one, so that naming P1 looks like honest analysis rather than a way to spend a partner and clear himself.""},
+    {""level"":2,""player"":""P1"",""content"":""P1 wants others to believe surviving Quest 2 cleared him, so that his presence on both the Quest 1 and Quest 4 fails reads as coincidence rather than the through-line.""}
   ],
-  ""statement"": ""Quest 3 and Quest 1 are still the anchors for me: one of P2/P4 caused the two-person fail, and one of P1/P5 caused the first one. With how everyone has argued around those results, P4 and P5 remain my strongest pair."",
-  ""deduction"": [""P4"",""P5""]
+  ""statement"": ""P2 has it right: Quest 1 needs P1 or P5, Quest 3 needs P2 or P4, and Quest 4 needs P1 or P2, and P1 with P4 is the only pair that covers all three. P5 looked like the obvious answer for a long time, but P1 passing Quest 2 alongside me bought him cover, and P4 naming P1 and P5 ignores the very quest he was on. My final call is P1 and P4."",
+  ""deduction"": [""P1"",""P4""]
 }"
 G125,4,P3,Good,"{""P1"":""Evil"",
   ""P2"":""Good"",
