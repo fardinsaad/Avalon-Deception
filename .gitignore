@@ -1,7 +1,4 @@
-﻿# Project progress tracker (local only)
-PROGRESS.md
-
-# Environment variables
+﻿# Environment variables
 .env
 .env.local
 .env.*.local
